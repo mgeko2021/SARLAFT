@@ -1,0 +1,18 @@
+#start{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    /* top: 0; */
+    top: 100%;
+    z-index: 9;
+}
+
+.presentacion {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}

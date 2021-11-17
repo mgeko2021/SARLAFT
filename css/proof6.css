@@ -1,0 +1,75 @@
+#proof6{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 100%;
+    top: 0%;
+    z-index: 3;
+}
+
+.presentacion6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: black;
+    width: 100%;
+    z-index: 10;
+}
+
+
+.presentacion6 table {
+    margin: auto;
+}
+
+.presentacion6 td{
+    padding-left:5rem; /* Only right padding*/
+}
+.Ley {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}   
+
+.Ley h3{    
+    color: rgba(7, 31, 109, 0.719);
+    font-size: 3rem;
+
+}   
+
+.Ley h4{    
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+}
+
+.Ley span{    
+    font-weight: 600;
+}   
+
+.parrafos {
+    /* display: flex;
+    justify-content: space-around;*/
+    text-align: left; 
+    overflow-y: scroll; margin-bottom: 12px;
+    z-index: 1000;
+    width:80vw;
+    height: 50vh;
+}
+
+.parrafos {
+    font-size: 1.5rem;
+}
+.parrafos span {
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.Ley img {
+    width: 10rem;
+}
+
+
+

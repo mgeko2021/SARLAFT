@@ -1,0 +1,49 @@
+#proof31{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 100%;
+    top: 0%;
+    z-index:1;
+}
+
+.presentacion31 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: black;
+    width: 100%;
+    z-index: 10;
+    background-color: rgba(255, 127, 15, 0.801);
+}
+
+.principalAgilidad{
+    margin-top:10rem;
+}
+
+.principalAgilidad h2{
+    color: rgb(0,128,74);
+    font-size: 4rem;
+}
+
+.principalAgilidad h4{
+    color: rgb(51,51, 51);
+    font-size: 2rem;
+}
+
+.principalAgilidad span{
+    font-weight: 900;
+}
+
+.principalAgilidad p{
+    color: rgb(51,51, 51);
+    font-size: 2.2rem;
+}
+
+.principalAgilidad img{
+    width: 26rem;
+}
+

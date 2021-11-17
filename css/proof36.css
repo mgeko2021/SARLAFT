@@ -1,0 +1,170 @@
+#proof36{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index:1;
+    /* top: 0%; */
+    top: 100%;
+}
+
+.presentacion36 {
+    position: relative;
+    display: flex;
+    height: 100vh;
+    text-align: center;
+    width: 100vw;
+    z-index: 10;
+}
+
+.saltar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+
+.medallasPuntos img{
+    width: 2rem;
+}
+
+.medallaup{
+    visibility: hidden;
+}
+
+.saltosCompletos{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.completosCenter{
+    background: linear-gradient(27deg, #ffffff 20%, rgba(225,225,225,1) 100%, rgb(194, 194, 194) 100%);
+    border-radius: 1rem;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.completosCenter img{
+  width: 25rem;
+}
+.completosCenter h3{
+    color: rgb(51,51, 51);
+    font-size: 3rem;
+    color: #ffffff00;
+}
+
+.completosCenter h4{
+    color: rgb(255, 123, 8);
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+.sombra35{
+    background-color: rgba(0, 0, 0, 0.418);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.medallasPuntos{
+
+}
+
+.etapas{
+    top: 5rem;
+    background-color: white;
+    border-radius: 1rem;
+    height: 65%;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+
+}
+.etapas h2{
+    color: rgb(0,128,74);
+    font-size: 3rem;
+}
+
+.etapas p{
+    color: rgb(51,51, 51);
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.etapas li{
+    color: rgb(51,51, 51);
+    font-size: 1.2rem;
+}
+.etapas span{
+    color: rgb(51,51, 51);
+}
+
+.continuarRun {
+    background-color:rgb(0,128,74);
+    padding: 0.3rem 1rem;
+    color: white;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    border: none;
+    visibility: hidden;
+    margin-top: 0.5rem;
+}
+
+.emergentes36{
+    animation-name: emergentes36;
+    animation-duration: 0.4s;
+    /* animation-timing-function: cubic-bezier(.8,.17,0,.97); */
+    animation-fill-mode: forwards;
+}
+.emergentes236{
+    animation-name: emergentes236;
+    animation-duration: 0.8s;
+    /* animation-timing-function: cubic-bezier(.8,.17,0,.97); */
+    animation-fill-mode: forwards;
+}
+
+
+
+@keyframes emergentes36 {
+    0%{ left:0%;
+        opacity: 1;
+    }
+    100%{
+        left:100%;
+        opacity: 0;
+    }
+}
+
+@keyframes emergentes236 {
+    0%{ left:100%;
+        opacity: 0;
+    }
+    100%{
+        left: 0%;
+        opacity: 1;
+    }
+}
+
+
+
+
+

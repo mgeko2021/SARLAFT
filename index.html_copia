@@ -1,0 +1,1944 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <title>SAC</title>
+</head>
+
+<script >
+    var before = new Audio();
+    before.src="./sonidos/before.mp3";
+    
+    var next = new Audio();
+    next.src="./sonidos/next.mp3";
+
+    // -----------------------------intro
+            
+ 
+
+   
+    
+</script>
+
+<body  style="background: linear-gradient(27deg, #ffffff 20%, rgba(225,225,225,1) 100%, rgb(194, 194, 194) 100%);">
+    <div class="logo" style="z-index: 100;">
+         <img src="./img/LOGO-SAC.png" alt="">
+        <img id="logomargen" src="./img/LOGO-COOMEVA.png" alt="">
+    </div>
+    
+     <section id="start" >
+        <div class="botonCurso" > 
+            <button id="before" type="button" class="btn btn-primary" name="start"  style="display: none;">Anteriors</button>
+        </div>
+
+        <img id="boxing1" src="./img/PAG-1/boxing_.png" alt="boxing">
+        <img id="basketball" src="./img/PAG-1/basketball_.png" alt="basketball">
+        
+        <div class="presentacion">
+        <img id="logolimpiadas" src="./img/PAG-1/ICONO-OLIMPIADAS.png" alt="">
+        <h1>OLIMPIADAS</h1>
+        <h2>SAC</h2>
+        <h4>¡Vamos por el oro!</h4>
+        <p>Sistema de Atención al Consumidor Financiero</p>
+        <button id="next" type="button" class="btn btn-success"  name="start" onmousedown="next.play()" >Ir al curso</button>
+        </div>
+    </section>
+
+
+    <div class="botones" id="paginaproof1"> 
+        <button id="before" type="button" class="btn btn-primary" name="proof1" onmousedown="before.play()">Anterior</button>
+        <button id="next" type="button" class="btn btn-success" name="proof1" onmousedown="before.play()">Siguiente1</button>
+    </div>
+
+    <section id="proof1">
+        <div class="presentacion1">
+            <img id="logolimpiadas" src="./img/PAG-1/ICONO-OLIMPIADAS.png" alt="">
+            <h2>SAC</h2>
+            <p>Hoy daremos inicio a cortas competencias <br>
+                que de lograr los puntos necesarios,<br>
+                <span>nos sumarán para llevarnos el ORO <br>
+                para nuestro Sector Protección.</span>
+                ¿Quién se lleva el oro?<br><br>
+                Quien reconozca a medida que<br>
+                va avanzando este material virtual,<br>
+                <span>la importancia de nuestro Consumidor Financiero.</span><br>
+                </p>
+        </div>
+    </section>
+
+    <div class="botones " id="paginaproof2"> 
+        <button id="before" type="button" class="btn btn-primary" onmousedown="before.play()" name="proof2" >Anterior </button>
+        <button id="next" type="button" class="btn btn-success" name="proof2" onmousedown="next.play()">Siguiente2</button>
+    </div>
+    <section id="proof2">
+
+        <img id="boxing2" src="./img/PAG-1/boxing_.png" alt="boxing">
+        <img id="badminton" src="./img/PAG-3/badminton.png" alt="boxing">
+        <img id="tenis" src="./img/PAG-1/TENIS.png" alt="boxing">
+        <img id="bate" src="./img/PAG-3/BATE-BEISBALL.png" alt="">
+
+        <div class="presentacion2">
+            <img src="" alt="">
+            <h2>SAC</h2>
+            <p> <span> El SAC es el Sistema de Atención al <br>
+                Consumidor, mecanismo que busca <br>
+                consolidar un ambiente de atención,</span><br>
+                protección y respeto de los derechos y<br>
+                deberes de los consumidores financieros<br>
+                de acuerdo con lo establecido en la<br>
+                Ley 1328 de 2009, que compromete a<br>
+                <span>las entidades vigiladas por la<br>
+                Superintendencia Financiera<br>
+                de Colombia.</span>
+                </p>
+        </div>
+    </section>
+    
+    <div class="botones" id="paginaproof3"> 
+        <button id="before" type="button" class="btn btn-primary" name="proof3" onmousedown="before.play()" >Anterior </button>
+        <button id="next" type="button" class="btn btn-success" name="proof3" onmousedown="next.play()">Siguiente3</button>
+    </div>
+
+    <section id="proof3">
+        <div class="presentacion3">
+            <div class="presentacionCenter">
+                <div class="Financieros">
+                    <h3>Consumidor</h3>
+                    <h2>Financiero</h2>
+                </div>
+                <div class="consumidorFinanciero">
+                    <div class="cliente">
+                        <h4>Cliente</h4>
+                        <img src="./img/PAG-3a/CELULAR-1.png" alt="">
+                    </div>
+                    <div  class="clientePotencial">
+                        <h4>Cliente <br> Potencial</h4>
+                        <img src="./img/PAG-3a/CELULAR-2.png" alt="">                
+                    </div>
+                    <div class="usuario">
+                        <h4>Usuario</h4>
+                        <img src="./img/PAG-3a/CELULAR-3.png" alt="">                
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="botones" id="paginaproof3a" >
+        <button id="before" type="button" class="btn btn-primary" name="proof3a" onmousedown="before.play()" >Anterior </button>
+        <button id="next" type="button" class="btn btn-success" name="proof3a" onmousedown="next.play()">Siguiente3a</button>
+    </div>
+    <section id="proof3a">
+        <div class="presentacion3a">
+            <div class="financieroSeguros">
+                <h3>Consumidor Financiero <br>
+                    <b>de Seguros</b>
+                </h3>
+                <p>
+                    ¿Quién es un Consumidor Financiero y quiénes pueden serlo? <br> <br>
+                    Consumidor Financiero es todo cliente, usuario o cliente potencial <br>
+                    de las entidades vigiladas por la Superintendencia Financiera de <br>
+                    <b> Colombia: bancos, compañías de seguros, fondo de<br>
+                    pensiones y cooperativas de ahorro y crédito, entre otros.</b><br><br>
+                    En el caso de los seguros, el consumidor financiero es la persona<br>
+                    que interactúa con las compañías de seguros en su <b> calidad de<br>
+                    tomador, asegurado, beneficiario o usuario de una póliza<br>
+                    de seguros.</b>
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="botones" id="paginaproof4">
+        <button id="before" type="button" class="btn btn-primary" name="proof4" onmousedown="before.play()">Anterior </button>
+        <button id="next" type="button" class="btn btn-success" name="proof4" onmousedown="next.play()">Siguiente4</button>
+    </div>
+    <section id="proof4">
+        <div class="presentacion4">
+            <div class="objetivos">
+                <h3>OBJETIVOS</h3>
+                <h2>SAC</h2>
+            </div>
+            <div class="objetivostext">
+                <div class="consumidoresrelative">
+                    <img id="SEGURIDAD" src="./img/PAG-5/SEGURIDAD.png" alt="">
+                    <div class="consumidores">
+                        <div >
+                            <p>Propiciar la protección de <br>
+                                <span>los derechos de<br>
+                                los consumidores.</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="funcionariosrelative">
+                    <img id="MEGAPHONE" src="./img/PAG-5/Megaphone.png" alt="">
+                    <div class="funcionarios">
+                        <p><span> Instruir a los funcionarios</span><br>
+                            de la entidad y a terceros<br>
+                            en cuanto a las normas<br>
+                            que lo conforman.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="botones" id="paginaproof5"> 
+        <button id="before" type="button" class="btn btn-primary" name="proof5"onmousedown="before.play()" >Anterior </button>
+        <button id="next" type="button" class="btn btn-success" name="proof5" onmousedown="next.play()">Siguiente5</button>
+    </div>
+    <section id="proof5">
+        <div class="presentacion5">
+            <div class="leyes">
+                <h3>La ley 1328 de 2009,</h3>
+                <p>consagró un régimen especial de <br>
+                <span>protección a los consumidores financieros </span><br>
+                que tiene como propósitos generales:<br></p>
+                <img src="/img/" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <div class="botones" id="paginaproof6"> 
+        <button id="before" type="button" class="btn btn-primary" name="proof6" onmousedown="before.play()" >Anterior </button>
+        <button id="next" type="button" class="btn btn-success" name="proof6" onmousedown="next.play()">Siguiente6</button>
+    </div>
+    <section id="proof6">
+        <div class="presentacion6">
+        <div class="Ley">
+            <h3>La Ley 1328 de 2009,</h3>
+            <h4>consagró un régimen especial de <br>
+            <span>protección a los consumidores financieros</span> <br>
+            que tiene como propósitos generales:</h4>
+            <div class="parrafos">
+                <table class="table table-striped text-center">
+                    <tr>
+                        <td>
+                            <img src="img/PAG-7/SEGURIDAD.png" alt=""> <br>
+                            · Fortalecer la normatividad existente <br>
+                            sobre la materia. <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="img/PAG-7/Hand Hold Puzzle.png" alt=""> <br>
+                            · Buscar el equilibrio contractual entre el <br>
+                            <span>sistema financiero, asegurador, mercado <br>
+                            de valores y los consumidores <br>
+                            financieros.</span><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="img/PAG-7/Circle Padlock.png" alt=""><br>
+                            · Evitar la asimetría en la información.<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="pt-5 mt-5"><b>Esta ley debe propender por:</b></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="img/PAG-7/Hand Toss.png" alt=""> <br>
+                            · Consolidar al interior de cada entidad,<br>
+                            <span> una cultura de atención, respecto y servicio</span><br>
+                            a los consumidores financieros.<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="img/PAG-7/Hand Hold Megaphone.png" alt=""><br>
+                            · Adoptar sistemas para suministrarles<br>
+                            <span>información adecuada.<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="img/PAG-7/Hand Hold Phone.png" alt=""><br>
+                            · Fortalecer los procedimientos para<br>
+                            <span>la atención de quejas, peticiones y reclamos;</span><br>
+                            y se propicie la protección de los derechos<br>
+                            del consumidor, así como la educación<br>
+                            financiera de éstos.
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    </section> 
+
+    <div class="botones" id="paginaproof7" > 
+        <button id="before" type="button" class="btn btn-primary" name="proof7" onmousedown="before.play()" >Anterior </button>
+        <button id="next" type="button" class="btn btn-success" name="proof7" onmousedown="next.play()">Siguiente7</button>
+    </div>
+    <section id="proof7">
+        <img id="FLECHAS" src="./img/PAG-8/FLECHAS.png" alt="">
+        <img id="TARGET-1" src="./img/PAG-8/TARGET-1.png" alt="">
+       <div class="presentacion7">
+           <div class="punteria">
+                <h2>¡PRUEBA DE PUNTERÍA!</h2>
+                <h4>Vamos por estos <br> <span> Primeros puntos </span></h4>
+                <img src="./img/PAG-8/archery_.png" alt=""/>
+           </div>
+       </div>
+    </section> 
+
+    <div class="botones" id="paginaproof8"> 
+        <button id="before" type="button" class="btn btn-primary" name="proof8" onmousedown="before.play()" >Anterior </button>
+        <button id="next" type="button" class="btn btn-success" name="proof8" onmousedown="next.play()">Siguiente8</button>
+    </div>
+    <section id="proof8">
+        <div class="presentacion8">
+            <div class="busca">
+                <div class="sacBusca">
+                    <h2>SAC busca...</h2>
+                </div>
+                <div class="tiroBlanco">
+                    <div class="tiroBlanco1relative">
+                        <img id="target1" src="./img/PAG-9/TARGET-3.png" alt="">
+                        <img id="error1" src="img/PAG-12-PIERDE/ERROR.png" alt="">
+                        <div id="tiroBlanco1" class="tiroBlanco1">
+                            <p>Mantener un ambiente de <br>
+                                <b>atención e información</b> <br>
+                                <b> de los deberes de los</b><br>
+                                <b> consumidores financieros</b><br>
+                                de acuerdo con lo<br>
+                                establecido en la Ley 1328<br>
+                                de 2019.</p>
+                        </div>
+                    </div>
+                    <div class="tiroBlanco2relative">
+                        <img id="target2" src="./img/PAG-9/TARGET-2.png" alt="">
+                        <div id="tiroBlanco2" class="tiroBlanco2" >
+                            <p>Consolidar un ambiente <br>
+                                <b> de atención, protección</b><br>
+                                <b> y respeto de los</b><br>
+                                <b> derechos y deberes</b><br>
+                                <b> de los consumidores</b><br>
+                                financieros de acuerdo<br>
+                                con lo establecido en la<br>
+                                Ley 1328 de 2009.</p>            
+                        </div>
+                    </div>
+                    <div class="tiroBlanco3relative">
+                        <img id="target3" src="./img/PAG-9/TARGET-1.png" alt="">
+                        <img id="error3" src="img/PAG-12-PIERDE/ERROR.png" alt="">
+                        <div id="tiroBlanco3" class="tiroBlanco3">
+                            <p>Propender por un<br>
+                                <b> ambiente de respeto por</b><br>
+                                <b> los derechos de los</b><br>
+                                <b> consumidores financieros</b><br>
+                                de acuerdo con lo<br>
+                                establecido en la Ley 1328<br>
+                                de 2001.</p>                
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="puntos10" id="emergentePuntos10" style="z-index: 900;">
+                <img id="img10puntos" src="./img/PAG-10-GANA/GANAR.png" alt="">
+                <p>¡Muy bien, SAC es integral, vela por los derechos y deberes <br>
+                    de los consumidores financieros y se establece<br>
+                    oficialmente a través de la Ley 1328 de 2009!</p>
+                <h3>¡Ganas tus primeros <br>
+                    <span> 10 puntos! </span></h3>
+            </div>
+            <div class="noAcerto" id="emergentenoAcertoPuntos10" style="z-index: 900;">
+                <img id="error" src="img/PAG-12-PIERDE/ERROR.png" alt="">
+                <h2>¡No acertaste el objetivo! <br>
+                    <span> No te desanimes apenas <br>
+                    estamos avanzando.</span></h2>
+            </div>
+        </div>    
+    </section>
+
+    <div class="botones" id="paginaproof12"> 
+        <button id="before" type="button" class="btn btn-primary" name="proof12" onmousedown="before.play()" >Anterior </button>
+        <button id="next" type="button" class="btn btn-success" name="proof12" onmousedown="next.play()">Siguiente12</button>
+    </div>
+    <section id="proof12" >
+        <div class="presentacion12">
+            <div class="tituloGlosario">
+                <h3><span>Competidores, este glosario</span> <br>
+                    te será de mucha utilidad.</h3>
+            </div>
+        </div>    
+    </section>
+
+    <div class="botones" id="paginaproof13">
+        <button id="before" type="button" class="btn btn-primary" name="proof13" onmousedown="before.play()" >Anterior </button>
+        <button id="next" type="button" class="btn btn-success" name="proof13" onmousedown="next.play()" >Siguiente13</button>
+    </div>
+    <section id="proof13">
+        <div class="presentacion13">
+            <div class="CompetidoresGlosario">
+                <h3><span>Competidores, este glosario</span> <br>
+                    te será de mucha utilidad.</h3>
+                <img id="Megaphone" src="./img/PAG-13/Megaphone.png" alt="">
+                <h5>Es importante que conozcas algunos términos para <br>
+                    <span> la debida atención de nuestros clientes.</span></h5>    
+            </div>
+        </div>    
+    </section>
+
+  
+    <div class="botones" id="paginaproof15">
+        <button id="before" type="button" class="btn btn-primary" name="proof15" onmousedown="before.play()" >Anterior </button>
+        <button id="next" type="button" class="btn btn-success" name="proof15" onmousedown="next.play()" >Siguiente15</button>
+    </div>
+    <section id="proof15" >
+        <div class="presentacion15">
+            <div class="productosYServicios">
+                <p class="conceptoTitulo">Haz clic sobre <b>cada concepto</b></p>
+                <div class="productosYServiciosFila1">
+                    <div>
+                        <img class="solapar15" name= "sol1"src="img/PAG-14/CONSUMIDOR-FINANCIERO.png" alt="" style="cursor: pointer;" >
+                        <h4>Consumidor <br>
+                            <span>financiero</span>
+                        </h4>
+                    </div>
+                    <div>
+                        <img class="solapar15" name= "sol2"src="img/PAG-14/PRODUCTOS-SERVICIOS.png" alt="" style="cursor: pointer;" >
+                        <h4><span>Productos <br>
+                            y servicios</span>
+                        </h4>
+                    </div>
+                    <div>
+                        <img class="solapar15" name= "sol3"src="img/PAG-14/QUEJAS-RECLAMOS.png" alt="" style="cursor: pointer;" >
+                        <h4>Queja o<br>
+                            <span>reclamo</span>
+                        </h4>
+                    </div>
+                </div>    
+                <div class="productosYServiciosFila2">
+                    <div>
+                        <img class="solapar15" name= "sol4"src="img/PAG-14/USUARIO.png" alt="" style="cursor: pointer;" >
+                        <h4>
+                            <span>Usuario</span><br>
+                        </h4>
+                    </div>
+                    <div>
+                        <img class="solapar15" name= "sol5"src="img/PAG-14/CLIENTE-POTENCIAL.png" alt="" style="cursor: pointer;" >
+                        <h4>Cliente<br>
+                            <span>potencial</span>
+                        </h4>
+                    </div>
+                    <div>
+                        <img class="solapar15" name= "sol6"src="img/PAG-14/ENTIDADES-VIGILADAS.png" alt="" style="cursor: pointer;" >
+                        <h4>Entidades<br>
+                            <span>vigiladas</span>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </section>
+
+    <div class="botones" id="paginaproof16">
+        <button id="before" type="button" class="btn btn-primary" name="proof16" onmousedown="before.play()" >Anterior </button>
+        <button id="next" type="button" class="btn btn-success" name="proof16" onmousedown="next.play()">Siguiente16</button>
+    </div>
+    <section id="proof16" >
+        <div class="presentacion16">
+            <div class="derechosydeberes">
+                <h3>Derechos y deberes</h3>
+                <p>Haz clic sobre cada <br>
+                    deber y cada derecho</p>
+            </div>    
+        </div>    
+    </section>
+
+
+    <div class="botones" id="paginaproof17">
+        <button id="before" type="button" class="btn btn-primary" name="proof17" onmousedown="before.play()" >Anterior </button>
+        <button id="next" type="button" class="btn btn-success" name="proof17" onmousedown="next.play()">Siguiente17</button>
+    </div>
+    <section id="proof17">
+        <div class="presentacion17">
+            <div class="derechos">
+                <div class="derechosmedallas">
+                    <h2>Derechos</h2>
+                    <div class="medallasfutbol">
+                        <img style="cursor: pointer;" class="PRESEAS PRESEASDER" src="./img/PaG-16/MEDALLA-1.png" name="MEDALLA-1"  alt=""> 
+                        <img style="cursor: pointer;" class="PRESEAS PRESEASDER" src="./img/PaG-16/MEDALLA-2.png" name="MEDALLA-2"  alt=""> 
+                        <img style="cursor: pointer;" class="PRESEAS PRESEASDER" src="./img/PaG-16/MEDALLA-3.png" name="MEDALLA-3"  alt="">  
+                        <img style="cursor: pointer;" class="PRESEAS PRESEASDER" src="./img/PaG-16/MEDALLA-4.png" name="MEDALLA-4"  alt="">
+                        <img style="cursor: pointer;" class="PRESEAS PRESEASDER" src="./img/PaG-16/MEDALLA-5.png" name="MEDALLA-5"  alt="">
+                        <img style="cursor: pointer;" class="PRESEAS PRESEASDER" src="./img/PaG-16/MEDALLA-6.png" name="MEDALLA-6"  alt=""> 
+                        <img style="cursor: pointer;" class="PRESEAS PRESEASDER" src="./img/PaG-16/MEDALLA-7.png" name="MEDALLA-7"  alt="">
+                        <img style="cursor: pointer;" class="PRESEAS PRESEASDER" src="./img/PaG-16/MEDALLA-8.png" name="MEDALLA-8"  alt="">
+                    </div>
+                </div> 
+                <div class="futbol" >
+                    <div class="futboldivision"  >
+                        <div class="futboltext" id="futboltext">
+                            <h1 id="futboltexttitulo"></h1>
+                            <h3 id="futboltexparrafo">
+                            </h3>
+                        </div>
+                    </div>
+                    <img id="futbolimg" alt="">
+                </div>
+            </div> 
+        </div>    
+    </section>
+    
+    <div class="botones" id="paginaproof18">
+        <button id="before" type="button" class="btn btn-primary" name="proof18" onmousedown="before.play()" >Anterior </button>
+        <button id="next" type="button" class="btn btn-success" name="proof18" onmousedown="next.play()">Siguiente18</button>
+    </div>
+    <section id="proof18" >
+        <div class="presentacion18">
+            <div class="derechos">
+                <div class="tennis">
+                    <div class="tennisdivision">
+                        <div class="tennistext" id="tennistext">
+                            <h1 id="tenistexttitulo"></h1>
+                            <h3 id="tenistexparrafo"></h3>
+                        </div>
+                    </div>
+                    <img id="tenisimg" alt="">
+                </div>
+                <div class="derechosmedallas">
+                    <h2>Deberes</h2>
+                    <div class="medallastennis">
+                        <img style="cursor: pointer;" class="PRESEAS2 DEBPRESEAS2" src="./img/PaG-16/MEDALLA-1.png" name="MEDALLA2-1"  alt=""> 
+                        <img style="cursor: pointer;" class="PRESEAS2 DEBPRESEAS2" src="./img/PaG-16/MEDALLA-2.png" name="MEDALLA2-2"  alt=""> 
+                        <img style="cursor: pointer;" class="PRESEAS2 DEBPRESEAS2" src="./img/PaG-16/MEDALLA-3.png" name="MEDALLA2-3"  alt="">  
+                        <img style="cursor: pointer;" class="PRESEAS2 DEBPRESEAS2" src="./img/PaG-16/MEDALLA-4.png" name="MEDALLA2-4"  alt="">
+                        <img style="cursor: pointer;" class="PRESEAS2 DEBPRESEAS2" src="./img/PaG-16/MEDALLA-5.png" name="MEDALLA2-5"  alt="">
+                        <img style="cursor: pointer;" class="PRESEAS2 DEBPRESEAS2" src="./img/PaG-16/MEDALLA-6.png" name="MEDALLA2-6"  alt=""> 
+                        <img style="cursor: pointer; visibility: hidden;"  src="./img/PaG-16/MEDALLA-6.png" name="MEDALLA2-7" alt="" > 
+                        <img style="cursor: pointer; visibility: hidden;"  src="./img/PaG-16/MEDALLA-6.png" name="MEDALLA2-8" alt="" > 
+                    </div>
+                </div> 
+            </div>  
+        </div>    
+    </section>
+
+    <div class="botones" id="paginaproof20">
+        <button id="before" type="button" class="btn btn-primary" name="proof20" onmousedown="before.play()" >Anterior </button>
+        <button id="next" type="button" class="btn btn-success" name="proof20" onmousedown="next.play()">Siguiente20</button>
+    </div>
+    <section id="proof20" >
+        <div class="presentacion20">
+            <div class="pistaSalto">
+                <h2>
+                    ¡CONOCE LA PISTA <br>
+                    DE SALTO ALTO!
+                </h2>
+                <h4>Vamos a conocer los elementos <br>
+                    que conforman nuestro SAC
+                </h4>
+        </div>    
+    </section>  
+
+    <script>
+       
+
+    </script>
+
+    <div class="botones" id="paginaproof21">
+        <button id="before" type="button" class="btn btn-primary" name="proof21" onmousedown="before.play()" >Anterior </button>
+        <button id="next" type="button" class="btn btn-success" name="proof21" onmousedown="next.play()">Siguiente21</button>
+    </div>
+    <section id="proof21" >
+        <div class="presentacion21">
+            <div class="saltoNiveles">
+                <div class="NivelesTitulo">
+                    <h3>Haz clic en cada nivel <br>
+                    para conocer más:</h3>
+                </div>
+                <div class="Niveles">
+                    <label>Nivel  6     
+                        <input  class="saltoNivel" type="Radio" id="salto6" name="salto" > 
+                    </label>
+                    <br>
+                    <label>Nivel  5
+                        <input class="saltoNivel" type="Radio" id="salto5" name="salto" > 
+                    </label>
+                    <br> 
+                    <label>Nivel  4
+                        <input class="saltoNivel" type="Radio" id="salto4" name="salto" > 
+                    </label>
+                    <br>
+                    <label>Nive  3
+                        <input class="saltoNivel" type="Radio" id="salto3" name="salto" > 
+                    </label>
+                    <br>
+                    <label>Nivel  2 
+                        <input class="saltoNivel" type="Radio" id="salto2" name="salto" > 
+                    </label>
+                    <br> 
+                    <label>Nivel  1 
+                        <input class="saltoNivel" type="Radio" id="salto1" name="salto" > 
+                    </label>
+                    <br>
+                </div>
+            </div>
+        </div>
+        
+        <div class="sombra" id="sombra">
+        </div>
+
+        <div class="Nivel" id="Nivel1ID" style="z-index: 200;">
+            <table class="default">
+                <tr>
+                    <td colspan="2">
+                        <h2>Nivel 1</h2>
+                        <h4>Políticas:</h4>
+                    </td>
+                    <td colspan="1">
+                        <div class="siguienteNivel" id="siguienteNivel1">
+                            <button  class="salirId"  name="salir1" >Salir</button>
+                            <button class="siguienteNivelbutton" name="Nivel1ID" >Siguiente nivel</button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <h5>SAC, cuenta con políticas claras</h5>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <img src="./img/PAG-18/SEGURIDAD.png" alt="">
+                    <p>Procurar la debida atención y <span>protección del consumidor financiero.</span></p>
+                    </td>
+                    <td>
+                    <img src="./img/PAG-18/Hand Like.png" alt="">
+                    <p><span>Propiciar un ambiente de atención y respeto</span> por el consumidor financiero.</p>
+                    </td>
+                    <td>
+                        <img src="./img/PAG-18/Hand SEGURITY.png" alt="">
+                        <p><span>Permitir la prevención y resolución de conflictos</span> de interés en el marco del SAC.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                    <img id="write" src="./img/PAG-18/Write_Pencil.png" alt="">
+                    <p style="padding-right: 20px"><span>Establecer el deber de los órganos de administración,
+                        de control y de sus demás funcionarios, de asegurar el cumplimiento de las normas internas y externas </span> relacionadas con la protección al consumidor financiero.</p>  
+                    </td>
+                    <td> 
+                        <img src="./img/PAG-18/Hand Hold Puzzle.png" alt="">
+                        <p><span> Impulsar a nivel institucional la cultura en materia de protección </span> al consumidor financiero.</p> 
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="Nivel" id="Nivel2ID" style="z-index: 200;">
+            <table class="default">
+                <tr>
+                    <td colspan="2">
+                        <h2>Nivel 2</h2>
+                        <h4>Procedimientos:</h4>
+                    </td>
+                    <td colspan="1">
+                        <div class="siguienteNivel" id="siguienteNivel1">
+                            <button  class="salirId"  name="salir2" >Salir</button>
+                            <button class="siguienteNivelbutton" name="Nivel2ID" >Siguiente nivel</button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <h5>En el Sector Protección Coomeva establecimos procedimientos para el adecuado funcionamiento del SAC. ¡Los encuentras publicados en DARUMA!</h5>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./img/PAG-19/Document3.png" alt="">
+                    </td>
+                    <td colspan="2" style="padding-top: 20px;">
+                        <p style="padding-right: 20px">• <span>CCS-IN-209 </span>Gestión para dar respuesta a las manifestaciones de los Asociados/Clientes
+                        </p>
+                        <p style="padding-right: 20px">• <span> CCS-DC-216</span> Manual del sistema de atención al consumidor Financiero.
+                        </p>
+                        <p style="padding-right: 20px">• <span> CCS-IN-134</span> Identificación, Medición, Control y Monitoreo del SAC.
+                        </p>
+                        <p style="padding-right: 20px">• <span> CCS-IN-169</span> Gestión a las Recomendaciones emitidas por el Defensor del Consumidor.
+                        </p> 
+                        <p style="padding-right: 20px">• <span> CCS-IN-150</span> Gestion de Quejas ante el Defensor del Consumidor Financiero.
+                      </p>  
+                  </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="Nivel" id="Nivel3ID" style="z-index: 200;">
+            <table class="default">
+                <tr>
+                    <td colspan="2">
+                        <h2>Nivel 3</h2>
+                        <h4>Documentación:</h4>
+                      </td>
+                      <td colspan="1">
+                        <div class="siguienteNivel" id="siguienteNivel3">
+                          <button  class="salirId"  name="salir3" >Salir</button>
+                          <button class="siguienteNivelbutton" name="Nivel3ID" >Siguiente nivel</button>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr >
+                      <td colspan="3">
+                      <p style="padding-right: 20px">Contamos con documentos y registros que garantizan la integridad, oportunidad, confiabilidad y disponibilidad de la información allí contenida.</p>
+                      </td>
+                    </tr>
+                <tr>
+                    <td>
+                        <img src="./img/PAG-20/Book Open.png" alt="">
+                    </td>
+                    <td colspan="2">
+                        <p style="padding-right: 20px"><span> Ejemplo:</span> <br>
+                          La carpeta digital del SAC,que contiene toda la implementación y funcionamiento del SAC.
+                        </p>
+                    </td>
+                </tr>
+                  <tr>
+                </tr>
+            </table>
+        </div>
+
+        <div class="Nivel" id="Nivel4ID" style="z-index: 200;">
+            <table class="default">
+                <tr>
+                    <td colspan="2">
+                        <h2>Nivel 4</h2>
+                        <h4>Estructura Organizacional</h4>
+                    </td>
+                    </td>
+                    <td colspan="1" style="vertical-align:bottom">
+                        <div class="siguienteNivel" id="siguienteNivel4">
+                            <button  class="salirId" name="salir4" >Salir</button>
+                            <button class="siguienteNivelbutton" name="Nivel4ID">Siguiente nivel</button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                  <td colspan="3">
+                      <p style="padding-right: 20px">Hemos definido una estructura con los niveles de responsabilidad encargados de atender los asuntos relacionados con el SAC, precisando su alcance y límites. 
+                         </p>
+              
+                    </td>
+                    </tr>
+                    <tr>
+                    <td >
+                        <img src="./img/PAG-18/ESTRUCTURA-ORG/Hand Hold Puzzle.png" alt="">
+                    </td>
+                    <td colspan="2">
+                        <p style="padding-right: 20px">
+                          • Gerencia General Corredor de Seguros <br>
+                          • Dirección Experiencia y Servicio SP <br>
+                          • Jefatura Nacional Modelo de Servicio.
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="Nivel" id="Nivel5ID" style="z-index: 200;">
+            <table class="default">
+                <tr>
+                    <td colspan="2">
+                        <h2>Nivel 5</h2>
+                        <h4>Información al Consumidor Financiero</h4>
+                    </td>
+                    <td colspan="1">
+                        <div class="siguienteNivel" id="siguienteNivel5">
+                            <button  class="salirId" name="salir5" >Salir</button>
+                            <button class="siguienteNivelbutton" name="Nivel5ID">Siguiente nivel</button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="./img/PAG-18/INFORMACION-CF/Hand Hold Megaphone.png" alt="">
+                  </td>
+                    <td  colspan="2">
+                    <p style="padding-right: 20px"><span> SAC</span> deberá suministrar a los consumidores financieros información cierta, suficiente, clara y oportuna, que le permita a estos conocer adecuadamente sus derechos, obligaciones y los costos de los diferentes productos y servicios.
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="Nivel" id="Nivel6ID" style="z-index: 200;">
+            <table class="default">
+                <tr>
+                    <td colspan="1" style="vertical-align:bottom">
+                        <h2>Nivel 6</h2>
+                        <h4>Educación Financiera</h4>
+                    </td>
+                    <td>
+
+                    </td>
+                    <td colspan="1">
+                        <div class="siguienteNivel" id="siguienteNivel6">
+                            <button   class="salirId" name="salir6" >Salir</button>
+                            <button id="Salir21end" class="siguienteNivelbutton" name="Nivel6ID">Salir</button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                    <p style="padding-right: 20px">El Corredor de Seguros deberá ejecutar programas de educación financiera, con recursos suficientes y evaluación permanente de los objetivos propuestos.
+                        </p>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>
+                        <img src="./img/PAG-18/Hand Like.png" alt="">
+                      </td>
+                      <td colspan="2">
+                        <p style="padding-right: 20px"><b>Ejemplo:</b> Información publicada en la página web del corredor de seguros, información educativa sobre seguros,información financiera adquisición de póliza e información Financiera Fasecolda.
+                        </p>
+                    </td>
+                  </tr>
+                </tr>
+            </table>
+        </div>
+
+        <div class="todosNiveles" id="todosNivelesID">
+            <img src="" alt="">
+            <h2>¡Muy bien, has superado</h2>
+            <h3>todos los niveles!</h3>
+        </div>
+    </section>
+
+    <div class="botones" id="paginaproof23">
+        <button id="before" type="button" class="btn btn-primary" name="proof23" onmousedown="before.play()" >Anterior </button>
+        <button id="next" type="button" class="btn btn-success" name="proof23" onmousedown="next.play()">Siguiente23</button>
+    </div>
+    <section id="proof23">
+        <div class="presentacion23">
+            <div class="sistemaAtencion">
+                <h2>Sistema de Atención</h2>
+                <p>al consumidor Financiero <br>
+                    debe propender por</p>
+            </div>    
+        </div>    
+    </section>
+
+    <div class="botones" id="paginaproof24">
+        <button id="before" type="button" class="btn btn-primary" name="proof24" onmousedown="before.play()" >Anterior </button>
+        <button id="next" type="button" class="btn btn-success" name="proof24" onmousedown="next.play()">Siguiente24</button>
+    </div>
+    <section id="proof24">
+        <img id="Tennis24" src="./img/PAG-24/Tennis.png" alt="">
+        <img id="basket24" src="./img/PAG-1/basketball_.png" alt="">
+        <div class="presentacion24">
+            <div class="atencionLogos">
+                <div class="atencionLogosTitulo">
+                    <h2 style="visibility: visible;">El Sistema de Atención</h2>
+                    <p>el Consumidor Financiero debe propender por:</p>
+                </div>
+                <div class="atenciontext">
+                    <div class="atenciontext1">
+                        <img src="img/PAG-24/Torch2.png" alt="">
+                        <p>Consolidar una cultura de <br>
+                            atención, respeto y servicio <br>
+                            a los consumidores<br>
+                            financieros.
+                        </p>
+                    </div>
+                    <div class="atenciontext2">
+                        <img src="img/PAG-24/Trophy.png" alt="">
+                        <p>Fortalecer los procedimientos <br>
+                            para la atención de quejas,  <br>
+                            peticiones, reclamos y propiciar <br>
+                            la protección de <br>
+                            los derechos del consumidor <br>
+                            financiero, así como la <br>
+                            educación financiera de éstos. <br>
+                        </p>
+                    </div>
+                    <div class="atenciontext3">
+                        <img src="img/PAG-24/Medal.png" alt="">
+                        <p>Adoptar sistemas para <br>
+                            suministrarle al consumidor <br>
+                            financiero información<br>
+                            adecuada.
+                        </p>
+                    </div>
+                </div>
+        </div>    
+    </section>
+
+    <div class="botones" id="paginaproof25">
+        <button id="before" type="button" class="btn btn-primary" name="proof25" onmousedown="before.play()" >Anterior </button>
+        <button id="next" type="button" class="btn btn-success" name="proof25" onmousedown="next.play()">Siguiente25</button>
+    </div>
+    <section id="proof25">
+        <div class="presentacion25">
+            <div class="pruebaVelocidad">
+                <h2>¡PRUEBA DE VELOCIDAD!</h2>
+                <h3>Arrastra a la columna del lado derecho <br>
+                    <span> cuáles son los elementos de nuestro SAC.</span>
+                </h3>
+                <img src="./img/PAG-25/bike race.png" alt="">
+            </div>
+        </div>    
+    </section>
+
+    <div class="botones" id="paginaproof26">
+        <button id="before" type="button" class="btn btn-primary" name="proof26" onmousedown="before.play()" >Anterior </button>
+        <button id="next" type="button" class="btn btn-success" name="proof26" onmousedown="next.play()">Siguiente26</button>
+    </div>
+    <section id="proof26" id="paginaproof26">
+        <div class="presentacion26">
+            <div id="contenedorPuzzle">
+                <div id="contenedorPiezas" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)">
+                  <div id="pieza10" class="piezas"  draggable="true" ondragstart="start(event)" ondragend="end(event)">Balance Score Card</div>
+                  <div id="pieza9" class="piezas"  draggable="true" ondragstart="start(event)" ondragend="end(event)">Políticas</div>
+                  <div id="pieza8" class="piezas"  draggable="true" ondragstart="start(event)" ondragend="end(event)">Procedimientos</div>
+                  <div id="pieza7" class="piezas"  draggable="true" ondragstart="start(event)" ondragend="end(event)">Misión del Sector Protección</div>
+                  <div id="pieza6" class="piezas"  draggable="true" ondragstart="start(event)" ondragend="end(event)">Documentación</div>
+                  <div id="pieza5" class="piezas"  draggable="true" ondragstart="start(event)" ondragend="end(event)">Estructura Organizacional</div>
+                  <div id="pieza4" class="piezas"  draggable="true" ondragstart="start(event)" ondragend="end(event)">Cadena de Valor</div>
+                  <div id="pieza3" class="piezas"  draggable="true" ondragstart="start(event)" ondragend="end(event)">Información al Consumidor Financiero</div>
+                  <div id="pieza2" class="piezas"  draggable="true" ondragstart="start(event)" ondragend="end(event)">Oportunidad de Mejora</div>
+                  <div id="pieza1" class="piezas"  draggable="true" ondragstart="start(event)" ondragend="end(event)">Educación Financiera</div>
+                </div>
+                <div id="puzzle">
+                  <div class="contenedorPieza" id="uno" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+                </div>  
+            </div>
+            <div class="puntos26" id="puntos26ID">
+                <img src="./img/PAG-27/GANAR.png" alt="">
+                <h2>¡Muy bien, ya identificas <br>
+                    <span>los elementos que conforman nuestro SAC!</span>
+                </h2>
+                <p>Nuestro SAC está comprometido en consolidar una cultura de atención, <br>
+                    respeto y servicio a los consumidores financieros
+                </p>
+                <h3>
+                    ¡Ganas<br>
+                    10 puntos!
+                </h3>
+            </div>    
+            <div class="errorVelocidad" id="errorVelocidadID">
+                <img src="./img/PAG-28/ERROR.png" alt="">
+                <h2>
+                    ¡No acertaste el objetivo! <br>
+                    No te desanimes apenas <br>
+                    estamos avanzando. <br>
+                </h2>
+            </div>    
+        </div>    
+    </section>
+
+    <div class="botones" id="paginaproof29">
+        <button id="before" type="button" class="btn btn-primary" name="proof29" onmousedown="before.play()" >Anterior </button>
+        <button id="next" type="button" class="btn btn-success" name="proof29" onmousedown="next.play()">Siguiente29</button>
+    </div>
+    <section id="proof29">
+        <img id="boxing29" src="./img/PAG-1/boxing_.png" alt="boxing">
+        <img id="basketball29" src="./img/PAG-1/basketball_.png" alt="boxing">
+        <div class="presentacion29">
+            <div class="principiosOrienta">
+                <h3>Principios orientadores</h3>
+                <p>
+                    Escucha lo que nos dice <br>
+                    nuestros consumidores financieros <br>
+                    <br>
+                    Estos son los principios que rigen <br>
+                    <span> la atención hacia nuestro </span> <br>
+                    consumidor financiero. <br>
+                    <br>
+                    <span>Haz clic en cada principio <br>
+                    y practícalos siempre.</span> 
+                </p>
+            </div>    
+        </div>    
+    </section>
+
+
+    <div class="botones" id="paginaproof30">
+        <button id="before" type="button" class="btn btn-primary" name="proof30" onmousedown="before.play()" >Anterior </button>
+        <button id="next" type="button" class="btn btn-success" name="proof30" onmousedown="next.play()">Siguiente30</button>
+    </div>
+    <section id="proof30">
+        <div class="presentacion30">
+            <div class="principiosLogo">
+                <div class="principiosLogoTitulo">
+                    <h2>Principios Orientadores</h2>
+                </div>
+                <div style="z-index: 200;">
+                    <table class="default">
+                        <tr>
+                            <td >
+                                <img id="princOri1" class="principiosImgClick" name="principio1"  src="./img/PAG-30/1.png" alt="" >
+                                <p> Debida <br>
+                                    <span>diligencia</span>
+                                </p>
+                            </td>
+                            <td >
+                                <img id="princOri2" class="principiosImgClick" name="principio2" style="width:16rem" src="./img/PAG-30/Point_out_3.png" alt="">
+                                <p> Libertad <br>
+                                    <span>de elección</span>
+                                </p>
+                            </td>
+                            <td >
+                                <img id="princOri3" class="principiosImgClick" name="principio3" src="./img/PAG-30/Messages.png" alt="">
+                                <p> Transparencia en <br>
+                                    <span>la información</span>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td >
+                                <img id="princOri4" class="principiosImgClick" name="principio4" src="./img/PAG-30/success.png" alt="">
+                                <p> Atención oportuna <br>
+                                    <span>del trámite <br>
+                                    de quejas
+                                    </span>
+                                </p>
+                            </td>
+                            <td >
+                                <img id="princOri5" class="principiosImgClick" name="principio5" src="./img/PAG-30/RELOJ.png" alt="">
+                                <p> Manejo <br>
+                                    conflictos <br>
+                                    <span> de interés</span>
+                                </p>
+                            </td>
+                            <td >
+                                <img id="princOri6" class="principiosImgClick" name="principio6" style="width:16rem" src="./img/PAG-30/Write_Pencil.png" alt="">
+                                <p> Educación para <br>
+                                    <span>el consumidor</span>
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>        
+            </div>  
+            <div class="principiosTransiciones" id="principio1">
+                <div class="principiosTransicionesimg"> 
+                    <img src="./img/PAG-30/1.png" alt="">
+                </div>
+                <div class="principiosTransicionesText">
+                    <h2>Debida diligencia</h2>
+                    <p id="changePprincipio1">
+                        Las relaciones entre las entidades vigiladas y los <br>
+                        consumidores financieros deben desarrollarse de <br>
+                        forma que se propenda por la satisfacción de las <br>
+                        necesidades del consumidor financiero, de acuerdo <br>
+                        con la oferta, compromiso y obligaciones acordadas. 
+                    </p>
+                    <button class="historiaButton" name="historia1">Conoce la historia</button>
+                    <button class="salirHistoriaButton" name="principio1">Volver principio orientadores</button>
+                </div>
+            </div>  
+            <div class="emergenteHistoria" id="historia1">
+                <div class="emergenteHistoria1Blanco">
+                    <div class="emergenteHistoria1BlancoTexto">
+                        <p >
+                            <span>¡Hoy les quiero dar las gracias! </span><br>
+                            porque cuando más los necesité <br>
+                            <span>me ayudaron.</span>
+                        </p>
+                        <button class="emergenteContinuar" name="historia1">Continuar</button>
+                    </div>
+                    <div class="emergenteHistoria1BlancoImg">
+                        <img src="./img/PAG-30/DEBIDA DILIGENCIA/5_applause_girl_2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="principiosTransiciones" id="principio2" >
+                <div class="principiosTransicionesimg"> 
+                    <img style="width:16rem" src="./img/PAG-30/Point_out_3.png"alt="">
+                </div>
+                <div class="principiosTransicionesText">
+                    <h2>Libertad de elección</h2>
+                    <p id="changePprincipio2">
+                        Las entidades vigiladas y los consumidores financieros <br>
+                        podrán escoger libremente a sus respectivas contrapartes <br> 
+                        en la celebración de contratos para el suministro de <br>
+                        productos y servicios.
+                    </p>
+                    <button class="historiaButton" name="historia2">Conoce la historia</button>
+                    <button class="salirHistoriaButton" name="principio2">Volver principio orientadores</button>
+                </div>
+            </div> 
+            <div class="emergenteHistoria" id="historia2">
+                <div class="emergenteHistoria1Blanco">
+                    <div class="emergenteHistoria1BlancoTexto">
+                        <p >
+                            Si requiere un servicio de asistencia o <br>
+                            tiene un evento de siniestro puede comunicarse <br>
+                            <span>a través de la línea:  #440</span>
+                
+                        </p>
+                        <button class="emergenteContinuar" name="historia2">Continuar</button>
+                    </div>
+                    <div class="emergenteHistoria1BlancoImg">
+                        <img src="./img/PAG-30/LIBERTAD DE ELECCION/2_thumb_up_girl_2 (1).png" alt="">
+                    </div>
+                </div>
+            </div> 
+
+            <div class="principiosTransiciones" id="principio3">
+                <div class="principiosTransicionesimg"> 
+                    <img src="./img/PAG-30/Messages.png" alt="">
+                </div>
+                <div class="principiosTransicionesText">
+                    <h2>Transparencia en la información</h2>
+                    <p id="changePprincipio3">
+                        Las entidades vigiladas deben suministrar a los <br>
+                        consumidores financieros información cierta,  <br>
+                        suficiente, clara y oportuna.
+                    </p>
+                    <button class="historiaButton" name="historia3">Conoce la historia</button>
+                    <button class="salirHistoriaButton" name="principio3">Volver principio orientadores</button>
+                </div>
+            </div>
+            <div class="emergenteHistoria" id="historia3">
+                <div class="emergenteHistoria1Blanco">
+                    <div class="emergenteHistoria1BlancoTexto">
+                        <p >
+                            ¿por qué tengo un cobro adicional en mi factura <br>
+                            de asociada sin discriminación alguna, los datos<br>
+                            a mí no me dan, las cifras no son claras, <br>
+                            pueden por favor validar e informarme el porqué<br>
+                            del aumento de mi factura? 
+                        </p>
+                        <button class="emergenteContinuar" name="historia3">Continuar</button>
+                    </div>
+                    <div class="emergenteHistoria1BlancoImg">
+                        <img src="./img/PAG-30/TRANSPARENCIA EN LA INFO/6_ponder_girl_1.png" alt="">
+                    </div>
+                </div>
+            </div> 
+
+            <div class="principiosTransiciones" id="principio4">
+                <div class="principiosTransicionesimg"> 
+                    <img src="./img/PAG-30/success.png" alt="">
+                </div>
+                <div class="principiosTransicionesText">
+                    <h2>Atención Oportuna del Trámite de Quejas</h2>
+                    <p id="changePprincipio4">
+                        Debemos atender eficiente y debidamente las quejas <br>
+                        o reclamos de nuestros consumidores financieros e  <br>
+                        implementar acciones de mejora oportunas y continúas. <br>
+                        <br>
+                        Coomeva Corredor de Seguros deberá contar con canales que <br>
+                        le permita al Consumidor financiero presentar sus manifestaciones <br>
+                        de peticiones, queja y reclamos de manera que reciba una solución <br>
+                        oportuna y eficaz a sus inquietudes, sugerencias o felicitaciones.
+                    </p>
+                    <button class="historiaButton" name="historia4">Conoce la historia</button>
+                    <button class="salirHistoriaButton" name="principio4">Volver principio orientadores</button>
+                </div>
+            </div>
+            <div class="emergenteHistoria" id="historia4">
+                <div class="emergenteHistoria1Blanco">
+                    <div class="emergenteHistoria1BlancoTexto">
+                        <p >
+                            yo tenía débito automático y ahora figuro en mora, <br>
+                            me entero que la póliza de hogar fue cancelada por <br>
+                            mora en el pago cuando nunca recibí información alguna <br>
+                            de esta situación. 
+                        </p>
+                        <button class="emergenteContinuar" name="historia4">Continuar</button>
+                    </div>
+                    <div class="emergenteHistoria1BlancoImg">
+                        <img src="./img/PAG-30/ATENCION OPORTUNA/8_astonished_girl_2 (1).png" alt="">
+                    </div>
+                </div>
+            </div>  
+
+            <div class="principiosTransiciones" id="principio5">
+                <div class="principiosTransicionesimg"> 
+                    <img src="./img/PAG-30/RELOJ.png" alt="">
+                </div>
+                <div class="principiosTransicionesText">
+                    <h2>Manejo conflictos de interés</h2>
+                    <p id="changePprincipio5">
+                        Debemos administrar los conflictos que surjan en desarrollo <br>
+                        de nuestra actividad, los intereses propios y los de los <br>
+                        consumidores financieros, de manera transparente e imparcial, <br>
+                        velando porque siempre prevalezca el interés de los consumidores financieros.
+                    </p>
+                    <button class="historiaButton" name="historia5">Conoce la historia</button>
+                    <button class="salirHistoriaButton" name="principio5">Volver principio orientadores</button>
+                </div>
+            </div>
+            <div class="emergenteHistoria" id="historia5">
+                <div class="emergenteHistoria1Blanco">
+                    <div class="emergenteHistoria1BlancoTexto">
+                        <p >
+                            dije que sí pero solo por ese mes, que después  <br>
+                            NO me interesaba seguir con dicha póliza.<br>
+                            Ahora resulta que me la están cobrando en<br>
+                            mi estado de cuenta, sin haberla autorizado. 
+                        </p>
+                        <button class="emergenteContinuar" name="historia5">Continuar</button>
+                    </div>
+                    <div class="emergenteHistoria1BlancoImg">
+                        <img src="./img/PAG-30/DEBIDA DILIGENCIA/5_applause_girl_2.png" alt="">
+                    </div>
+                </div>
+            </div>   
+
+            <div class="principiosTransiciones" id="principio6">
+                <div class="principiosTransicionesimg"> 
+                    <img style="width:16rem" src="./img/PAG-30/Write_Pencil.png" alt="">
+                </div>
+                <div class="principiosTransicionesText">
+                    <h2>Educación para el consumidor</h2>
+                    <p id="changePprincipio6">
+                        Las entidades vigiladas, procurarán una adecuada educación de <br>
+                        los consumidores financieros respecto de los productos y servicios <br>
+                        financieros que ofrecen las entidades vigiladas, así como de <br>
+                        los diferentes mecanismos establecidos para la defensa de sus derechos. <br>
+                        El Corredor de Seguros Coomeva a través de su página web, ofrece <br>
+                        información al Consumidor Financiero con el fin de brindar Educación Financiera. 
+                    </p>
+                    <button class="historiaButton" name="historia6">Qué encuentra un consumidor financiero</button>
+                    <button class="salirHistoriaButton" name="principio6">Volver principio orientadores</button>
+                    
+                </div>
+            </div>
+            <div class="emergenteHistoria" id="historia6">
+                <div class="emergenteHistoria1Blanco">
+                    <div class="emergenteHistoria1BlancoTexto">
+                        <p >
+                            •¿Qué es una póliza?
+                            •¿Qué es un siniestro?
+                            •¿Qué es un corredor de seguros?
+                            •Tarifas o precios
+                            •Alternativas de método de pago de las pólizas que adquieras
+                            •Plazo de pago de tus pólizas
+                            •Proceso de renovación
+                            •Proceso de renovación
+                            •Educación Financiera Fasecolda  
+                        </p>
+                        <button class="emergenteContinuar" name="historia6">Continuar</button>
+                    </div>
+                    <div class="emergenteHistoria1BlancoImg">
+                        <img src="./img/PAG-30/DEBIDA DILIGENCIA/5_applause_girl_2.png" alt="">
+                    </div>
+                </div>
+            </div>   
+        </div>    
+    </section>
+    
+    <div class="botones" id="paginaproof31">
+        <button id="before" type="button" class="btn btn-primary" name="proof31" onmousedown="before.play()" >Anterior </button>
+        <button id="next" type="button" class="btn btn-success" name="proof31" onmousedown="next.play()">Siguiente31</button>
+    </div>
+    <section id="proof31">
+        <div class="presentacion31">
+            <div class="principalAgilidad">
+                <h2>¡PRUEBA DE AGILIDAD!</h2>
+                <h4>Completa las frases en <br>
+                    <span>el menor tiempo posible.</span></h4>
+                <p>Escoge la palabra correcta que va en el cajón.</p>
+                <img src="./img/PAG-31/fencing_.png" alt="">
+            </div>    
+        </div>    
+    </section>
+
+    <div class="botones" id="paginaproof32">
+        <button id="before" type="button" class="btn btn-primary" name="proof32" onmousedown="before.play()" >Anterior </button>
+        <button id="next" type="button" class="next32 btn btn-primary" name="proof32"  onmousedown="next.play()">Siguiente32</button>
+    </div>
+    <section id="proof32">
+        <img id="boxing31" src="./img/PAG-1/boxing_.png" alt="boxing">
+        <img id="basketball31" src="./img/PAG-1/basketball_.png" alt="basketball">
+        <div class="presentacion32">
+            <div class="preguntaPuntos">
+                <h2>¿Cómo van tus puntos?</h2>
+                <p>Creo que vamos bien, porque aquí estamos <br>
+                    conociendo muy bien la importancia de nuestro <br>
+                    <span> consumidor financiero </span></p>
+            </div>    
+        </div>    
+    </section>
+
+    <div class="botones" id="paginaproof33">
+        <button id="before" type="button" class="btn btn-primary" name="proof33" onmousedown="before.play()" >Anterior </button>
+        <button id="next" type="button" class="btn btn-success" name="proof33"  onmousedown="next.play()">Siguiente33</button>
+    </div>
+    <section id="proof33">
+        <div class="presentacion33">
+            <div class="seleccionMultiple">
+                <div class="chronometer">
+                    <h2 id="tiempoh2"></h2>
+                    <div id="screen">00 : 00 : 00 : 00</div>
+                    <div style="visibility: hidden;" class="buttons">
+                        <!-- <button class="emerald" onclick="start()">START &#9658;</button> -->
+                        <!-- <button class="emerald" onclick="stop()">STOP &#8718;</button> -->
+                        <button class="emerald" onclick="resume()" >RESUME &#8634;</button>
+                        <button class="emerald" onclick="reset()">RESET &#8635;</button>
+                    </div>
+                </div>
+                <div class="textoTipoSelect">
+                    <p><b>1.</b> Debemos atender <select class="llenar" name="answer"><option>eficiente</option><option>transparente</option><option>libremente</option><option>clara y oportuna </option><option selected></option></select>  y debidamente las quejas o reclamos <br>
+                         de nuestros consumidores financieros e implementar acciones de mejora oportunas y continúas.</p>
+                    <p><b>2.</b> Debemos administrar los conflictos que surjan en desarrollo <br> 
+                        de nuestra actividad, los intereses propios y los de los consumidores <br>
+                         financieros, de manera <select class="llenar" name="answer1"><option>eficiente</option><option>transparente</option><option>libremente</option><option>clara y oportuna </option><option selected></option></select> e imparcial, velando porque siempre prevalezca  <br>
+                          el interés de los consumidores financieros.</p>
+
+                    <p><b>3.</b> Las entidades vigiladas y los consumidores financieros podrán <br>
+                        escoger <select class="llenar" name="answer2"><option>eficiente</option><option>transparente</option><option>libremente</option><option>clara y oportuna </option><option selected></option></select> a sus respectivas contrapartes en la <br>
+                        celebración de contratos para el suministro de productos y <br>
+                        servicios.</p>
+
+                    <p><b>4.</b> Las entidades vigiladas deben suministrar a los consumidores <br>
+                        financieros información cierta, suficiente, <select class="llenar" name="answer3"><option>eficiente</option><option>transparente</option><option>libremente</option><option>clara y oportuna </option><option selected></option></select>. </p>
+                </div>
+                <button class="resolverClase" id="resolver33">Resolver</button>
+            </div>
+            <div class="seleccion1033" id="resultado33" >
+                <div class="seleccion1033Recuadro">
+                    <img id="seleccionImg" src="./img/PAG-10-GANA/GANAR.png" alt="">
+                    <p>¡Muy bien, con tu apoyo <br>
+                        estamos muy cerca del oro!</p>
+                    <h3>¡Ganas<br>
+                        <span> 10 puntos más! </span></h3>
+                </div>
+            </div>
+            <div class="noAcerto33" id="noAcerto" >
+                <div class="seleccion1033Recuadro">
+                    <img id="noAcertoImg" src="./img/PAG-31/fencing_.png" alt="">
+                    <p>¡No acertaste el objetivo! </p>
+                    <h3><span> No te desanimes apenas <br>
+                        estamos avanzando.</span></h3>
+                </div>
+            </div>
+        </div>    
+    </section>
+
+    <div class="botones" id="paginaproof34">
+        <button id="before" type="button" class="btn btn-primary" name="proof34" onmousedown="before.play()" >Anterior </button>
+        <button id="next" type="button" class="btn btn-success" name="proof34" onmousedown="next.play()">Siguiente34</button>
+    </div>
+    <section id="proof34">
+        <div class="presentacion34">
+            <div class="EtapasSAC">
+                <h2>ETAPAS SAC</h2>
+                <p>¡Para tener el ORO necesitamos <br>
+                    <span> identificar, medir, controlar y monitorear </span> <br>
+                    todos aquellos hechos o situaciones que <br>
+                    puedan incidir en la debida atención y <br>
+                    <span> protección a los consumidores financieros!</span><br>
+                </p>
+            </div>    
+        </div>    
+    </section>
+
+    <div class="botones" id="paginaproof35">
+        <button id="before" type="button" class="btn btn-primary" name="proof35" onmousedown="before.play()" >Anterior </button>
+        <button id="next" type="button" class="btn btn-success" name="proof35" onmousedown="next.play()">Siguiente35</button>
+    </div>
+    <section id="proof35" >
+        <div class="presentacion35">
+            <div class="correr">
+                <h2><span> Debes correr </span><br>
+                    <span> por el circuito </span><br>
+                    evitando los obstaculos y <br>
+                    <span> pasar por todas las epatas</span></h2>
+            </div>
+        </div>    
+    </section>
+
+    <div class="botones" id="paginaproof36">
+        <button id="before" type="button" class="btn btn-primary" name="proof36" onmousedown="before.play()" >Anterior </button>
+        <button id="next" type="button" class="btn btn-success" name="proof36" onmousedown="next.play()">Siguiente36</button>
+    </div>
+    <section id="proof36">
+        <div class="presentacion36">
+            <div class="saltar" id="saltar">
+                <div style="margin-top: 5rem;" onload="inicializa()">
+                    <canvas id="canvas" width="960px" height="400"  style="border:2px solid black"></canvas>
+                </div>
+            </div>
+            <div class="sombra35" id="etapa1">
+                <div class="etapas" >
+                    <div class="etapasCenter">
+                        <img style="cursor: pointer;" class="PRESEAS" src="./img/PaG-16/MEDALLA-1.png" name="MEDALLA-1" alt=""> 
+                        <h2>Etapa 1: <span>Identificar</span></h2>
+                        <p>Debemos identificar aquellas situaciones que <br>
+                            <span> puedan afectar la debida atención y protección a <br>
+                            los consumidores financieros. Los motivos de<br>
+                            peticiones, quejas o reclamos deben ser tenidos</span><br>
+                            en cuenta para establecer acciones de mejora <br>
+                            eficientes respecto de los mismos.</p>
+                        <button class="continuarRun" name="etapa1">Continuar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sombra35" id="etapa2">
+                <div class="etapas" >
+                    <div class="etapasCenter">
+                        <img style="cursor: pointer;" class="PRESEAS" src="./img/PaG-16/MEDALLA-2.png" name="MEDALLA-2" alt=""> 
+                        <h2>Etapa 2: <span>Medir</span></h2>
+                        <p>Debemos medir la posibilidad y probabilidad de <br> 
+                        ocurrencia de los eventos que afecten la debida <br>
+                        atención y protección a los consumidores financieros <br>
+                        y su impacto en caso de materializarse.
+                        </p>
+                        <ul>
+                            <li>Número de quejas y reclamos contamos con <br>
+                                la herramienta CRM: Cuantitativo</li>
+                            <li>Los eventos críticos del servicio: Cualitativo </li>
+                        </ul>
+                        <button class="continuarRun" name="etapa2" >Continuar</button>
+                    </div>
+                </div> 
+            </div>  
+            
+            <div class="sombra35" id="etapa3">
+                <div class="etapas" >
+                    <div class="etapasCenter">
+                        <img style="cursor: pointer;" class="PRESEAS" src="./img/PaG-16/MEDALLA-3.png" name="MEDALLA-3" alt="">
+                        <h2>Etapa 3: <span>Controlar</span></h2>
+                        <p>En la matriz de riesgo de SAC se relacionan los controles <br>
+                            que ejecutamos con el propósito de mitigar los riesgos <br>
+                            a los que estamos expuestos.
+                        </p>
+                        <button class="continuarRun" name="etapa3" >Continuar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sombra35" id="etapa4">
+                <div class="etapas" >
+                    <div class="etapasCenter">
+                        <img style="cursor: pointer;" class="PRESEAS" src="./img/PaG-16/MEDALLA-4.png" name="MEDALLA-4" alt="">
+                        <h2>Etapa 4: <span>Monitorear</span></h2>
+                        <ul>
+                            <li>Controlar los eventos o situaciones que puedan afectar <br>
+                                la debida atención y protección a los consumidores <br>
+                                financieros con el fin de disminuir la probabilidad  <br>
+                                de ocurrencia.<br> </li>
+                            <li>Implementación de acciones de mejora oportunas y <br>
+                                continuas respecto de las quejas o reclamos que <br>
+                                se presenten.</li>
+                            <li>Gestión permanente con los líderes de las áreas <br>
+                                involucradas en los procesos y servicios. </li>
+                        </ul>
+                        <button class="continuarRun" name="etapa4">Continuar</button>
+                    </div>
+                </div> 
+            </div>
+
+            <div class="saltosCompletos" id="saltosCompletosID">
+                <div class="completosCenter">
+                    <img class="completoImg" src="./img/PAG-35/Ok_2.png" alt="">
+                    <h3>¡Muy bien, has superado</h3>
+                    <h4>todas las etapas!</h4>
+                </div>
+            </div>  
+        </div>    
+    </section>
+
+    <div class="botones" id="paginaproof37">
+        <button id="before" type="button" class="btn btn-primary" name="proof37" onmousedown="before.play()" >Anterior </button>
+        <button id="next" type="button" class="btn btn-success" name="proof37" onmousedown="next.play()">Siguiente37</button>
+    </div>
+    <section id="proof37">
+        <div class="presentacion37">
+            <div class="sanciones">
+                <div class="sancionesText">
+                    <h2>SANCIONES</h2>
+                    <p><span>SAC origina posibles <br>
+                        sanciones a la entidad</span><br>
+                        por parte de la Superintendencia <br>
+                        Financiera de Colombia.</p>
+                </div>
+                <div class="sancionesImg">
+                    <img src="./img/PAG-37/JUEZ.png" alt="">
+                </div>
+            </div>    
+        </div>    
+    </section>
+
+    <div class="botones" id="paginaproof38">
+        <button id="before" type="button" class="btn btn-primary" name="proof38" onmousedown="before.play()" >Anterior </button>
+        <button id="next" type="button" class="btn btn-success" name="proof38" onmousedown="next.play()">Siguiente38</button>
+    </div>
+    <section id="proof38">
+        <div class="presentacion38">
+            <div class="revisarCaso">
+                <div class="sancionesImg">
+                    <h2>Revisemos este caso:</h2>
+                    <img src="./img/PAG-38/9_waving_goodbye_man_2.png" alt="">
+                </div>
+                <div class="sancionesText">
+                    <h3>Asociado:</h3>
+                    <p>“...hasta ahora no tengo la <br>
+                        confirmación del documento.”.</p>
+                </div>
+            </div>  
+        </div>    
+    </section>
+
+    <div class="botones" id="paginaproof39">
+        <button id="before" type="button" class="btn btn-primary" name="proof39" onmousedown="before.play()" >Anterior </button>
+        <button id="next" type="button" class="btn btn-success" name="proof39" onmousedown="next.play()">Siguiente39</button>
+    </div>
+    <section id="proof39">
+        <img id="pito" src="./img/PAG-39/Fluit.png" alt="" style="z-index: 11;">
+        <div class="presentacion39">
+            <div class="procesoSelect">
+                <div class="procesoTitule">
+                    <h2>Elige cuál es el proceso que después <br>
+                        de esta queja debemos hacer:</h2>
+                </div>
+                <div class="proceso">
+                    <div class="proceso1relative" id="target1">
+                        <div id="proceso1" class="proceso1">
+                            <p>Se valida qué pasa en el
+                                proceso de venta del
+                                canal web y se corrige el
+                                error. Se cierra el caso.</p>
+                        </div>
+                    </div>
+                    <div class="proceso2relative" id="target2">
+                        <div id="proceso2" class="proceso2" >
+                            <p>
+                            El líder del proceso debe
+                            validar el proceso de
+                            venta del canal web,
+                            determinar qué pasó con
+                            el envío del documento
+                            que se realiza de manera
+                            digital y notificar al
+                            Consumidor Financiero
+                            qué ocurrió con su
+                            solicitud.</p>
+                        </div>
+                    </div>
+                    <div class="proceso3relative" id="target3">
+                        <img id="error3" src="img/PAG-12-PIERDE/ERROR.png" alt="">
+                        <div id="proceso3" class="proceso3">
+                            <p>No ha pasado nada grave.
+                                El próximo mes le llegará
+                                la notificación al
+                                consumidor financiero.</p>                
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="puntos1039" id="emergentePuntos1039" style="z-index: 50;">
+                <img id="img10puntos" src="./img/PAG-10-GANA/GANAR.png" alt="">
+                <p>¡Muy bien, es lo que debemos realizar para responderle <br>
+                    lo antes posible y de manera clara a nuestro consumidor <br>
+                     financiero!</p>
+                <h3><span> ¡Ganas 10 puntos más! </span></h3>
+            </div>
+            <div class="noAcerto39" id="emergentenoAcertoPuntos1039" style="z-index: 50;">
+                <img  src="./img/PAG-39/Fluit.png" alt="" style="z-index: 11;">
+                <h2>¡Hmm no, revisa bien lo hasta ahora visto! <br>
+                    <span> ¡Nuestro consumidor financiero <br>
+                    requiere respuestas claras y oportunas! </span></h2>
+            </div>
+        </div>     
+        </div>    
+    </section>
+
+
+    <div class="botones" id="paginaproof41">
+        <button id="before" type="button" class="btn btn-primary" name="proof41" onmousedown="before.play()" >Anterior </button>
+        <button id="next" type="button" class="btn btn-success" name="proof41" onmousedown="before.play()">Siguiente41</button>
+    </div>
+    <section id="proof41">
+        <div class="presentacion41">
+            <div class="quienDefensor">
+                <div class="quienDefensorTitule">
+                    <h2>Quién es  <br>
+                        <span>el Defensor del </span> <br>
+                        Consumidor Financiero</h2>
+                </div>
+                <div class="quienDefensorWhite">
+                    <div class="quienDefensorText">
+                        <div class="quienSub">
+                            <p> <span> Defensor principal: <br>
+                            Defensor suplente: <br>
+                            Teléfono: <br>
+                            Móvil: <br>
+                            Correo electónico:</span></p>
+                        </div>
+                        <div class="quienData">
+                            <p> César Alejandro Pérez Hamilton <br>
+                            Carlos Alfonso Cifuentes Neira<br>
+                            (1) 213 13 22 - (1) 2132 13 70<br>
+                            321 924 04 79<br>
+                            coomevacorredores@pgabogados.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="imagenCafe">
+                    <img src="./img/PAG-40/1_with_coffee_man_1.png" alt="">
+                </div>
+            </div>
+        </div>    
+    </section>
+
+    <div class="botones" id="paginaproof40">
+        <button id="before" type="button" class="btn btn-primary" name="proof40" onmousedown="before.play()" >Anterior </button>
+        <button id="next" type="button" class="btn btn-success" name="proof40">Siguiente40</button>
+    </div>
+    <section id="proof40">
+        <div class="presentacion40">
+            <div class="pasosQuejas">
+                <div class="pasosQuejasText">
+                    <ul>
+                        <li>• Atender de manera oportuna y efectiva.</li>
+                        <li>• Conocer y resolver en forma objetiva y gratuita.</li>
+                        <li>• Actuar como conciliador entre los consumidores financieros y la entidad vigilada.</li>
+                        <li>• Ser vocero de los consumidores financieros.</li>
+                        <li>• Efectuar recomendaciones a la entidad vigilada.</li>
+                        <li>• Proponer a las autoridades competentes las modificaciones normativas.</li>
+                        <li>• Demás definidas por el Gobierno Nacional.</li>
+                    </ul>
+                </div>
+                <div class="pasosQuejasImg">
+                    <img  src="./img/PAG-41/2_thumb_up_man_1.png" alt="" style="z-index: 11;">
+                </div>
+            </div>  
+        </div>    
+    </section>
+
+  
+
+    <div class="botones" id="paginaproof42">
+        <button id="before" type="button" class="btn btn-primary" name="proof42" onmousedown="before.play()" >Anterior </button>
+        <button id="next" type="button" class="btn btn-success" name="proof42">Siguiente42</button>
+    </div>
+    <section id="proof42">
+        <div class="presentacion42">
+            <div class="canalAtencion">
+                <h2>¡Este es nuestro <br>
+                    <span>Canal atención Coomeva!</span></h2>
+                <p>Siempre remite a <br>
+                    nuestro consumidor financiero <br>
+                    <span> a escribirnos a través de <br>
+                    nuestros canales formales:</span></p>
+            </div>  
+        </div>    
+    </section>
+
+    <div class="botones" id="paginaproof43">
+        <button id="before" type="button" class="btn btn-primary" name="proof43" onmousedown="before.play()" >Anterior </button>
+        <button id="next" type="button" class="btn btn-success" name="proof43">Siguiente43</button>
+    </div>
+    <section id="proof43">
+        <div class="presentacion43">
+            <div class="rellenarCheckbox">
+                <div class="rellenaTable" id="checkBox" style="z-index: 200;">
+                    <table class="default">
+                        <tr class="spaceUnder">
+                            <td >
+                                <h2>Dota su oficina con algunas <br>
+                                    <b> de las funciones principales <br>
+                                    que tiene a cargo:</b></h2> 
+                            </td>
+                        </tr>
+                        <tr class="spaceUnder">
+                            <td>
+                                <input type="checkbox" class="checkCompt"  id="computador1" name="computador1" value="incorrecta"> <span id="computadorp1"> Controlar el presupuesto de la <br>
+                                organización. </span>
+                                </input> 
+                            </td> 
+                        </tr>
+                        <tr class="spaceUnder">
+                            <td>
+                                <input type="checkbox" class="checkCompt" id="computador2" name="computador2" value="incorrecta"><span id="computadorp2"> Establecer los objetivos de la empresa y <br>
+                                del equipo.</span>
+                                </input>
+                            </td>
+                        </tr>
+                        <tr class="spaceUnder">
+                            <td>
+                                <input type="checkbox" class="checkCompt" id="computador3" name="computador3" value="correcta"><span id="computadorp3"> Conocer y resolver en forma objetiva y <br>
+                                gratuita, las quejas que se presenten <br>
+                                dentro de los términos y procedimientos <br>
+                                establecidos.</span>
+                                </input>
+                            </td>
+                        </tr>
+                        <tr class="spaceUnder">
+                            <td>
+                                <input type="checkbox" class="checkCompt" id="computador4" name="computador4" value="correcta"><span id="computadorp4"> Actuar como conciliador entre los <br>
+                                consumidores financieros y la entidad <br>
+                                vigilada en los términos indicados en la <br>
+                                Ley.</span>
+                                </input>
+                            </td>
+                        </tr>
+                        <tr class="spaceUnder" >
+                            <td>
+                                <input type="checkbox" class="checkCompt" id="computador5" name="computador5" value="incorrecta"><span id="computadorp5"> Motivar y comunicar los planes de <br>
+                                mercadeo.</span>
+                                </input>
+                            </td>
+                        </tr>
+                        <tr class="spaceUnder" >
+                            <td>
+                                <input type="checkbox" class="checkCompt" id="computador6" name="computador6" value="correcta"><span id="computadorp6"> Atender de manera oportuna y efectiva <br>
+                                a los consumidores financieros.</span>
+                                </input>
+                            </td>
+                        </tr>
+                        <tr class="spaceUnder" >
+                            <td>
+                                <input type="checkbox" class="checkCompt" id="computador7" name="computador7" value="correcta"><span id="computadorp7"> Ser vocero de los consumidores financieros <br>
+                                ante la respectiva entidad vigilada.</span>
+                                </input>
+                            </td>
+                        </tr>
+                        <tr class="spaceUnder" >
+                            <td>
+                                <input type="checkbox" class="checkCompt" id="computador8" name="computador8" value="incorrecta"><span id="computadorp8"> Identificar, proporcionar y organizar <br>
+                                los recursos necesarios para alcanzar los <br>
+                                objetivos. </span>
+                                </input>
+                            </td>
+                        </tr>
+                        <tr class="spaceUnder" >
+                            <td>
+                                <input type="checkbox" class="checkCompt" id="computador9" name="computador9" value="correcta"><span id="computadorp9"> Efectuar recomendaciones relacionadas <br>
+                                con los servicios y la atención al consumidor <br>
+                                financiero.
+                                </span>
+                                </input>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="computador" id="computadorImg">
+                    <img id="computadorChange" src="./img/PAG-43/mesa.png" alt="">
+                </div>
+            </div> 
+            <div class="puntos1043" id="emergentePuntos1043">
+                <img src="./img/PaG-16/MEDALLA-1.png" alt=""> 
+                <p>¡Muy bien, <br>
+                    esas son las funciones de nuestro <br>
+                    Defensor del Consumidor Financiero!</p>
+                <h3><span> ¡Sumaste 10 puntos! </span></h3>
+            </div>
+            <div class="incorrecto" id="emergentenoAcertoPuntos1043">
+                <div class="containerIncorrecto">
+                    <div class="incorrectoText">
+                        <h2><span>¡Esa no es una función</span> <br>
+                            propia de nuestro Defensor<br>
+                            del Consumidor Financiero!<br> 
+                            <span> ¡Revisa nuevamente<br>
+                            el material!</span> <br>
+                        </h2> <br> <br>
+                        <h3>¡Vamos, puedes lograrlo!</h3>
+                    </div>
+                    <div class="incorrectoImg">
+                        <img  src="./img/PAG-41/2_thumb_up_man_1.png" alt="" style="z-index: 11;">
+                    </div>
+                </div>
+            </div>   
+        </div>    
+    </section>
+
+    <div class="botones" id="paginaproof44">
+        <button id="before" type="button" class="btn btn-primary" name="proof44" onmousedown="before.play()" >Anterior </button>
+        <button id="next" type="button" class="btn btn-success" name="proof44">Siguiente44</button>
+    </div>
+    <section id="proof44">
+        <img id="computador44" src="./img/PAG-44/Laptop-imagenes.png" alt="">
+        <div class="presentacion44">
+            <div class="sabiasQue">
+                <h2>Sabías que...</h2>
+                <p>En las oficinas de <br>
+                    Coomeva Cooperativa se <br>
+                    <span> debe garantizar <br>
+                    atención prioritaria </span></p>
+            </div>
+        </div>    
+    </section>
+
+    <div class="botones" id="paginaproof45">
+        <button id="before" type="button" class="btn btn-primary" name="proof45" onmousedown="before.play()" >Anterior </button>
+        <button id="next" type="button" class="btn btn-success" name="proof45">Siguiente45</button>
+    </div>
+    <section id="proof45">
+        <img id="cel45" src="./img/PAG-45/TEL-1.png" alt="">
+        <div class="presentacion45">
+          <div class="sabiasQue">
+            <div class="celUno">
+              <h3>Atención prioritaria</h3>
+                <p>Se debe realizar una especial <br>
+                    gestión en orientar y acompañar <br>
+                    al consumidor financiero en <br>
+                    la operación requerida.</p>
+            </div>
+        </div>    
+    </section>
+
+    <div class="botones" id="paginaproof46">
+        <button id="before" type="button" class="btn btn-primary" name="proof46" onmousedown="before.play()" >Anterior </button>
+        <button id="next" type="button" class="btn btn-success" name="proof46">Siguiente46</button>
+    </div>
+    <section id="proof46">
+        <img id="celDos" src="./img/PAG-46/TEL-2.png" alt="">
+        <div class="presentacion46">
+            <div class="celDos">
+              <h3>Atención prioritaria</h3>
+                <p>El colaborador que tome la iniciativa o sea asignado, para atender al consumidor financiero, debe informarle que tiene atención prioritaria y por ende le ayudará a realizar la transacción, cumpliendo con todas las normas y controles establecidos en los procedimientos de acuerdo al producto o servicio solicitados que permita su atención oportuna y eficaz.</p>
+            </div>
+        </div>    
+    </section>
+
+    <div class="botones" id="paginaproof47">
+        <button id="before" type="button" class="btn btn-primary" name="proof47" onmousedown="before.play()" >Anterior </button>
+        <button id="next" type="button" class="btn btn-success" name="proof47">Siguiente47</button>
+    </div>
+    <section id="proof47">
+        <img id="cel47" src="./img/PAG-47/TEL-3.png" alt="">
+        <div class="presentacion47">
+            <div class="celTres">
+              <h3>Atención prioritaria</h3>
+                <p>El colaborador asignado es quien debe desplazarse por la oficina las veces que sea necesario para brindar un servicio adecuado a los consumidores financieros en condición de discapacidad, adultos mayores y mujeres embarazadas.</p>
+            </div>
+        </div>    
+    </section>
+
+    <div class="botones" id="paginaproof48">
+        <button id="before" type="button" class="btn btn-primary" name="proof48" onmousedown="before.play()" >Anterior </button>
+        <button id="next" type="button" class="btn btn-success" name="proof48">Siguiente48</button>
+    </div>
+    <section id="proof48">
+        <img id="cel148" src="./img/PAG-48/TEL-PASO-2.png" alt="">
+        <img id="cel248" src="./img/PAG-48/TEL-PASO-1.png" alt="">
+        <div class="presentacion48">
+            <div class="queVisite48">
+                <p> 1. <b>Que visite: </b> <br>
+                   <a href="https://bit.ly/2YKMd8o">https://bit.ly/2YKMd8o</a> </p>
+            </div>
+            <div class="Registre48">
+                <p> 2. <b>Que registe su caso: </b> <br>
+                    Seleccionando el globo de <br>
+                    Coomeva Corredores de Seguros</p>
+            </div>
+        </div>    
+    </section>
+
+    
+    <div class="botones" id="paginaproof49">
+        <button id="before" type="button" class="btn btn-primary" name="proof49" onmousedown="before.play()" >Anterior </button>
+        <button id="next" type="button" class="btn btn-success btn50" name="proof49">Siguiente49</button>
+    </div>
+    <section id="proof49">
+        <div class="presentacion49">
+            <div class="dilgencie49">
+                <img src="./img/PAG-49/TEL-PASO-3.png" alt="">
+                 <h3>3.<b> Y diligencie</b><br>
+                       el formulario.
+                </h3>
+            </div>
+        </div>    
+    </section>
+
+    <div class="botones" id="paginaproof50">
+        <button id="before" type="button" class="btn btn-primary " name="proof50" onmousedown="before.play()" >Anterior </button>
+        <button id="next" type="button" class="btn btn-success" name="proof50">Siguiente50</button>
+    </div>
+    <section id="proof50">
+        <div class="presentacion50">
+            <div class="puntaje">
+                <h2>Gracias porque con tus puntos <br>
+                    <b> y los puntos de tus demás compañeros <br>
+                    hemos ganado el ORO para nuestro Sector Protección.</b>
+                </h2>
+                <div class="puntosCuadro">
+                    <div class="cabecera">
+                        <img src="./img/LOGO-SAC-blanco.png" alt="">
+                        <p id="puntajeTotal">¡80 puntos!</p>
+                    </div>
+                    <div class="acierto">
+                        <div class="aciertoTitulo">
+                            <h4 id="PuntosAcierto"><b>Acierto</b></h4>
+                        </div>
+                        <div class="puntosAcierto">
+                            <h3 id="puntuacionFinal"><b></b></h3>
+                        </div>
+                    </div>
+                    <div class="desacierto">
+                        <div class="desaciertoTitulo">
+                            <h4 ><b>Desacierto</b></h4>
+                        </div>
+                        <div class="puntosDesacierto">
+                            <h3 id="desaciertoFinal"><b></b></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </section>
+
+    <div class="botones" id="paginaproof51">
+        <button id="before" type="button" class="btn btn-primary" name="proof51" onmousedown="before.play()" >Anterior </button>
+        <button id="next" type="button" class="btn btn-success" name="proof51" style="display: none;">Siguiente51</button>
+    </div>
+    <section id="proof51">
+        <img id="boxing29" src="img/PAG-1/boxing_.png" alt="boxing">
+        <img id="basketball29" src="img/PAG-1/basketball_.png" alt="boxing">
+        
+        <img id="espadas" src="img/PAG-31/fencing_.png" alt="">
+        <img id="arco" src="img/PAG-8/archery_.png" alt="">
+        <img id="bate2" src="img/PAG-3/BATE-BEISBALL.png" alt="">
+        
+        <div class="presentacion51">
+                <div class="">
+                <img id="logo51" src="img/PAG-1/ICONO-OLIMPIADAS.png" alt="">
+                <h2>SAC</h2>
+                <p><b>¡nos involucra a todos!</b><br>
+                    ¡En estas Olimpiadas todo ganamos!
+                </p>
+                <h3><b>Gracias por tu compromiso</b><br>
+                    en la realización de este material virtual.</h3>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    
+    
+</body>
+
+<script>
+   
+</script>
+<script src="juego.js"></script>
+<script src="./js/j16y17Sonidos.js"></script>
+<script src="./js/j15Sonidos.js"></script>
+<script src="./js/sonidos.js"></script>
+<script src="./js/cronometro.js"></script>
+<script src="./js/js18.js"></script>
+<script src="./js/js17.js"></script>
+<script src="./js/js21.js"></script>
+<script src="./js/js26.js"></script>
+<script src="./js/js30.js"></script>
+<script src="./js/js33.js"></script>
+<script src="./js/js39.js"></script>
+<script src="./js/js43.js"></script>
+<script src="./js/js50.js"></script>
+<script src="./js/js8.js"></script>
+<script src="js.js"></script>
+<script src="js/anima.js"></script>
+</html>

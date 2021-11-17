@@ -1,0 +1,320 @@
+@import url(/css/start.css);
+@import url(/css/cronometro.css);
+@import url(/css/transiciones.css);
+@import url(/css/proof1.css);
+@import url(/css/proof2.css);
+@import url(/css/proof3.css);
+@import url(/css/proof4.css);
+@import url(/css/proof3a.css);
+@import url(/css/proof5.css);
+@import url(/css/proof6.css);
+@import url(/css/proof6a.css);
+@import url(/css/proof7.css);
+@import url(/css/proof8.css);
+@import url(/css/proof9.css);
+@import url(/css/proof10.css);
+@import url(/css/proof11.css);
+@import url(/css/proof12.css);
+@import url(/css/proof13.css);
+@import url(/css/proof14.css);
+@import url(/css/proof15.css);
+@import url(/css/proof16.css);
+@import url(/css/proof17.css);
+@import url(/css/proof18.css);
+@import url(/css/proof19.css);
+@import url(/css/proof20.css);
+@import url(/css/proof21.css);
+@import url(/css/proof22.css);
+@import url(/css/proof23.css);
+@import url(/css/proof24.css);
+@import url(/css/proof25.css);
+@import url(/css/proof26.css);
+@import url(/css/proof27.css);
+@import url(/css/proof28.css);
+@import url(/css/proof29.css);
+@import url(/css/proof30.css);
+@import url(/css/proof31.css);
+@import url(/css/proof32.css);
+@import url(/css/proof33.css);
+@import url(/css/proof34.css);
+@import url(/css/proof35.css);
+@import url(/css/proof36.css);
+@import url(/css/proof37.css);
+@import url(/css/proof38.css);
+@import url(/css/proof39.css);
+@import url(/css/proof40.css);
+@import url(/css/proof40a.css);
+@import url(/css/proof41.css);
+@import url(/css/proof42.css);
+@import url(/css/proof43.css);
+@import url(/css/proof44.css);
+@import url(/css/proof45.css);
+@import url(/css/proof46.css);
+@import url(/css/proof47.css);
+@import url(/css/proof48.css);
+@import url(/css/proof49.css);
+@import url(/css/proof50.css);
+@import url(/css/proof51.css);
+@import url(/css/anima.css);
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Rubik', sans-serif;
+}
+
+html{
+    font-size: 16px;
+}
+@media screen and (max-width: 1400px) {
+    html {
+        font-size: 13px;
+    }
+    }
+
+@media screen and (max-width: 920px) {
+html {
+    font-size: 12px;
+}
+}
+
+body {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.botonCurso {
+    position: absolute;
+    left: 45%;
+    top: 80%;
+}
+
+.beforeBtn {
+    border: none;
+    box-shadow: inset 0 0 0 3px #ff7b08;
+    color: rgba(3, 3, 3, 0.911);
+    background-color: white;
+    font-weight: 900;
+    font-size: 2rem;
+    padding: 0rem 1rem;
+    border-radius: 0.5rem;
+    z-index: 100;
+    position: relative;
+}
+
+.nextBtn {
+    border: none;
+    box-shadow: inset 0 0 0 3px #ff7b08;
+    color: white;
+    background-color: #ffaa5f;
+    font-weight: 900;
+    font-size: 2rem;
+    padding: 0rem 1rem;
+    border-radius: 0.5rem;
+    z-index: 100;
+    position: relative;
+}
+
+.nextBtn:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.botones {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
+
+.presentacion .nextBtn {
+    background: linear-gradient(27deg, #ff7b08 20%, rgb(255, 200, 151) 100%, rgb(255,123,1) 100%);
+    color: rgb(51,51, 51);
+    font-weight: 900;
+    font-size: 2rem;
+    padding: 0rem 1rem;
+    border-radius: 0.5rem;
+    margin-left: 0.8rem;
+    border: none;
+}
+
+
+h5 {
+    font-size: 4rem;
+}
+
+main {
+    
+    background-color:red;
+}
+
+
+#paginaproof1{
+    display: none;
+}
+#paginaproof2{
+    display: none;
+}
+#paginaproof3{
+    display: none;
+}
+#paginaproof3a{
+    display: none;
+}
+#paginaproof4{
+    display: none;
+}
+#paginaproof5{
+    display: none;
+}
+#paginaproof6{
+    display: none;
+}
+#paginaproof6a{
+    display: none;
+}
+#paginaproof7{
+    display: none;
+}
+#paginaproof8{
+    display: none;
+}
+#paginaproof9{
+    display: none;
+}
+#paginaproof10{
+    display: none;
+}
+#paginaproof11{
+    display: none;
+}
+#paginaproof12{
+    display: none;
+}
+#paginaproof13{
+    display: none;
+}
+#paginaproof14{
+    display: none;
+}
+#paginaproof15{
+    display: none;
+}
+#paginaproof16{
+    display: none;
+}
+#paginaproof17{
+    display: none;
+}
+#paginaproof18{
+    display: none;
+}
+#paginaproof19{
+    display: none;
+}
+#paginaproof20{
+    display: none;
+}
+#paginaproof21{
+    display: none;
+}
+#paginaproof22{
+    display: none;
+}
+#paginaproof23{
+    display: none;
+}
+#paginaproof24{
+    display: none;
+}
+#paginaproof25{
+    display: none;
+}
+#paginaproof26{
+    display: none;
+}
+#paginaproof27{
+    display: none;
+}
+#paginaproof28{
+    display: none;
+}
+#paginaproof29{
+    display: none;
+}
+#paginaproof30{
+    display: none;
+}
+#paginaproof31{
+    display: none;
+}
+#paginaproof32{
+    display: none;
+}
+#paginaproof33{
+    display: none;
+}
+#paginaproof34{
+    display: none;
+}
+#paginaproof35{
+    display: none;
+}
+#paginaproof36{
+    display: none;
+}
+#paginaproof37{
+    display: none;
+}
+#paginaproof38{
+    display: none;
+}
+#paginaproof39{
+    display: none;
+}
+#paginaproof40{
+    display: none;
+}
+#paginaproof40a{
+    display: none;
+}
+#paginaproof41{
+    display: none;
+}
+#paginaproof42{
+    display: none;
+}
+#paginaproof43{
+    display: none;
+}
+#paginaproof44{
+    display: none;
+}
+#paginaproof45{
+    display: none;
+}
+#paginaproof46{
+    display: none;
+}
+#paginaproof47{
+    display: none;
+}
+#paginaproof48{
+    display: none;
+}
+#paginaproof49{
+    display: none;
+}
+#paginaproof50{
+    display: none;
+}
+#paginaproof51{
+    display: none;
+}
+

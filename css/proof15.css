@@ -1,0 +1,71 @@
+#proof15{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 100%;
+    z-index:1;
+}
+
+.presentacion15 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: black;
+    width: 100%;
+    z-index: 10;
+}
+
+.productosYServicios {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 8rem;
+}
+
+
+
+.productosYServicios h4 {
+    font-size: 2rem;
+}
+
+.productosYServicios span {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.productosYServiciosFila1{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0.5rem;
+
+}
+
+.productosYServiciosFila2{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.productosYServicios img {
+    width: 13rem;
+}
+
+
+@media screen and (max-width: 1400px) {
+    .productosYServicios img {
+        width: 10rem;
+    }
+
+    
+    .productosYServicios h4 {
+        font-size: 1.5rem;
+    }
+    .productosYServicios span {
+        font-size: 1.5rem;
+        font-weight: 900;
+    }
+    }

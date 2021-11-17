@@ -1,0 +1,48 @@
+#proof3a{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 100%;
+    z-index: 5;
+}
+
+.presentacion3a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    text-align: left;
+    padding-top: 5rem;
+    color: black;
+    width: 100%;
+    z-index: 1000;
+    padding-left: 5%;
+}
+.financieroSeguros{
+    margin-left: 10%;
+}
+
+.presentacion3a h3{
+    font-size: 3rem;
+    color: rgb(255,123,8);
+    padding-right: 0.3rem;
+}
+
+.presentacion3a h3 b{
+    font-size: 3rem;
+    color: rgb(255,123,8);
+    padding-right: 0.3rem;
+    letter-spacing: 0.2rem;
+    font-family: 'Fredoka One';
+}
+
+.presentacion3a p{
+    font-size: 1.5rem;
+    color: rgb(51,51,51);
+    padding-right: 0.3rem;
+}
+
+
+
+

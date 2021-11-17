@@ -1,0 +1,54 @@
+#proof29{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 100%;
+    top: 0%;
+    z-index:1;
+}
+
+.presentacion29 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: black;
+    width: 100%;
+    z-index: 10;
+}
+
+.principiosOrienta h3{
+    font-size: 4rem;
+    color: rgb(255, 123, 8);
+    font-weight: 900;
+}
+
+.principiosOrienta p{
+    font-size: 2rem;
+    color: rgb(51,51, 51);
+}
+
+.principiosOrienta span{
+    font-weight: 900;
+}
+
+#boxing29{
+    top: calc(40% - 9rem);
+    position: absolute;
+    width: 24rem;
+    right: -10%;
+    transform: rotate(20deg);
+}
+
+#basketball29{
+    bottom: 5rem;
+    position: absolute;
+    width: 20rem;
+    left: -2rem;
+
+}
+
+
+

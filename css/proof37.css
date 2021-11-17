@@ -1,0 +1,56 @@
+#proof37{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 100%;
+    top: 0%;
+    z-index:1;
+}
+
+.presentacion37 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: black;
+    width: 100%;
+    z-index: 10;
+}
+
+.sancionesText{
+    text-align: left;
+    margin-bottom: 15rem;
+}
+
+.sancionesText p{
+    font-size: 2rem;
+}
+.sancionesText h2{
+    color: rgb(0,128,74);
+    font-weight: 900;
+    font-size: 4rem;
+    
+}
+
+.sancionesText span{
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.sanciones{
+    background-color: rgb(255, 123, 8);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.sancionesImg img {
+    width: 20rem;
+    margin-left: 3rem;
+}
+
+

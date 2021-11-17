@@ -1,0 +1,50 @@
+#proof32{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 100%;
+    z-index:1;
+}
+
+.presentacion32 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: black;
+    width: 100%;
+    z-index: 10;
+    position: relative;
+}
+
+.preguntaPuntos h2{
+    font-size: 3.5rem;
+    color: rgb(0,128,74);
+}
+
+.preguntaPuntos p{
+    font-size: 2rem;
+    color: rgb(51,51, 51);
+}
+
+.preguntaPuntos span{
+    
+    font-weight: 900;
+}
+
+#boxing31{
+    position: absolute;
+    bottom: -3rem;
+    right: -3rem;
+    width: 20rem;
+}
+
+#basketball31 {
+    position: absolute;
+    bottom: -3rem;
+    left: 0rem;
+    width: 20rem;
+}
+

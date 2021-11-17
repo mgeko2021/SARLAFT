@@ -1,0 +1,48 @@
+#proof13{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 100%;
+    top: 0%;
+}
+
+.presentacion13 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: black;
+    width: 100%;
+    z-index: 10;
+}
+.CompetidoresGlosario h3{
+    font-size: 3.5rem;
+    color: orange;
+}
+
+.CompetidoresGlosario img{
+    width: 20rem;
+}
+.CompetidoresGlosario h3{
+    font-size: 3.5rem;
+    color: orange;
+}
+.CompetidoresGlosario h3 span{
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+
+.CompetidoresGlosario h5{
+    font-size: 2.5rem;
+}
+.CompetidoresGlosario h5 span{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+
+
+
+

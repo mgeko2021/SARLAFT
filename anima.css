@@ -1,0 +1,632 @@
+.logo{
+    /*filter: drop-shadow(0px 0px 10px white);*/
+}
+tr{
+    padding: 10px 0;
+}
+.esperaArriba{
+    animation-name: esperaArriba;
+    animation-duration: 0.5s;
+    /* animation-timing-function: cubic-bezier(.8,.17,0,.97); */
+    animation-fill-mode: forwards;
+}
+.desdeArriba{
+    animation-name: desdeArriba;
+    animation-duration: 0.8s;
+    /* animation-timing-function: cubic-bezier(.8,.17,0,.97); */
+    animation-fill-mode: forwards;
+}
+.CompetidoresGlosario h3{
+    display: none !important;
+}
+#boxing1 {
+    position: absolute;
+    width: 20rem;
+    right: 4rem;
+}
+#basketball {
+    position: absolute;
+    width: 15rem;
+    bottom: -1rem;
+    left: 4rem;
+    /* animation: rebota 1s alternate infinite ease-out; */
+}
+
+#proof8 h2,
+#proof16 h3,
+#proof17 .derechosmedallas h3,
+#proof18 h3,
+#proof31 h2,
+#proof34 h2,
+#proof37 h2,
+#proof41 h2{
+    /*color: rgb(27, 226, 37);*/
+    color: rgb(0,128,74);
+    font-size: 4rem;
+    font-family: 'Fredoka One';
+}
+#proof6 h3,
+#proof7 h2{
+    color: rgb(255,123,8);
+}
+
+.textoDesdeDerecha1,
+.presentacion2 h2,
+.desdeDerecha2,
+.Financieros h2,
+.presentacion4 h2,
+.presentacion4 .desdeAbajo1{
+    text-shadow: #ccc 3px 3px 5px !important;
+}
+
+.presentacion20 .pistaSalto > h2,
+.presentacion25 .pruebaVelocidad > h2,
+.presentacion30 .principiosLogoTitulo > h2{
+    font-weight: bold;
+    color: rgb(255,123,8) !important;
+}
+
+.presentacion32 .preguntaPuntos h2{
+    font-weight: bold;
+}
+
+.presentacion21 .saltoNiveles .niveles{
+    margin-top: 7rem;
+}
+
+#proof3 .consumidorFinanciero{
+    align-items: center;
+}
+#proof3 .clientePotencial h4{
+    padding-left: 2.5rem;
+}
+#proof3 .cliente h4{
+    text-align: right;
+}
+
+.presentacion5{
+    opacity: 1 !important;
+}
+.presentacion5 .leyes{
+    background:rgba(255,255,255,.7);
+    padding: 5% 0;
+    align-items: center;
+    justify-content: center;
+}
+.presentacion23{
+    background:rgba(255,255,255,.7);
+}
+
+.desdeDerecha1{
+    animation: desdeDerechaAnim 3s ease-in-out;
+}
+.desdeDerecha2{
+    animation: desdeDerechaAnim2 1s ease-in-out;
+}
+.desdeDerecha3{
+    animation: desdeDerechaAnim3 5s ease-in-out;
+}
+.desdeDerecha4{
+    animation: desdeDerechaAnim4 2s ease-in-out;
+}
+@keyframes desdeDerechaAnim {
+    0%{ 
+        right:-100%;
+    }
+    25%{ 
+        right:-100%;
+    }
+    100%{
+        right:10%;
+    }
+}
+@keyframes desdeDerechaAnim2 {
+    0%{ 
+        right:-100%;
+    }
+    25%{ 
+        right:-100%;
+    }
+    100%{
+        right:-3%;
+    }
+}
+@keyframes desdeDerechaAnim3 {
+    0%{ 
+        right:-100%;
+    }
+    25%{ 
+        right:-100%;
+    }
+    100%{
+        right:3%;
+    }
+}
+@keyframes desdeDerechaAnim4 {
+    0%{ 
+        right:-100%;
+    }
+    25%{ 
+        right:-100%;
+    }
+    100%{
+        right:50%;
+    }
+}
+
+
+.desdeDerecha1{
+    animation: txtDesdeDerechaAnim 3s ease-in-out;
+    position: relative;
+    right: 0;
+}
+.desdeDerecha2{
+    animation: txtDesdeDerechaAnim2 1s ease-in-out;
+    position: relative;
+    right: 0;
+}
+.desdeDerecha3{
+    animation: txtDesdeDerechaAnim3 5s ease-in-out;
+    position: relative;
+    right: 0;
+}
+.desdeDerecha4{
+    animation: txtDesdeDerechaAnim4 2s ease-in-out;
+    position: relative;
+    right: 0;
+}
+@keyframes txtDesdeDerechaAnim {
+    0%{ 
+        right:-100%;
+    }
+    25%{ 
+        right:-100%;
+    }
+    100%{
+        right:5%;
+    }
+}
+@keyframes txtDesdeDerechaAnim2 {
+    0%{ 
+        right:-100%;
+    }
+    25%{ 
+        right:-100%;
+    }
+    100%{
+        right:0%;
+    }
+}
+@keyframes txtDesdeDerechaAnim3 {
+    0%{ 
+        right:-100%;
+    }
+    25%{ 
+        right:-100%;
+    }
+    100%{
+        right:0%;
+    }
+}
+@keyframes txtDesdeDerechaAnim4 {
+    0%{ 
+        right:-100%;
+    }
+    25%{ 
+        right:-100%;
+    }
+    100%{
+        right:0%;
+    }
+}
+
+.productosYServiciosFila1 > div
+{padding: 30px 5px;}
+
+.presentacion2 h2{
+    position: relative;
+    left: 0%;
+}
+.textoDesdeDerecha1{
+    animation: textoDesdeDerechaAnim 3s ease-in-out;
+}
+@keyframes textoDesdeDerechaAnim {
+    0%{ 
+        left:100%;
+    }
+    100%{
+        left:0%;
+    }
+}
+
+.conceptoTitulo{
+    font-size: 2rem;
+}
+.presentacion3 .cliente,
+.presentacion3 .clientePotencial,
+.presentacion3 .usuario{
+    position: relative;
+    bottom: 5px;
+}
+.desdeAbajo1{
+    animation: desdeAbajoAnim 2s ease-in-out;
+    position: relative;
+}
+.desdeAbajo2{
+    animation: desdeAbajoAnim2 1s ease-in-out;
+    position: relative;
+}
+.desdeAbajo3{
+    animation: desdeAbajoAnim3 3s ease-in-out;
+    position: relative;
+}
+.desdeAbajo4{
+    animation: desdeAbajoAnim4 1s ease-in-out;
+    position: relative;
+}
+@keyframes desdeAbajoAnim {
+    0%{ 
+        bottom:-100%;
+    }
+    25%{ 
+        bottom:-100%;
+    }
+    100%{
+        bottom:0px;
+    }
+}
+@keyframes desdeAbajoAnim2 {
+    0%{ 
+        bottom:-100%;
+    }
+    25%{ 
+        bottom:-100%;
+    }
+    100%{
+        bottom:0px;
+    }
+}
+@keyframes desdeAbajoAnim3 {
+    0%{ 
+        bottom:-100%;
+    }
+    25%{ 
+        bottom:-100%;
+    }
+    100%{
+        bottom:0px;
+    }
+}
+@keyframes desdeAbajoAnim4 {
+    0%{ 
+        bottom:-100%;
+    }
+    25%{ 
+        bottom:-100%;
+    }
+    100%{
+        bottom:0px;
+    }
+}
+
+.proof3a h3,
+.proof3a h2{
+    left: 0%;
+    position: relative;
+}
+
+
+
+
+.salirHistoriaButton{
+    display: none;
+}
+
+@keyframes esperaArriba {
+    0%{ left:0%;
+        opacity: 1;
+    }
+    100%{
+        left:100%;
+        opacity: 0;
+    }
+}
+
+@keyframes desdeArriba {
+    0%{ left:100%;
+        opacity: 0;
+    }
+    100%{
+        left: 0%;
+        opacity: 1;
+    }
+}
+
+#logolimpiadas,
+#SEGURIDAD,
+#computador44{
+    animation: float 3s ease-in-out infinite;
+}
+#MEGAPHONE,
+#basketball29{
+    animation: float2 3s ease-in-out infinite;
+}
+
+#basketball31{
+    animation: float2 3s ease-in-out infinite;
+    left: 10rem;
+}
+#boxing31{
+    animation: float 3s ease-in-out infinite;
+    right: 10rem;
+}
+
+@keyframes float {
+	0% {
+		/*box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);*/
+		transform: translatey(0px);
+	}
+	50% {
+		/*box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);*/
+		transform: translatey(-20px);
+	}
+	100% {
+		/*box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);*/
+		transform: translatey(0px);
+	}
+}
+
+@keyframes float2 {
+	0% {
+		/*box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);*/
+		transform: translatey(-20px);
+	}
+	50% {
+		/*box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);*/
+		transform: translatey(0px);
+	}
+	100% {
+		/*box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);*/
+		transform: translatey(-20px);
+	}
+}
+#boxing1,
+#boxing2,
+#boxing29,
+#bate{
+    animation: float3 3s ease-in-out infinite;
+}
+@keyframes float3 {
+	0% {
+		/*box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);*/
+		transform: translatey(-20px);
+        transform: rotate3d(0, 8, 0, 20deg);
+	}
+	50% {
+		/*box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);*/
+		transform: translatey(0px);
+        transform: rotate3d(0, 8, 0, 0deg);
+	}
+	100% {
+		/*box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);*/
+		transform: translatey(-20px);
+        transform: rotate3d(0, 8, 0, 20deg);
+	}
+}
+
+
+@keyframes bate {
+	0% {
+		/*box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);*/
+		transform: translatey(-20px);
+        transform: rotate(40deg);
+	}
+	50% {
+		/*box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);*/
+		transform: translatey(0px);
+        transform: rotate(50deg);
+	}
+	100% {
+		/*box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);*/
+		transform: translatey(-20px);
+        transform: rotate(40deg);
+	}
+}
+
+@keyframes badminton {
+	0% {
+		/*box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);*/
+		transform: translatey(-20px);
+        
+	}
+	50% {
+		/*box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);*/
+		transform: translatey(0px);
+        
+	}
+	100% {
+		/*box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);*/
+		transform: translatey(-20px);
+        
+	}
+}
+
+#boxing2 {
+    top: calc(55% - 4rem);
+    position: absolute;
+    width: 26rem;
+    right: 5%;
+    transform: rotate(20deg);
+}
+#bate {
+    bottom: 25rem;
+    left: 56%;
+    animation: bate 4s ease-in-out infinite;
+}
+#badminton{
+    animation: none;
+    animation: badminton 5s ease-in-out infinite;
+}
+
+.presentacion5{
+    background-size: cover;
+}
+
+@keyframes floatMin {
+	0% {
+		/*box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);*/
+		transform: translatey(0px);
+	}
+	50% {
+		/*box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);*/
+		transform: translatey(-10px);
+	}
+	100% {
+		/*box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);*/
+		transform: translatey(0px);
+	}
+}
+@keyframes floatMin2 {
+	0% {
+		/*box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);*/
+		transform: translatey(-10px);
+	}
+	50% {
+		/*box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);*/
+		transform: translatey(0px);
+	}
+	100% {
+		/*box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);*/
+		transform: translatey(-10px);
+	}
+}
+.fondo-naranja {
+    background: rgb(255 163 36);
+}
+.logos-sobre-naranja{
+    filter: grayscale(1) invert(1) brightness(5) drop-shadow(0px 0px 15px rgb(120 230 120 / .5)) !important;
+}
+.table img {
+    position: relative;
+}
+.presentacion6 .parrafos td:nth-child(odd) img{
+    animation: floatMin 4s ease-in-out infinite;
+}
+.presentacion6 .parrafos td:nth-child(even) img{
+    animation: floatMin2 3s ease-in-out infinite;
+}
+
+.punteria img{
+    animation: float 3s ease-in-out infinite;
+}
+
+.presentacion8 #target1{
+    animation: float2 3s ease-in-out infinite;
+}
+.presentacion8 #target2{
+    animation: float2 4s ease-in-out infinite;
+}
+.presentacion8 #target3{
+    animation: float2 2s ease-in-out infinite;
+}
+.tiroBlanco1relative,
+.tiroBlanco2relative,
+.tiroBlanco3relative{
+    padding-top: 20px;
+}
+.presentacion13 #Megaphone{
+    animation: floatMin 3s ease-in-out infinite;
+}
+
+.presentacion17 .PRESEAS:nth-child(odd){
+    animation: floatMin 3s ease-in-out infinite;
+}
+.presentacion17 .PRESEAS:nth-child(even){
+    animation: floatMin2 3s ease-in-out infinite;
+}
+
+.presentacion18 .PRESEAS2:nth-child(odd){
+    animation: floatMin 3s ease-in-out infinite;
+}
+.presentacion18 .PRESEAS2:nth-child(even){
+    animation: floatMin2 3s ease-in-out infinite;
+}
+
+.presentacion24 .atenciontext1,
+.presentacion24 .atenciontext3{
+    animation: floatMin 3s ease-in-out infinite;
+}
+.presentacion24 .atenciontext2{
+    animation: floatMin2 3s ease-in-out infinite;
+}
+
+.presentacion25 img{
+    animation: float 3s ease-in-out infinite;
+}
+
+.presentacion30 .principiosImgClick:nth-child(odd){
+    animation: floatMin 3s ease-in-out infinite;
+}
+.presentacion30 .principiosImgClick:nth-child(even){
+    animation: floatMin2 3s ease-in-out infinite;
+}
+
+.presentacion31 img{
+    animation: float 3s ease-in-out infinite;
+}
+
+.presentacion36 .completoImg{
+    animation: float 3s ease-in-out infinite;
+}
+
+#pito{
+    animation: float 3s ease-in-out infinite;
+}
+
+#cel45, 
+#celDos,
+#cel47,
+#cel248{
+    animation: float 3s ease-in-out infinite;
+}
+#cel148{
+    animation: float2 3s ease-in-out infinite;
+}
+
+.presentacion49 img{
+    animation: floatMin 3s ease-in-out infinite;
+}
+
+#logo51{
+    animation: floatMin2 3s ease-in-out infinite;
+    padding-top: 10px;
+}
+
+.presentacion30 table tr td{
+    padding: 20px;
+
+}
+
+
+#espadas {
+    position: absolute;
+    width: 20rem;
+    right: 4rem;
+    animation: float 5s ease-in-out infinite;
+    bottom: -8rem;
+}
+#arco {
+    position: absolute;
+    width: 20rem;
+    right: 4rem;
+    bottom: -8rem;
+    animation: floatMin2 2s ease-in-out infinite;
+}
+#bate2 {
+    position: absolute;
+    width: 5rem;
+    right: 105rem;
+    top: 20rem;
+    transform: rotate(45deg);
+    animation: float3 3s ease-in-out infinite;
+}

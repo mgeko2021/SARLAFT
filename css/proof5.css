@@ -1,0 +1,62 @@
+#proof5{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 100%;
+    top: 0%;
+    z-index: 4;
+    background-image: url("../img/PAG-6/FONDO.png");
+
+}
+
+
+.presentacion5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: black;
+    width: 100%;
+    z-index: 10;
+    background:rgba(255, 255, 255, 0.795);
+
+
+}
+
+/* .leyes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    color: black;
+    width: 100%;
+    z-index: 1000;
+    text-align: center;
+    padding-top: 5%;
+    height: 100%;
+
+} */
+
+.leyes h3 {
+    font-family: 'Fredoka One';
+    margin: auto;
+    color: rgb(255,123,8);
+    font-size: 3.5rem;
+}
+
+.leyes p {
+    margin: auto;
+    font-size: 2.5rem;
+}
+.leyes span {
+    font-weight: 600;
+}
+
+img {
+    width: 8rem;
+}
+
+

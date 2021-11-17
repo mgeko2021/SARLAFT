@@ -1,0 +1,186 @@
+#proof26{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 100%;
+    /* top: 0%; */
+    z-index:1;
+}
+
+.presentacion26 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: black;
+    width: 100%;
+    z-index: 10;
+}
+
+.arrastrarVelocidad{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+}
+
+.divArrastre {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.piezas{
+    background-color: orange;
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    text-align: left;
+    margin-left: 0.5rem;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+
+}
+.pistaArrastre img {
+    width: 20rem;
+}
+
+
+/* ------------------------------------------- */
+
+  
+  /* Contenedor del puzzle*/
+  #contenedorPuzzle {
+    width: 80%;
+    margin-top: 3rem;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+  }
+  
+  
+  /* Puzzle */
+  #contenedorPiezas{
+    width: 50%;
+    height: 65vh;
+    float: left;
+    margin-right: 3rem;
+    padding: 0.5rem;
+  }
+  
+  #puzzle {
+    background-image: url("/img/PAG-26/META.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain; 
+    width: 50%;
+    height: 65vh;
+    margin-right: 10px;
+  }
+  .contenedorPieza {
+    width: 100%;
+    height: 60vh;
+    border-style: dashed;
+    padding: 0.5rem;
+  }
+
+
+/* ---------------------- emergentes */
+
+.puntos26 {
+    background: linear-gradient(27deg, #ffffff 20%, rgba(225,225,225,1) 100%, rgb(194, 194, 194) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: black;
+    width: 100%;
+    z-index: 200;
+    position: absolute;
+    left: 100%;
+
+}
+
+.errorVelocidad {
+    background: linear-gradient(27deg, #ffffff 20%, rgba(225,225,225,1) 100%, rgb(194, 194, 194) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: black;
+    width: 100%;
+    z-index: 200;
+    position: absolute;
+    left: 100%;
+
+}
+
+.errorVelocidad img {
+    width: 18rem;
+}
+
+.errorVelocidad h2{
+    font-size: 3rem;
+}
+
+.errorVelocidad span{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+
+
+.emergentes26{
+    animation-name: emergentes26;
+    animation-duration: 1s;
+    /* animation-timing-function: cubic-bezier(.8,.17,0,.97); */
+    animation-fill-mode: forwards;
+}
+.emergentes226{
+    animation-name: emergentes226;
+    animation-duration: 1.6s;
+    /* animation-timing-function: cubic-bezier(.8,.17,0,.97); */
+    animation-fill-mode: forwards;
+}
+
+@keyframes emergentes26 {
+    0%{ left:0%;
+        opacity: 1;
+    }
+    100%{
+        left:100%;
+        opacity: 0;
+    }
+}
+
+@keyframes emergentes226 {
+    0%{ left:100%;
+        opacity: 0;
+    }
+    100%{
+        left: 0%;
+        opacity: 1;
+    }
+}
+
+.puntos26 h3 {
+    color:rgb(255,123,8);
+    font-size: 3.8rem;
+}
+
+.puntos26 span {
+    font-size: 3.8rem;
+    font-family: 'Fredoka One';
+}
+
+
+.puntos26 p{
+    color: rgb(51,51,51);
+    font-size: 1.8rem;
+}

@@ -1,0 +1,175 @@
+#proof33{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 100%;
+    z-index:1;
+}
+
+.presentacion33 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: black;
+    width: 100%;
+    z-index: 10;
+}
+
+.seleccionMultiple{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: black;
+    width: 100vw;
+    z-index: 10;
+    position: absolute;
+    top: 0;
+}
+
+.seleccion1033 {
+    background: linear-gradient(27deg, #ffffff 20%, rgba(225,225,225,1) 100%, rgb(194, 194, 194) 100%);
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    left: 100%;
+    z-index: 500;
+}
+
+.noAcerto33 {
+    background: linear-gradient(27deg, #ffffff 20%, rgba(225,225,225,1) 100%, rgb(194, 194, 194) 100%);
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    left: 100%;
+    z-index: 500;
+}
+
+.noAcerto33 h3{
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+
+.noAcerto33 p{
+    font-size: 3rem;
+}
+
+#noAcertoImg{
+    width: 22rem;
+}
+
+.seleccion1033Recuadro{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.seleccion1033Recuadro{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.seleccion1033 p{
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.seleccion1033 h3{
+    font-size: 3rem;
+   color: rgb(255, 123, 8);
+}
+
+.seleccion1033 span{
+    font-weight: 900;
+}
+
+
+
+#screen {
+    margin: auto;
+}
+
+.buttons{
+    margin: auto;
+}
+
+#seleccionImg{
+    width: 12rem;
+}
+
+select option {
+    background-color: rgb(0,128,74);
+    color: white;
+}
+
+.textoTipoSelect{
+    text-align: left;
+}
+
+.textoTipoSelect p{ 
+    font-size: 1.35rem;
+    text-align: left;
+}
+
+#resolver33{
+    background-color: rgb(0,128,74);
+    color: white;
+    border: none;
+    padding: 0.2rem 1rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    visibility: hidden;
+}
+
+.emergentes33{
+    animation-name: emergentes33;
+    animation-duration: 1s;
+    /* animation-timing-function: cubic-bezier(.8,.17,0,.97); */
+    animation-fill-mode: forwards;
+}
+.emergentes332{
+    animation-name: emergentes332;
+    animation-duration: 1.6s;
+    /* animation-timing-function: cubic-bezier(.8,.17,0,.97); */
+    animation-fill-mode: forwards;
+}
+
+@keyframes emergentes33 {
+    0%{ left:0%;
+        opacity: 1;
+    }
+    100%{
+        left:100%;
+        opacity: 0;
+    }
+}
+
+@keyframes emergentes332 {
+    0%{ left:100%;
+        opacity: 0;
+    }
+    100%{
+        left: 0%;
+        opacity: 1;
+    }
+}
+
+
+
+

@@ -1,0 +1,72 @@
+#proof19{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 100%;
+    z-index:1;
+}
+
+.presentacion19 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: black;
+    width: 100%;
+    z-index: 10;
+}
+
+.deberes{
+    display: flex;
+}
+
+.table {
+    position: relative;
+    top: 4rem;
+    text-align: left;
+    width: 50%;
+    
+}
+
+.deberesmedallas{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.deberesmedallas h3{
+    color: teal;
+    font-weight: 900;
+    font-size: 4rem;
+}
+
+.medallastable{
+}
+
+.tabletext {
+    padding: 2rem 0 4rem 2rem;
+    background-color: white;
+    border-radius: 2rem;
+    position: absolute;
+    right: 3rem;
+    top: 3rem;
+    left: 0;
+    width: 90%;
+}
+
+.tabletext h3{
+    width: 70%;
+}
+
+
+.table img {
+    width: 11rem;
+    position: absolute;
+    right:0;
+    z-index: 20;
+}
+
+
+
+

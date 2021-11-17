@@ -1,0 +1,60 @@
+#proof40a{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 100%;
+    /* top: 0%; */
+    z-index:1;
+}
+
+.presentacion40a {
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    height: 100vh;
+    text-align: center;
+    color: black;
+    width: 100%;
+    z-index: 10;
+    background-color: rgb(255, 123, 8);
+}
+
+.ultimaEstacion {
+    text-align: left;
+    font-size: 2rem;
+    color:#333333;
+    margin-bottom: 4rem;
+    width: 60%;
+    margin-left: 5rem
+    ;
+}
+.ultimaEstacion h2{
+    text-align: left;
+    font-size: 3.8rem;
+    color:#00804a;
+    font-family: 'Fredoka One';
+}
+
+.ultimaEstacion p{
+    font-size: 2.5rem;
+}
+.ultimaEstacionImg{
+    width: 40%;
+
+}
+.ultimaEstacionImg img{
+    width: 35rem;
+}
+
+@media screen and (max-width: 1400px) {
+    .ultimaEstacion h2{
+        text-align: left;
+        font-size: 3.2rem;
+        color:#00804a;
+        font-family: 'Fredoka One';
+    }
+    
+    .ultimaEstacion p{
+        font-size: 2.2rem;
+    }
+    }

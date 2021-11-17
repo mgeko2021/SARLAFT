@@ -1,0 +1,62 @@
+#proof40{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 100%;
+    z-index:1;
+}
+
+.presentacion40 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: black;
+    width: 100%;
+    z-index: 10;
+}
+
+.pasosQuejas{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    height: 100%;
+    align-items: flex-end;
+
+}
+
+.pasosQuejasText{
+    text-align: left;
+    width: 60%;
+    font-size: 1.5rem;
+    margin-bottom: 5vh;
+    overflow-y: scroll;
+    height: 70vh;
+
+}
+
+.pasosQuejasText h2{
+  margin-left: 2rem;
+  color: #00804a;
+  font-size: 3rem;
+}
+
+.pasosQuejasText li{
+    margin-bottom: 1rem;
+}
+
+.pasosQuejasImg{
+    width: 40%;
+}
+.pasosQuejasImg img{
+    width: 28rem;
+}
+
+@media (max-width: 1125px) {
+    .pasosQuejas {
+      width: 100%;
+    }
+  }
+
