@@ -1,6 +1,7 @@
 let btnNext = document.querySelectorAll('body button.nextBtn')
 let btnBefore = document.querySelectorAll('body button.beforeBtn')
 
+
 var sonido = new Audio();
 sonido.src="";
 

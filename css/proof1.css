@@ -16,5 +16,45 @@
     text-align: center;
     width: 100%;
     z-index: 10;
+    position: relative;
+}
+
+.tituleProof1{
+    position: absolute;
+    width: 100%;
+    height: 30rem;
+    top:10rem;
+}
+
+.containerProof1{
+    height: 30rem;
+    position: absolute;
+    top:calc(50%);
+}
+
+.back {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+#cazadoresProof1{
+    width: 30rem;
+    position: absolute;
+    left: calc(50% - 15rem);
+}
+
+#deProof1{
+    position: absolute;
+    width: 3rem;
+    top:7rem;
+    left: calc(50% - 8rem);
+}
+
+#riesgosProof1{
+    position: absolute;
+    width: 17rem;
+    top: 8rem;
+    left: calc(50% - 5rem);
 }
 

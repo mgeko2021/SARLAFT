@@ -6,7 +6,6 @@
 @import url(/css/proof3.css);
 @import url(/css/proof4.css);
 @import url(/css/proof3a.css);
-@import url(/css/proof5.css);
 @import url(/css/proof6.css);
 @import url(/css/proof6a.css);
 @import url(/css/proof7.css);
@@ -55,7 +54,6 @@
 @import url(/css/proof49.css);
 @import url(/css/proof50.css);
 @import url(/css/proof51.css);
-@import url(/css/anima.css);
 
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
@@ -67,6 +65,8 @@
     padding: 0;
     overflow: hidden;
     font-family: 'Rubik', sans-serif;
+    color: white;
+
 }
 
 html{
@@ -97,29 +97,40 @@ body {
 }
 
 .beforeBtn {
-    border: none;
-    box-shadow: inset 0 0 0 3px #ff7b08;
-    color: rgba(3, 3, 3, 0.911);
-    background-color: white;
+    border: 2px solid red;
+    background: transparent;
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -ms-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    transform: skew(20deg);
+    color: white;
     font-weight: 900;
-    font-size: 2rem;
-    padding: 0rem 1rem;
-    border-radius: 0.5rem;
-    z-index: 100;
+    font-size: 1.7rem;
     position: relative;
+    z-index: 100;
+    padding: 0.1rem 1rem;
+    font-style: italic;
 }
+
+
 
 .nextBtn {
     border: none;
-    box-shadow: inset 0 0 0 3px #ff7b08;
+    background: #f72c2c;
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -ms-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    transform: skew(20deg);
     color: white;
-    background-color: #ffaa5f;
     font-weight: 900;
-    font-size: 2rem;
-    padding: 0rem 1rem;
-    border-radius: 0.5rem;
-    z-index: 100;
+    font-size: 1.7rem;
     position: relative;
+    padding: 0.1rem 1rem;
+    z-index: 100;
+    margin-left: 2rem;
+    font-style: italic;
 }
 
 .nextBtn:focus {
@@ -131,29 +142,50 @@ body {
     position: absolute;
     right: 5%;
     top: 5%;
+    padding: 0 0.5rem;
 }
 
 .presentacion .nextBtn {
-    background: linear-gradient(27deg, #ff7b08 20%, rgb(255, 200, 151) 100%, rgb(255,123,1) 100%);
-    color: rgb(51,51, 51);
+    border: none;
+    background: #f72c2c;
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -ms-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    transform: skew(20deg);
+    color: white;
     font-weight: 900;
     font-size: 2rem;
-    padding: 0rem 1rem;
-    border-radius: 0.5rem;
-    margin-left: 0.8rem;
-    border: none;
+    padding: 0.1rem 0.9rem;
+    position: relative;
+    z-index: 100;
+    font-style: italic;
 }
 
-
-h5 {
-    font-size: 4rem;
-}
-
-main {
+.presentacion .nextBtn p{
+    margin: 0;
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -ms-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    transform: skew(-20deg);
+    z-index: 0;
     
-    background-color:red;
 }
 
+.logo img{
+    width: 12rem;
+}
+
+.logo {
+    margin: 2rem;
+    position: absolute;
+}
+
+
+#logomargen{
+    border-left: 1px solid white !important;
+}
 
 #paginaproof1{
     display: none;

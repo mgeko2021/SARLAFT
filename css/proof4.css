@@ -3,6 +3,7 @@
     width: 100vw;
     height: 100vh;
     top: 100%;
+    /* top: 0%; */
     z-index: 5;
 }
 
@@ -13,120 +14,26 @@
     align-items: flex-start;
     height: 100vh;
     text-align: left;
-    padding-top: 5rem;
     color: black;
     width: 100%;
-    z-index: 1000;
-    padding-left: 5%;
+    position: relative;
 }
 
-
-.presentacion4 h2{
-    font-size: 4rem;
-    font-weight: 600;
-    font-family: 'Fredoka One';
-    color: rgb(255,123,8);
-    text-shadow: black 3px 3px 2px;
-    padding-right: 0.3rem;
-    letter-spacing: 0.4rem;
-}
-
-.presentacion4 h3{
-    font-size: 4rem;
-    font-weight: 100;
-    color: rgb(255,123,8);
-    padding-right: 0.3rem;
-    margin-bottom: 0;
-}
-
-.objetivostext{
-    display: flex;
-    text-align: center;
-    margin: 0 auto;
-    padding-left: -5%;
-}
-
-.objetivostext p{
-    padding: 2.2rem;
-    margin: auto;
+.tituleProof4{
+    position: absolute;
+    width: 100%;
     text-align: center;
 }
 
-.consumidoresrelative{
-    position: relative;
-    z-index: 100;
-    width: 25rem;
-    height: 25rem;
+.tituleProof4 h2{
+    font-size: 3rem;
+    margin: 0;
 }
 
-.funcionariosrelative{
-    position: relative;
-    z-index: 100;
-    width: 25rem;
-}
-
-#SEGURIDAD{
-    position: absolute;
-    width: 18rem;
-    z-index: 4;
-    margin-left: -9rem;
-}
-
-#MEGAPHONE{
-    position: absolute;
-    width: 14rem;
-    z-index: 4;
-    margin-left: -10rem;
-}
-
-.consumidores {
-    top: 8rem;
-    margin-left: 3%;
-    background-color: rgb(255, 255, 255);
-    border-radius: 2rem;
-    box-shadow: 2px 2px 2px rgb(168, 168, 168);
-    margin-right: 0.5rem;
-    margin-bottom: 0.5rem;
-    padding-top:3rem;
-    position: absolute;
-    
-}
-
-.funcionarios {
-    top: 8rem;
-    margin-left: 3%;
-    background-color: rgb(255, 255, 255);
-    border-radius: 2rem;
-    box-shadow: 2px 2px 2px rgb(168, 168, 168);
-    margin-right: 0.5rem;
-    margin-bottom: 0.5rem;
-    padding-top:3rem;
-    position: absolute;
-}
-
-
-.consumidores p{
-    font-weight: 100;
-    font-size: 1.5rem;
-
-}
-
-.funcionarios p{
-    font-weight: 100;
-    font-size: 1.5rem; 
-}
-
-
-
-.presentacion4 p span{
-    font-size: 1.6rem;
-    font-weight: 900;
-    color:black;
-}
-
-    
-
-img {
-    width: 20rem;
+.tituleProof4 h3{
+    font-size: 4.5rem;
+    margin: 0;
+    margin-top: -1rem;
+    margin-bottom: 3rem;
 }
 

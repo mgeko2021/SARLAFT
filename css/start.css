@@ -16,3 +16,195 @@
     height: 100vh;
     text-align: center;
 }
+
+#cazadores{
+    width: 35rem;
+    position: absolute;
+    left: 5rem;
+}
+
+#de{
+    width: 3rem;
+    position: absolute;
+    left: 13rem;
+    top: 8rem;
+}
+
+#riesgos{
+    width: 15rem;
+    position: absolute;
+    top: 8rem;
+    left: 16rem;
+}
+
+.tituleStart{
+    position: relative;
+    width: 100%;
+    height: 30rem;
+}
+
+h3{
+    font-family: 'Fredoka One';
+}
+p{
+    font-size: 1.5rem;
+    margin: 0 !important;
+}
+
+.containerStart{
+    position: absolute;
+    top:25rem;
+    width: 40%;
+    left: 8rem;
+}
+.containerStart h3{
+    font-size: 2.5rem;
+}
+
+
+#palma1{
+    position: absolute;
+    bottom: -6rem;
+    width: 20rem;
+    right: 13rem;
+}
+
+#palma2{
+    position: absolute;
+    bottom: -6rem;
+    width: 10rem;
+    right: 18rem;
+}
+#palma3{
+    position: absolute;
+    bottom: -8rem;
+    width: 20rem;
+    right:2rem;
+}
+#palma4{
+    position: absolute;
+    top: -8rem;
+    width: 15rem;
+
+}
+
+.presentacionlogo{
+    position: absolute;
+}
+
+.presentacionlogo img{
+    width: 12rem;
+}
+
+.presentacionlogo {
+    margin: 2rem;
+}
+
+
+#logomargen{
+    border-left: 1px solid white !important;
+}
+
+.palma1{
+    animation: palma1 1s ease-in-out ;
+    animation-fill-mode: forwards
+}
+
+@keyframes palma1 {
+	0% {
+		transform: rotate(0deg) translatex(0px) ;
+	}
+
+	100% {
+        transform: rotate(10deg) translatex(100px);
+
+	}
+}
+
+.palma2{
+    animation: palma2 1s ease-in-out ;
+    animation-fill-mode: forwards
+}
+
+@keyframes palma2 {
+	0% {
+		transform: rotate(0deg) translatex(0px) ;
+	}
+
+	100% {
+        transform: rotate(-40deg) translatex(-100px);
+
+	}
+}
+
+.palma3{
+    animation: palma3 1s ease-in-out ;
+    animation-fill-mode: forwards
+}
+
+@keyframes palma3 {
+	0% {
+		transform: rotate(0deg) translatex(0px) ;
+	}
+
+	100% {
+        transform: rotate(5deg) translatex(50px);
+
+	}
+}
+
+.palma4{
+    animation: palma4 3s ease-in-out infinite;
+    animation-fill-mode: forwards
+}
+
+@keyframes palma4 {
+	0% {
+		transform: rotate(0deg) translatex(0px) ;
+	}
+    50%{
+        transform: rotate(0deg) translatex(0px) ;
+    }
+	100% {
+
+	}
+}
+
+.palma3{
+    animation: palma3 1s ease-in-out ;
+    animation-fill-mode: forwards
+}
+
+@keyframes palma3 {
+	0% {
+		transform: rotate(0deg) translatex(0px) ;
+	}
+
+	100% {
+        transform: rotate(5deg) translatex(50px);
+
+	}
+}
+
+
+.medio{
+    animation: medio 1s ease-in-out ;
+    animation-fill-mode: forwards
+}
+
+@keyframes medio {
+	0% {
+		transform: translateY(0px) translatex(0px) ;
+
+	}
+
+	100% {
+        transform: translateY(-20px) translatex(-80px);
+        width: 120%;
+        height: 120%;
+
+	}
+}
+
+
+

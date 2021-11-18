@@ -3,7 +3,6 @@
     width: 100vw;
     height: 100vh;
     top: 100%;
-    /* top: 0%; */
     z-index:1;
 }
 
@@ -14,74 +13,10 @@
     align-items: center;
     height: 100vh;
     text-align: center;
-    color: black;
     width: 100%;
     z-index: 10;
     margin-top: 2rem;
 }
 
-.derechos{
-    display: flex;
-}
 
-.tennis {
-    width: 60%;
-    position: relative;
-    top: 4rem;
-    text-align: left;
-    
-}
-
-.derechosmedallas{
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-}
-.derechosmedallas h3{
-    color: teal;
-    font-weight: 900;
-    font-size: 4rem;
-}
-
-.medallastennis{
-    
-}
-
-.tennistext {
-    padding: 2rem 0 4rem 2rem;
-    border-radius: 2rem;
-    position: absolute;
-    right: 3rem;
-    top: 5rem;
-    width: 90%;
-}
-
-.tennistext h3{
-    width: 70%;
-}
-
-
-.tennis img {
-    width: 13rem;
-    position: absolute;
-    right:0;
-    z-index: 20;
-}
-
-
-@media screen and (max-width: 1400px) {
- 
-    .tennistext {
-        padding: 2rem 0 15rem 2rem;
-        
-        border-radius: 2rem;
-        position: absolute;
-        right: 3rem;
-        top: 9rem;
-    }
-    .tennistext h3{
-        width: 90%;
-    }
-    
-}
 

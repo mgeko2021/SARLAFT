@@ -2,9 +2,9 @@
     position: absolute;
     width: 100vw;
     height: 100vh;
-    left: 100%;
+    /* left: 100%; */
+    left: 0%;
     top: 0%;
-    z-index: 3;
 }
 
 .presentacion6 {
@@ -13,63 +13,125 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    text-align: center;
-    color: black;
     width: 100%;
-    z-index: 10;
+    position: relative;
 }
 
-
-.presentacion6 table {
-    margin: auto;
+.presentacion6 p{
+    font-size: 1.1rem;
 }
 
-.presentacion6 td{
-    padding-left:5rem; /* Only right padding*/
+.tituleProof6{
+    position: absolute;
+    top: 13%;
+    left: 3rem;
 }
-.Ley {
+
+.tituleProof6 h3{
+    font-size: 4.2rem;
+    margin-bottom: -0.1rem;
+}
+.tituleProof6 p{
+    font-size: 1.5rem;
+}
+
+.containerProof6{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    top: 30%;
+}
+
+.gameHunt{
+    width: 25%;
+    border-right: 3px solid red;
+
+}
+.gameHuntText{
+    width: 75%;
+    padding-left: 2rem;
+}
+
+.gameHuntText p{
+    font-size: 1.35rem;
+}
+
+.gameHuntTextMove{
+    margin-bottom: 1rem;
+    width: 100%;
+    padding: 0 3rem;
+    position: relative;
+    min-height: 7rem;
+    display: flex;
+    align-items: center;
+}
+
+.gameHuntTextMoveGray{
+    background-color:rgba(255, 255, 255, 0.137);
+    position: relative;
+    padding-left: 4rem;
+    min-height: 7rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.gameHuntMove{
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-}   
-
-.Ley h3{    
-    color: rgba(7, 31, 109, 0.719);
-    font-size: 3rem;
-
-}   
-
-.Ley h4{    
-    font-size: 1.4rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.6rem;
+    min-height: 6rem;
 }
 
-.Ley span{    
-    font-weight: 600;
-}   
-
-.parrafos {
-    /* display: flex;
-    justify-content: space-around;*/
-    text-align: left; 
-    overflow-y: scroll; margin-bottom: 12px;
-    z-index: 1000;
-    width:80vw;
-    height: 50vh;
+.gameHuntMove img{
+    width: 5rem;
+    cursor: crosshair;
+    margin-bottom: 0.1rem;
 }
 
-.parrafos {
-    font-size: 1.5rem;
-}
-.parrafos span {
-    font-weight: 600;
-    font-size: 1.3rem;
+.contenedorPieza{
+    position: absolute;
+    border-style: dashed;
+    width: 6rem;
+    height: 7rem;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
 }
 
-.Ley img {
-    width: 10rem;
+.contenedorPieza1{
+    position: absolute;
+    border-style: dashed;
+    width: 6rem;
+    height: 7rem;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
 }
+
+#pieza4{
+    height: 6rem;
+}
+
+.contenedorPieza img{
+    width: 5rem;
+    
+}
+
+.contenedorPiezas{
+    min-height: 6rem;
+    min-width: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
 
 
 
