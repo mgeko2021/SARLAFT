@@ -1,5 +1,5 @@
 #proof6{
-    position: absolute;
+    position: relative;
     width: 100vw;
     height: 100vh;
     /* left: 100%; */
@@ -70,12 +70,24 @@
 .gameHuntTextMoveGray{
     background-color:rgba(255, 255, 255, 0.137);
     position: relative;
-    padding-left: 4rem;
+    padding-left: 2rem;
     min-height: 7rem;
+    margin-left: 2rem;
     display: flex;
     align-items: center;
     width: 100%;
 }
+
+#gameHuntTextMoveGrayUno{
+    position: relative;
+    padding-left: 2rem;
+    min-height: 7rem;
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
 
 .gameHuntMove{
     display: flex;
@@ -97,29 +109,24 @@
     width: 6rem;
     height: 7rem;
     left: 0;
-    z-index: 100;
+    z-index: 50;
     display: flex;
     justify-content: center;
 }
 
-.contenedorPieza1{
-    position: absolute;
-    border-style: dashed;
-    width: 6rem;
-    height: 7rem;
-    left: 0;
-    z-index: 100;
-    display: flex;
-    justify-content: center;
-}
 
 #pieza4{
-    height: 6rem;
+    height: 5.8rem;
+}
+.fondo{
+    z-index: 0;
+    opacity: 0.5;
 }
 
-.contenedorPieza img{
+.contenedorPieza .piezas{
     width: 5rem;
-    
+    z-index: 50;
+
 }
 
 .contenedorPiezas{
@@ -128,6 +135,55 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+}
+
+
+
+/* --------------emergentes-------------*/
+
+.puntos6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: black;
+    width: 100vw;
+    position: absolute;
+    z-index: 70 ;
+    /* left: 0%; */
+    left: 100%;
+}
+
+#correcto6{
+    width: 20rem;
+}
+
+.emergenteContainer h3{
+    font-size: 2.5rem;
+}
+
+
+.noPuntos6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: black;
+    width: 100vw;
+    position: absolute;
+    z-index: 70 ;
+    /* left: 0%; */
+    left: 100%;
+
+}
+
+#incorrecto6{
+    width: 20rem;
 }
 
 

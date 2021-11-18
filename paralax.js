@@ -3,6 +3,8 @@ let palma1 = document.getElementById("palma1")
 let palma2 = document.getElementById("palma2") 
 let palma3 = document.getElementById("palma3") 
 let medio = document.getElementById("medio") 
+
+
 let animar = false
 
 let proof1Paralax = () =>{
