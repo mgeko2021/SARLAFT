@@ -1,0 +1,53 @@
+/* ---------proof1--------- */
+#atrasProof1{
+    top:-100%;
+}
+
+#medioProof1{
+    top:100%;
+}
+
+#adelanteProof1{
+    opacity: 0;
+}
+/* ---------proof2--------- */
+
+
+#adelanteProof2{
+    top:100%;
+}
+
+
+/* ---------proof3a------------- */
+
+#legal{
+    position: absolute;
+    left: -100%;
+}
+
+#reputacion{
+    position: absolute;
+    left: -100%;
+}
+
+#contagio{
+    position: absolute;
+    left: -100%;
+
+}
+
+#operativo{
+    position: absolute;
+    left: 100%;
+}
+
+#corrupcion{
+    position: absolute;
+    left: 100%;
+}
+
+#emergente{
+    position: absolute;
+    left: 100%;
+}
+

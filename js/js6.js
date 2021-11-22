@@ -107,7 +107,10 @@ console.log()
         (document.getElementById('pieza3').parentNode.id=='tres') &&
         (document.getElementById('pieza4').parentNode.id=='cuatro')
         
-        ){
+        ){  
+
+          
+            
             setTimeout(() => {
 
                 for (let i = 0; i < border.length; i++) {
@@ -125,8 +128,25 @@ console.log()
             setTimeout(function(){ 
                 puntos6.classList.remove("emergentes");
                 puntos6.classList.add("emergentesreturn");
+
+          
                 // terminadoJuego = true
             }, 4000);
+
+            setTimeout(() => {
+                document.getElementById(`proof6`).classList.remove('beforeUP');
+                document.getElementById(`proof8`).classList.remove('beforeUP');
+                document.getElementById(`proof8`).classList.remove('before2UP');
+                document.getElementById(`proof6`).classList.remove('next2UP');
+                // document.getElementById(proof6).style.left = "0%"
+                document.getElementById(`proof6`).classList.add('nextUP');
+                document.getElementById(`proof8`).classList.add('next2UP');
+
+                document.getElementById(`paginaproof8`).style.display ="block"
+
+    
+            }, 6000);
+
         
         } else {
 
@@ -137,24 +157,28 @@ console.log()
                 if (document.getElementById('pieza1').parentNode.id=='uno') {
                     gray1.style.background = "linear-gradient(90deg, rgba(103,224,16,1) 0%, rgba(9,121,18,1) 43%, rgba(0,66,18,1) 100%)"
                 } else {
+                    document.getElementById("contenedorPieza1").appendChild(document.getElementById("pieza1"));
                     gray1.style.background = "linear-gradient(90deg, rgba(143,49,49,1) 0%, rgba(75,2,33,1) 100%)"
                 }
     
                 if (document.getElementById('pieza2').parentNode.id=='dos') {
                     gray2.style.background = "linear-gradient(90deg, rgba(103,224,16,1) 0%, rgba(9,121,18,1) 43%, rgba(0,66,18,1) 100%)"
                 } else {
+                    document.getElementById("contenedorPieza2").appendChild(document.getElementById("pieza2"));
                     gray2.style.background = "linear-gradient(90deg, rgba(143,49,49,1) 0%, rgba(75,2,33,1) 100%)"
                 }
     
                 if (document.getElementById('pieza3').parentNode.id=='tres') {
                     gray3.style.background = "linear-gradient(90deg, rgba(103,224,16,1) 0%, rgba(9,121,18,1) 43%, rgba(0,66,18,1) 100%)"
                 } else {
+                    document.getElementById("contenedorPieza3").appendChild(document.getElementById("pieza3"));
                     gray3.style.background = "linear-gradient(90deg, rgba(143,49,49,1) 0%, rgba(75,2,33,1) 100%)"
                 }
     
                 if (document.getElementById('pieza4').parentNode.id=='cuatro') {
                     gray4.style.background = "linear-gradient(90deg, rgba(103,224,16,1) 0%, rgba(9,121,18,1) 43%, rgba(0,66,18,1) 100%)"
                 } else {
+                    document.getElementById("contenedorPieza4").appendChild(document.getElementById("pieza4"));
                     gray4.style.background = "linear-gradient(90deg, rgba(143,49,49,1) 0%, rgba(75,2,33,1) 100%)"
                 }
     

@@ -2,7 +2,8 @@
     position: absolute;
     width: 100vw;
     height: 100vh;
-    top: 100%;
+    /* top: 100%; */
+    top: 0%;
     z-index:1;
 }
 
@@ -15,8 +16,189 @@
     text-align: center;
     width: 100%;
     z-index: 10;
-    margin-top: 2rem;
+}
+
+.tituleProof18{
+    position: absolute;
+    top:20%;
+}
+
+.tituleProof18 h4{
+    font-size: 2.5rem;
+}
+
+.tituleProof18 p{
+    font-size: 1.6rem;
+}
+
+.tituleProof18 h3{
+    font-size: 2.9rem;
+}
+
+.containerProof18{
+    position: absolute;
+    display: flex;
+    top: 50%;
+    width: 70%;
+    height: 20rem;
+}
+
+.provisional3{
+    width: 10rem;
+}
+
+.contanerRelative{
+    position: relative;
+    width: 100%;
+    height: 20rem;
+}
+
+.declarar1 {
+    position: absolute;
+    right: calc(100% - 15rem);
+    width: 30rem;
+
+}
+.declarar2 {
+    position: absolute;
+    right: calc(50% - 15rem);
+    width: 30rem;
+
+}
+
+.declarar3 {
+    position: absolute;
+    right: -15rem;
+    width: 30rem;
+}
+
+#left{
+    position: absolute;
+    left: 3%;
+    top: 60%;
+    cursor: pointer;
+    z-index: 100;
+}
+
+#rigth{
+    position: absolute;
+    right: 3%;
+    top: 60%;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.moveLeft1{
+    animation: moveLeft1 1s ease-in-out ;
+    animation-fill-mode: forwards
+}
+
+@keyframes moveLeft1 {
+	0% {
+        right: calc(100% - 15rem);
+        /* left: -15rem; */
+	}
+
+    50%{
+        /* left: -30rem; */
+        right: calc(100%  + 30rem);
+
+    }
+	51% {
+        right:-30rem;
+	}
+
+	100% {
+        right:-15rem;
+	}
 }
 
 
+.moveLeft2{
+    animation: moveLeft2 1s ease-in-out ;
+    animation-fill-mode: forwards
+}
+
+@keyframes moveLeft2 {
+	0% {
+        right:calc(50% - 15rem);
+	}
+
+	100% {
+        right: calc(100% - 15rem) ;
+	}
+}
+
+
+.moveLeft3{
+    animation: moveLeft3 1s ease-in-out ;
+    animation-fill-mode: forwards
+}
+
+@keyframes moveLeft3 {
+	0% {
+        right: -15rem;
+	}
+
+	100% {
+        right:calc(50% - 15rem);
+	}
+
+}
+
+
+.moveRight1{
+    animation: moveRight1 1s ease-in-out ;
+    animation-fill-mode: forwards
+}
+
+@keyframes moveRight1 {
+	0% {
+        right: calc(100% - 15rem);
+	}
+	100% {
+        right:calc(50% - 15rem);
+	}
+}
+
+
+.moveRight2{
+    animation: moveRight2 1s ease-in-out ;
+    animation-fill-mode: forwards
+}
+
+@keyframes moveRight2 {
+	0% {
+        right:calc(50% - 15rem);
+	}
+
+	100% {
+        right: -15rem;
+	}
+}
+
+
+.moveRight3{
+    animation: moveRight3 1s ease-in-out ;
+    animation-fill-mode: forwards
+}
+
+@keyframes moveRight3 {
+	0% {
+        right: -15rem;
+	}
+
+    50%{
+        right: calc(-30rem);
+
+    }
+	51% {
+        right:calc(100%  + 30rem);
+	}
+
+	100% {
+        right: calc(100% - 15rem);
+	}
+
+}
 

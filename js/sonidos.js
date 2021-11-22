@@ -145,7 +145,7 @@ let agilidadbool = false
 let auto3 = false
 
 
-console.log(btnNextSonidos)
+// console.log(btnNextSonidos)
 let sonidoNext = (name, nextName,nextName2) => {
   console.log(name)
     switch (name) {
@@ -153,9 +153,11 @@ let sonidoNext = (name, nextName,nextName2) => {
         case "start": // de start a prof1
             if(!startbool){
             // setTimeout(() => {
-                document.getElementById(`pagina${nextName}`).style.display ="block"
+            //     document.getElementById(`pagina${nextName}`).style.display ="block"
+            //     startbool = true
+            // }, );
+                document.getElementById(`pagina${nextName}`).style.display ="none"
                 startbool = true
-            // }, 19000);
             } else {
                 document.getElementById(`pagina${nextName}`).style.display ="block"
             }
@@ -163,12 +165,12 @@ let sonidoNext = (name, nextName,nextName2) => {
 
         
         case "proof1": // de proof 2
-            ref1.pause()  // subir lucho
+            // ref1.pause()  // subir lucho
             if(!proof1bool){
             // setTimeout(() => {
                 document.getElementById(`pagina${nextName}`).style.display ="block"
                 proof1bool = true
-            // }, 21000);
+            // }, 5000);
             } else {
                 document.getElementById(`pagina${nextName}`).style.display ="block"
             }
@@ -182,11 +184,11 @@ let sonidoNext = (name, nextName,nextName2) => {
 
         case "proof3": //automatica vertical
             if(!auto3){
-                setTimeout(() => {
-                    document.getElementById(`pagina${nextName2}`).style.display ="block"
+                // setTimeout(() => {
+                    document.getElementById(`pagina${nextName}`).style.display ="block"
                     auto3 = true
 
-            }, 5000);
+            // }, 5000);
             } else {
                 document.getElementById(`pagina${nextName}`).style.display ="block"
                 document.getElementById(`pagina${name}`).style.display ="none"
@@ -197,7 +199,7 @@ let sonidoNext = (name, nextName,nextName2) => {
         case "proof3a":
             if(!proof3abool){
             // setTimeout(() => {
-                document.getElementById(`pagina${nextName}`).style.display ="block"
+                document.getElementById(`pagina${nextName}`).style.display ="none"
                 proof3abool = true
             // }, 14000);
             } else {

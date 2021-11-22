@@ -3,6 +3,7 @@
     width: 100vw;
     height: 100vh;
     left: 100%;
+    /* left: 0%; */
     background-size: 100% 100%;
     top: 0%;
     z-index:1;
@@ -19,3 +20,60 @@
     z-index: 10;
 }
 
+.containerProof16{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 55%;
+}
+
+.tituleProof16{
+    position: absolute;
+    top:15%;
+    width: 60%;
+}
+
+.tituleProof16 p{
+    line-height: 1.8rem;
+}
+
+.tituleProof16 h3{
+    font-size: 4rem;
+}
+
+.tituleProof16 b{
+    font-size: 1.5rem;
+}
+
+.tituleProof16 h4{
+    font-size: 3rem;
+    margin-top: -1rem;
+}
+
+.containerProof16{
+    display: flex;
+    width: 85%;
+    margin: auto;
+}
+
+.provisional2{
+    width: 14rem;
+}
+
+.guia{
+    width: 33%;
+  
+}
+
+.guia img{
+    margin-bottom: 0.5rem;
+}
+
+.margin16P{
+    margin-top: 1rem;
+}
+
+.containerProof16 p{
+    font-size: 1.28rem;
+    line-height: 1.4rem;
+}

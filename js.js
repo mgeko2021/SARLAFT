@@ -15,8 +15,45 @@ let transitionNext = (name, nextName, nextName2) => {
     // desplazamiento inicial
     switch (name) {
 
+        // normalizado vetical, vertical, horizontal automatizado
+        case "proof3a":
+            document.getElementById(`${name}`).classList.remove('beforeUP');
+            document.getElementById(`${nextName}`).classList.remove('beforeUP');
+            document.getElementById(`${nextName}`).classList.remove('before2UP');
+            document.getElementById(`${name}`).classList.remove('next2UP');
+            // document.getElementById(${name}).style.left = "0%"
+            document.getElementById(`${name}`).classList.add('nextUP');
+            document.getElementById(`${nextName}`).classList.add('next2UP');
+            if(!transicionAuto){
+                setTimeout(() => {
+                    document.getElementById(`${nextName}`).classList.remove('beforeUP');
+                    document.getElementById(`${nextName}`).classList.remove('next2UP');
+                    document.getElementById(`${nextName}`).classList.add('nextUP');
+
+                    document.getElementById(`${nextName2}`).style.left = "0%";
+                    document.getElementById(`${nextName2}`).classList.remove('beforeUP');
+                    document.getElementById(`${nextName2}`).classList.add('next2');
+
+                    // document.getElementById(`pagina${nextName2}`).style.display ="block"
+
+                    transicionAuto = true
+                }, 5000);
+
+            } else {
+                document.getElementById(`${name}`).classList.remove('beforeUP');
+                document.getElementById(`${nextName}`).classList.remove('before');
+                document.getElementById(`${nextName}`).classList.remove('before2');
+                document.getElementById(`${name}`).classList.remove('next2UP');
+                document.getElementById(`${name}`).classList.add('nextUP');
+                document.getElementById(`${nextName}`).classList.add('next2');
+            }
+    
+            break;
+
+
+
         //normalizado vertical automatico
-        case "proof3":
+        case "start":
             document.getElementById(`${name}`).classList.remove('beforeUP');
             document.getElementById(`${nextName}`).classList.remove('beforeUP');
             document.getElementById(`${nextName}`).classList.remove('before2UP');
@@ -33,15 +70,19 @@ let transitionNext = (name, nextName, nextName2) => {
                     // document.getElementById(${name}).style.left = "0%"
                     document.getElementById(`${nextName}`).classList.add('nextUP');
                     document.getElementById(`${nextName2}`).classList.add('next2UP');
+
+                    //boton para mostrar
+                    document.getElementById(`pagina${nextName2}`).style.display ="block"
+
+
                     transicion1 = true
                 }, 5000);
 
             }
-
-
             break
 
          //normalizado horizontal adyecten inmediatamente anterior de la 15
+        // case "start":
         case "proof15":
             document.getElementById(`${name}`).classList.remove('beforeUP');
             document.getElementById(`${nextName}`).classList.remove('before');
@@ -75,7 +116,6 @@ let transitionNext = (name, nextName, nextName2) => {
     
 
         //normalizado horizontal adyecten inmediatamente anterior
-        case "proof1" :
         case "proof4" : 
         case "proof8" :
         case "proof15":
@@ -97,7 +137,6 @@ let transitionNext = (name, nextName, nextName2) => {
             break;
 
         //normalizado horizontal
-        case "proof2":
         case "proof6":
         case "proof13":
         case "proof16":
@@ -175,7 +214,6 @@ let transitionBefore = (name, beforeName) => {
 
 
 
-        case "proof2":
         case "proof6":
             
         case "proof13":
@@ -197,7 +235,6 @@ let transitionBefore = (name, beforeName) => {
             document.getElementById(`${name}`).classList.remove('beforeUP');
             break;
         
-        case "proof3" :
         case "proof8":
         case "proof23":
         case "proof17":

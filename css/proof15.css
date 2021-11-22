@@ -3,6 +3,7 @@
     width: 100vw;
     height: 100vh;
     top: 100%;
+    /* top: 0%; */
     z-index:1;
 }
 
@@ -13,7 +14,58 @@
     align-items: center;
     height: 100vh;
     text-align: center;
-    color: black;
     width: 100%;
     z-index: 10;
+}
+
+.tituleProof15{
+    position: absolute;
+    top: 20%;
+    left: 3.5rem;
+    text-align: left;
+}
+.tituleProof15 p{
+    font-size:2.8rem;
+    color: white ;
+}
+
+.tituleProof15 h3{
+    font-size:3.5rem;
+    margin-top: -1rem;
+    color: white ;
+}
+
+.containerProof15{
+    position: absolute;
+    display: flex;
+    text-align: left;
+    width: 90%;
+    align-items: center;
+    top:34%;
+}
+
+.containerProof15Text{
+    width: 60%;
+}
+
+.containerProof15TextP{
+    margin: 2rem 0;
+}
+
+.containerProof15TextTable p{
+    font-size: 1.3rem;
+}
+
+
+.containerProof15Img{
+    width: 30%;
+    margin: auto;
+}
+
+#provisional{
+    width: 18rem;
+}
+
+.ruta{
+    margin-bottom: 1rem;
 }

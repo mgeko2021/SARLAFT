@@ -21,8 +21,8 @@
   next.src = "./sonidos/next.mp3";
 
 </script>
-
-<body style="background: #2d572c;">
+<!-- <body style="background: no-repeat center url(/img/PAG-2/FONDO-MEDIO.png)" > -->
+<body style="background: #277027 " >
 
   <div class="logo" style="z-index: 100;">
     <img src="./img/LOGO-2.png" alt="">
@@ -42,6 +42,7 @@
       <img id="atras" class="back" src="./img/PAG-1/FONDO-ATRAS.png" alt="">
       <img id="medio" class="back" src="./img/PAG-1/FONDO-MEDIO.png" alt="">
       <img id="adelante" class="back" src="./img/PAG-1/FONDO-ADELANTE.png" alt=""> 
+      <img id="fondo1" class="back" src="./img/PAG-1/FONDO-PARA-TEXTO.png" alt=""> 
       <img id="palma2" src="./img/PAG-1/PALMA-2.png" alt=""> 
       <img id="palma1" src="./img/PAG-1/PALMA-1.png" alt=""> 
       <img id="palma3" src="./img/PAG-1/PALMA-3.png" alt=""> 
@@ -69,15 +70,12 @@
     $(document).ready(function() {
     // $("#next").click(function(event) {
     //   $("#proof1").load('/IndexProof/proof1.html');
-    // });
-
-    // $("#next1").click(function(event) {
     //   $("#proof2").load('/IndexProof/proof2.html');
+    //   $("#proof3").load('/IndexProof/proof3.html');
+
     // });
 
-    // $("#next2").click(function(event) {
-    //   $("#proof3").load('/IndexProof/proof3.html');
-    // });
+
 
     // let proof3aLoad = false
     // $("#next3").click(function(event) {
@@ -243,26 +241,24 @@
 
 
 
-    //   $("#proof13").load('/IndexProof/proof13.html');
+      $("#proof13").load('/IndexProof/proof13.html');
 
 
 
-    //   $("#proof15").load('/IndexProof/proof15.html');
+      $("#proof15").load('/IndexProof/proof15.html');
 
 
     // // ------------automatica---------------
 
-    //   $("#proof16").load('/IndexProof/proof16.html');
-    //   $("#proof17").load('/IndexProof/proof17.html');
+      $("#proof16").load('/IndexProof/proof16.html');
+      $("#proof17").load('/IndexProof/proof17.html');
 
 
 
 
-    //   $("#proof18").load('/IndexProof/proof18.html');
+      $("#proof18Prov").load('/IndexProof/proof18.html');
 
-
-
-    //   $("#proof21").load('/IndexProof/proof21.html');
+      $("#proof21").load('/IndexProof/proof21.html');
 
 
 
@@ -459,7 +455,12 @@
     <button id="before18" type="button" class="beforeBtn" name="proof18" onmousedown="before.play()">Anterior</button>
     <button id="next18" type="button" class="nextBtn" name="proof18" onmousedown="next.play()">Siguiente18</button>
   </div>
+
   <section id="proof18">
+  <img  id="left" src="/img/pngwing1.png" alt="">
+  <img  id="rigth" src="/img/pngwing2.png" alt="">
+  <div id="proof18Prov">
+  </div>
   </section>
 
 <!-- ------------------proof21---------------------->
@@ -658,6 +659,7 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="./paralax.js"></script>
+<script src="/js/move18.js"></script>
 <script src="/js/js6.js"></script>
 <!-- <script src="./js/j16y17Sonidos.js"></script>
 <script src="./js/j15Sonidos.js"></script> -->

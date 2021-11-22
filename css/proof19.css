@@ -69,4 +69,53 @@
 
 
 
+.moveLeft1{
+    animation: moveLeft1 1s ease-in-out ;
+    animation-fill-mode: forwards
+}
+
+@keyframes moveLeft1 {
+	0% {
+        right: calc(100% - 15rem);
+        /* left: -15rem; */
+	}
+
+    50%{
+        /* left: -30rem; */
+        right: calc(100%  + 30rem);
+
+    }
+	51% {
+        right:-30rem;
+	}
+
+	100% {
+        right:-15rem;
+	}
+}
+
+
+.moveLeft2{
+    animation: moveLeft2 1s ease-in-out ;
+    animation-fill-mode: forwards
+}
+
+@keyframes moveLeft2 {
+	0% {
+        right:calc(50% - 15rem);
+	}
+
+	100% {
+        right: calc(100% - 15rem) ;
+	}
+}
+
+
+.moveLeft3{
+    animation: moveLeft3 1s ease-in-out ;
+    animation-fill-mode: forwards
+}
+
+
+
 

@@ -206,5 +206,142 @@ p{
 	}
 }
 
+.fondo1{
+    animation: fondo1 1s ease-in-out ;
+    animation-fill-mode: forwards
+}
+
+@keyframes fondo1 {
+	0% {
+		transform:  translatex(0px) ;
+
+	}
+
+	100% {
+        transform: translatex(-80px);
+	}
+}
+
+
+
+
+.palma1Out{
+    animation: palma1Out 1s ease-in-out ;
+    animation-fill-mode: forwards
+}
+
+@keyframes palma1Out {
+	0% {
+        transform: rotate(10deg) translatex(100px);
+	}
+
+	100% {
+		transform: rotate(0deg) translatex(0px) ;
+
+	}
+}
+
+.palma2Out{
+    animation: palma2Out 1s ease-in-out ;
+    animation-fill-mode: forwards
+}
+
+@keyframes palma2Out {
+	0% {
+        transform: rotate(-40deg) translatex(-100px);
+
+	}
+
+	100% {
+		transform: rotate(0deg) translatex(0px) ;
+
+
+	}
+}
+
+.palma3Out{
+    animation: palma3Out 1s ease-in-out ;
+    animation-fill-mode: forwards
+}
+
+@keyframes palma3Out {
+	0% {
+        transform: rotate(5deg) translatex(50px);
+	}
+
+	100% {
+		transform: rotate(0deg) translatex(0px) ;
+	}
+}
+
+.palma4Out{
+    animation: palma4Out 3s ease-in-out infinite;
+    animation-fill-mode: forwards
+}
+
+@keyframes palma4Out {
+	0% {
+		transform: rotate(0deg) translatex(0px) ;
+	}
+    50%{
+        transform: rotate(0deg) translatex(0px) ;
+    }
+	100% {
+
+	}
+}
+
+.palma3Out{
+    animation: palma3Out 1s ease-in-out ;
+    animation-fill-mode: forwards
+}
+
+@keyframes palma3Out {
+	0% {
+		transform: rotate(0deg) translatex(0px) ;
+	}
+
+	100% {
+        transform: rotate(-5deg) translatex(-50px);
+
+	}
+}
+
+
+.medioOut{
+    animation: medioOut 1s ease-in-out ;
+    animation-fill-mode: forwards
+}
+
+@keyframes medioOut {
+	0% {
+        transform: translateY(-20px) translatex(-80px);
+        width: 120%;
+        height: 120%;
+
+	}
+
+	100% {
+		transform: translateY(0px) translatex(0px) ;
+	}
+}
+
+.fondo1Out{
+    animation: fondo1Out 1s ease-in-out ;
+    animation-fill-mode: forwards
+}
+
+@keyframes fondo1Out {
+	0% {
+        transform: translatex(-80px);
+
+	}
+
+	100% {
+		transform:  translatex(0px) ;
+
+	}
+}
+
 
 

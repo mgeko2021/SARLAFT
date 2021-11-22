@@ -8,7 +8,7 @@
 }
 .next2{
     animation-name: next2;
-    animation-duration: 2.75s;
+    animation-duration: 1.7s;
     /* animation-timing-function: cubic-bezier(.8,.17,0,.97); */
     animation-fill-mode: forwards;
 }
@@ -118,7 +118,6 @@
 
 @keyframes beforeUP {
     0%{ top:-100%;
-        transform: rotate(-30deg);
     }
     100%{
         top: 0%;

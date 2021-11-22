@@ -1,0 +1,161 @@
+/* ---------------movimientos------------ */
+
+.animaDown{
+    animation: animaDown 1s ease-in-out ;
+    animation-fill-mode: forwards
+}
+
+@keyframes animaDown {
+	0% {
+		top:-100% ;
+	}
+
+	100% {
+        top:0%;
+
+	}
+}
+
+.animaIzq{
+    animation: animaIzq 1s ease-in-out ;
+    animation-fill-mode: forwards
+}
+
+@keyframes animaIzq {
+	0% {
+        left: -100%;
+	}
+
+	100% {
+        left: 0%;
+	}
+}
+
+.animaUps{
+    animation: animaUps 1s ease-in-out ;
+    animation-fill-mode: forwards
+}
+
+@keyframes animaUps {
+	0% {
+		top:100% ;
+	}
+	100% {
+        top:0%;
+	}
+}
+
+/* ---------opactity----------- */
+
+.opacity{
+    animation: opacity 4s ease-in-out ;
+    animation-fill-mode: forwards
+}
+
+@keyframes opacity {
+	0% {
+		opacity:0;
+	}
+	100% {
+        opacity:1;
+	}
+}
+
+
+/* ----------icons proof3a------------------ */
+
+.icons1{
+    animation: icons1 0.5s ease-in-out ;
+    animation-fill-mode: forwards
+}
+
+@keyframes icons1 {
+	0% {
+		left:-100% ;
+		
+	}
+	100% {
+        left:18%;
+		top: 0%;
+	}
+}
+
+.icons2{
+    animation: icons2 0.5s ease-in-out ;
+    animation-fill-mode: forwards
+}
+
+@keyframes icons2 {
+	0% {
+		left:-100% ;
+		
+	}
+	100% {
+        left:45%;
+		top: 0%;
+	}
+}
+.icons3{
+    animation: icons3 0.5s ease-in-out ;
+    animation-fill-mode: forwards
+}
+
+@keyframes icons3 {
+	0% {
+		left:-100% ;
+		
+	}
+	100% {
+        left:69%;
+		top: 0%;
+	}
+}
+
+
+.icons4{
+    animation: icons4 0.5s ease-in-out ;
+    animation-fill-mode: forwards
+}
+
+@keyframes icons4 {
+	0% {
+		left:100% ;
+		
+	}
+	100% {
+        left:18%;
+		top:47%;
+	}
+}
+
+.icons5{
+    animation: icons5 0.5s ease-in-out ;
+    animation-fill-mode: forwards
+}
+
+@keyframes icons5 {
+	0% {
+		left:100% ;
+		
+	}
+	100% {
+        left:45%;
+		top:47%;
+	}
+}
+.icons6{
+    animation: icons6 0.5s ease-in-out ;
+    animation-fill-mode: forwards
+}
+
+@keyframes icons6 {
+	0% {
+		left:100% ;
+		
+	}
+	100% {
+        left:69%;
+		top:47%;
+	}
+}
+
