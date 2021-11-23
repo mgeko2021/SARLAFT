@@ -3,6 +3,7 @@
 @import url(/css/posiciones.css);
 @import url(/css/cronometro.css);
 @import url(/css/transiciones.css);
+@import url(/css/proof0.css);
 @import url(/css/proof1.css);
 @import url(/css/proof2.css);
 @import url(/css/proof3.css);
@@ -17,16 +18,9 @@
 @import url(/css/proof16.css);
 @import url(/css/proof17.css);
 @import url(/css/proof18.css);
-@import url(/css/proof19.css);
-@import url(/css/proof20.css);
 @import url(/css/proof21.css);
-@import url(/css/proof22.css);
-@import url(/css/proof23.css);
 @import url(/css/proof24.css);
-@import url(/css/proof25.css);
 @import url(/css/proof26.css);
-@import url(/css/proof27.css);
-@import url(/css/proof28.css);
 @import url(/css/proof29.css);
 @import url(/css/proof30.css);
 @import url(/css/proof31.css);
@@ -175,6 +169,7 @@ body {
 .logo {
     margin: 2rem;
     position: absolute;
+    z-index: 100;
 }
 
 /* ----------emergente animation------------ */
@@ -224,6 +219,9 @@ body {
 
 #logomargen{
     border-left: 1px solid white !important;
+}
+#paginaproof0{
+    display: none;
 }
 
 #paginaproof1{

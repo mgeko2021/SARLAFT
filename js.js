@@ -6,6 +6,7 @@ var sonido = new Audio();
 sonido.src="";
 
 let transicionAuto = false
+let transicionAutoVHV = false
 let transicion1 = false
 let click = false
 
@@ -53,7 +54,7 @@ let transitionNext = (name, nextName, nextName2) => {
 
 
         //normalizado vertical automatico
-        case "start":
+        case "proof0":
             document.getElementById(`${name}`).classList.remove('beforeUP');
             document.getElementById(`${nextName}`).classList.remove('beforeUP');
             document.getElementById(`${nextName}`).classList.remove('before2UP');
@@ -90,7 +91,7 @@ let transitionNext = (name, nextName, nextName2) => {
             document.getElementById(`${name}`).classList.remove('next2UP');
             document.getElementById(`${name}`).classList.add('nextUP');
             document.getElementById(`${nextName}`).classList.add('next2');
-            if(!transicionAuto){
+            if(!transicionAutoVHV){
                 setTimeout(() => {
                     document.getElementById(`${nextName}`).style.left = "0%";
                     document.getElementById(`${nextName}`).classList.remove('beforeUP');
@@ -116,11 +117,11 @@ let transitionNext = (name, nextName, nextName2) => {
     
 
         //normalizado horizontal adyecten inmediatamente anterior
-        case "proof4" : 
-        case "proof8" :
-        case "proof15":
-        case "proof18":
-        case "proof26":
+        case "proof4" : //6
+        case "proof8" : //13
+        case "proof15": //16
+        case "proof18": //21
+        case "proof26": //29
         case "proof30":
         case "proof33":
         case "proof36":
@@ -189,30 +190,26 @@ let transitionBefore = (name, beforeName) => {
             break;
 
         //nuevas paginas before
-        case "proof17":  
-            if (!click17) {
+        // case "proof17":  
+        //     if (!click17) {
 
-                document.getElementById(`${beforeName}`).classList.remove('next2');
-                document.getElementById(`${name}`).classList.remove('next2');
-                document.getElementById(`${beforeName}`).classList.remove('nextUP');  
+        //         document.getElementById(`${beforeName}`).classList.remove('next2');
+        //         document.getElementById(`${name}`).classList.remove('next2');
+        //         document.getElementById(`${beforeName}`).classList.remove('nextUP');  
 
-                document.getElementById(`${name}`).classList.remove('next2UP');
-                document.getElementById(`${name}`).classList.add('before2UP');
+        //         document.getElementById(`${name}`).classList.remove('next2UP');
+        //         document.getElementById(`${name}`).classList.add('before2UP');
        
-                document.getElementById(`proof16`).classList.remove('beforeUP');
-                document.getElementById(`proof16`).classList.remove('before2');
-                document.getElementById(`proof16`).classList.remove('next2UP');
-                document.getElementById(`proof16`).classList.add('next2');
+        //         document.getElementById(`proof16`).classList.remove('beforeUP');
+        //         document.getElementById(`proof16`).classList.remove('before2');
+        //         document.getElementById(`proof16`).classList.remove('next2UP');
+        //         document.getElementById(`proof16`).classList.add('next2');
 
-            } else {
-                document.getElementById(`proof17`).classList.remove('before2UP');
-            }
+        //     } else {
+        //         document.getElementById(`proof17`).classList.remove('before2UP');
+        //     }
     
-            break;
-    
-  
-
-
+        //     break;
 
         case "proof6":
             
@@ -283,13 +280,8 @@ btnBefore.forEach((button, index) => {
 })
 
 
-const elements = document.getElementsByName("proof9")
 
 
-const saltos =() => {
-    console.log()
-
-}
 
 
 

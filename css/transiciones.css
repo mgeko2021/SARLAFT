@@ -1,5 +1,3 @@
-
-
 .next{
     animation-name: next;
     animation-duration: 1.25s;
@@ -30,8 +28,6 @@
         opacity: 1;
     }
 }
-
-
 
 
 .before{

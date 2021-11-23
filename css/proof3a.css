@@ -54,33 +54,40 @@
     text-align: center;
     width: 26%;
     margin-bottom: 1rem;
-    height: 12rem;
+    height: 14rem;
 }
 
 #legal{
-  width: 9.5rem;
+  width:12rem;
+  margin-top: 1.5rem;
+  margin-left: -1.5rem;
     
 }
 #reputacion{
-    
+    width:9rem;
+    margin-top: -0.5rem;
 }
 
 #contagio{
-    width: 9rem;
-    margin-top: -1rem;
+    width: 10rem;
+    margin-top: 1.5rem;
 }
 
 #operativo{
-    width:9.3rem;
-
+    width:9.5rem;
+    margin-top: 2.3rem;
 }
 
 #corrupcion{
-    width:8.5rem;
+    margin-top: 2.3rem;
+    margin-left: -0.5rem;
+    width:9.5rem;
 }
 
 #emergente{
-    width:8.8rem;
+    width:11.5rem;
+    margin-left: -1.2rem;
+    margin-top: 3rem;
 }
 
 

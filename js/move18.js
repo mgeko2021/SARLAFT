@@ -9,7 +9,9 @@ let moveLeft = () => {
     let move2 = document.getElementById("move2") 
     let move3 = document.getElementById("move3") 
 
-    
+    let move1Img = document.getElementById("move1Img") 
+    let move2Img = document.getElementById("move2Img") 
+    let move3Img = document.getElementById("move3Img") 
 
 
     move1.classList.remove("moveRight1")
@@ -28,7 +30,13 @@ let moveLeft = () => {
             contanerRelative.classList.remove("position2")
             contanerRelative.classList.add("position3")
 
+            move3Img.classList.remove("imgWidthMax")
+            move3Img.classList.add("imgWidthMin")
             // 231
+
+            
+            move1Img.classList.remove("imgWidthMin")
+            move1Img.classList.add("imgWidthMax")
 
             move1.classList.remove("moveLeft1")
             move2.classList.remove("moveLeft2")
@@ -38,12 +46,17 @@ let moveLeft = () => {
             move2.classList.add("moveLeft1")
             move3.classList.add("moveLeft2")
             
-            console.log("ya me movi")
         } 
         else if(contanerRelative.classList.contains('position3')){
             contanerRelative.classList.remove("position3")
             contanerRelative.classList.add("position1")
 
+                  
+            move1Img.classList.remove("imgWidthMax")
+            move1Img.classList.add("imgWidthMin")
+
+            move2Img.classList.remove("imgWidthMin")
+            move2Img.classList.add("imgWidthMax")
             // 312
 
             move1.classList.remove("moveLeft3")
@@ -55,11 +68,17 @@ let moveLeft = () => {
             move3.classList.add("moveLeft1")
         }
         else{
+            move1Img.classList.remove("imgWidthMin")
+
             contanerRelative.classList.remove("position1")
             contanerRelative.classList.add("position2")
 
+            move2Img.classList.remove("imgWidthMax")
+            move2Img.classList.add("imgWidthMin")
             // 123
-
+            move3Img.classList.remove("imgWidthMin")
+            move3Img.classList.add("imgWidthMax")
+ 
             move1.classList.remove("moveLeft2")
             move2.classList.remove("moveLeft3")
             move3.classList.remove("moveLeft1")
@@ -80,6 +99,11 @@ let moveRigth = () => {
     let move2 = document.getElementById("move2") 
     let move3 = document.getElementById("move3") 
 
+    let move1Img = document.getElementById("move1Img") 
+    let move2Img = document.getElementById("move2Img") 
+    let move3Img = document.getElementById("move3Img") 
+
+
     move1.classList.remove("moveLeft1")
     move1.classList.remove("moveLeft2")
     move1.classList.remove("moveLeft3")
@@ -96,6 +120,12 @@ let moveRigth = () => {
             contanerRelative.classList.remove("position3")
             contanerRelative.classList.add("position2")
 
+            move1Img.classList.remove("imgWidthMax")
+            move1Img.classList.add("imgWidthMin")
+
+            
+            move3Img.classList.remove("imgWidthMin")
+            move3Img.classList.add("imgWidthMax")
 
 
             move1.classList.remove("moveRight1")
@@ -112,6 +142,11 @@ let moveRigth = () => {
             contanerRelative.classList.remove("position2")
             contanerRelative.classList.add("position1")
 
+            move3Img.classList.add("imgWidthMin")
+
+            move2Img.classList.remove("imgWidthMin")
+            move2Img.classList.add("imgWidthMax")
+
             move1.classList.remove("moveRight2")
             move2.classList.remove("moveRight3")
             move3.classList.remove("moveRight1")
@@ -125,7 +160,13 @@ let moveRigth = () => {
             contanerRelative.classList.remove("position1")
             contanerRelative.classList.add("position3")
 
+            move2Img.classList.remove("imgWidthMax")
+            move2Img.classList.add("imgWidthMin")
+
             // 123
+            move1Img.classList.remove("imgWidthMin")
+            move1Img.classList.add("imgWidthMax")
+
 
             move1.classList.remove("moveRight3")
             move2.classList.remove("moveRight1")

@@ -8,7 +8,7 @@ let build = (name, nextName, nextName2) =>{
 
 
     switch (name) {
-        case "start":
+        case "proof0":
             let atrasProof1 = document.getElementById("atrasProof1")
             let medioProof1 = document.getElementById("medioProof1")
             let adelanteProof1 = document.getElementById("adelanteProof1")
@@ -31,12 +31,11 @@ let build = (name, nextName, nextName2) =>{
             
             break;
         case "proof3":
-
-            let legal3a = document.getElementById("legal")
-            let legal6a = document.getElementById("emergente")
-            legal3a.classList.add("icons1")
-            legal6a.classList.add("icons6")
-
+            let contagio3a = document.getElementById("contagio")
+            let operativo3a = document.getElementById("operativo")
+            contagio3a.classList.add("icons3")
+            operativo3a.classList.add("icons4")
+      
             setTimeout(() => {
                 let reputacion3a = document.getElementById("reputacion")
                 let corrupcion3a = document.getElementById("corrupcion")
@@ -46,10 +45,11 @@ let build = (name, nextName, nextName2) =>{
             }, 500);
             
             setTimeout(() => {
-                let contagio3a = document.getElementById("contagio")
-                let operativo3a = document.getElementById("operativo")
-                contagio3a.classList.add("icons3")
-                operativo3a.classList.add("icons4")
+                let legal3a = document.getElementById("legal")
+                let legal6a = document.getElementById("emergente")
+                legal3a.classList.add("icons1")
+                legal6a.classList.add("icons6")
+  
             }, 1000);
 
             

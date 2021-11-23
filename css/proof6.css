@@ -115,8 +115,13 @@
 }
 
 
+#pieza1{
+    height: 5.8rem;
+}
+
 #pieza4{
     height: 5.8rem;
+    width: 6rem;
 }
 .fondo{
     z-index: 0;

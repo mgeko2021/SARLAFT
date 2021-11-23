@@ -76,6 +76,7 @@ silbato.src="./sonidos/SILBATO.mp3";
 
 
 let startbool = false
+let proof0bool = false
 let proof1bool = false
 let proof3abool = false
 let proof4bool = false
@@ -89,6 +90,7 @@ let proof7bool = false
 let proof9bool = false
 
 let proof11bool = false
+let proof18bool = false
 
 let proof36bool = false
 
@@ -156,8 +158,21 @@ let sonidoNext = (name, nextName,nextName2) => {
             //     document.getElementById(`pagina${nextName}`).style.display ="block"
             //     startbool = true
             // }, );
-                document.getElementById(`pagina${nextName}`).style.display ="none"
+                document.getElementById(`pagina${nextName}`).style.display ="block"
                 startbool = true
+            } else {
+                document.getElementById(`pagina${nextName}`).style.display ="block"
+            }
+            break
+
+        case "proof0": // de start a prof1
+            if(!proof1bool){
+            // setTimeout(() => {
+            //     document.getElementById(`pagina${nextName}`).style.display ="block"
+            //     startbool = true
+            // }, );
+                document.getElementById(`pagina${nextName}`).style.display ="none"
+                proof1booll = true
             } else {
                 document.getElementById(`pagina${nextName}`).style.display ="block"
             }
@@ -257,8 +272,12 @@ let sonidoNext = (name, nextName,nextName2) => {
         
         
         case "proof18": //pista nivles vistos
+        if(!proof18bool){
+                document.getElementById(`pagina${nextName}`).style.display ="none"
+                proof18bool = true
+            } else {
                 document.getElementById(`pagina${nextName}`).style.display ="block"
-                document.getElementById(`pagina${name}`).style.display ="none"
+            }
             break;
         
         case "proof21": //pista nivles vistos

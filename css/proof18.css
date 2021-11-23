@@ -2,8 +2,8 @@
     position: absolute;
     width: 100vw;
     height: 100vh;
-    /* top: 100%; */
-    top: 0%;
+    top: 100%;
+    /* top: 0%; */
     z-index:1;
 }
 
@@ -38,19 +38,24 @@
 .containerProof18{
     position: absolute;
     display: flex;
-    top: 50%;
+    top: 45%;
     width: 70%;
-    height: 20rem;
+    height: 40rem;
 }
 
-.provisional3{
+.img18uno{
+    width: 10rem;
+}
+.img18dos{
+    width: 13rem;
+}
+.img18tres{
     width: 10rem;
 }
 
 .contanerRelative{
     position: relative;
     width: 100%;
-    height: 20rem;
 }
 
 .declarar1 {
@@ -201,4 +206,44 @@
 	}
 
 }
+
+.imgWidthMax{
+    animation: imgWidthMax 1s ease-in-out ;
+    animation-fill-mode: forwards
+}
+
+@keyframes imgWidthMax {
+	0% {
+        width: 10rem;
+	}
+
+
+	100% {
+        width: 14rem;
+	}
+
+}
+
+.imgWidthMin{
+    animation: imgWidthMin 1s ease-in-out ;
+    animation-fill-mode: forwards
+}
+
+@keyframes imgWidthMin {
+	0% {
+        width: 14rem;
+	}
+
+
+	100% {
+        width: 10rem;
+	}
+
+}
+
+
+
+
+
+
 

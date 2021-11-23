@@ -24,7 +24,7 @@
     display: flex;
     width: 100%;
     position: absolute;
-    top: 55%;
+    top: 50%;
 }
 
 .tituleProof16{
@@ -52,21 +52,26 @@
 
 .containerProof16{
     display: flex;
-    width: 85%;
+    width: 95%;
     margin: auto;
+    justify-content: center;
+    height: 22rem;
 }
 
 .provisional2{
     width: 14rem;
 }
 
-.guia{
-    width: 33%;
-  
+.guia1{
+    position: absolute;
+    left: 8%;
 }
-
-.guia img{
-    margin-bottom: 0.5rem;
+.guia2{
+    position: absolute;
+}
+.guia3{
+    position: absolute;
+    right: 0;
 }
 
 .margin16P{
@@ -77,3 +82,19 @@
     font-size: 1.28rem;
     line-height: 1.4rem;
 }
+
+#PEP1{
+    width: 13.5rem;
+    margin-top: -2rem;
+    margin-bottom: 0.8rem;
+}
+#PEP2{
+    width: 18rem;
+    margin-bottom: 0.8rem;
+}
+#PEP3{
+    width: 22rem;
+    margin-left: 8rem;
+    margin-bottom: 0.8rem;
+}
+
