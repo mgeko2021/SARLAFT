@@ -3,6 +3,7 @@
     width: 100vw;
     height: 100vh;
     top: 100%;
+    /* top: 0%; */
     z-index:1;
 }
 
@@ -19,7 +20,202 @@
     z-index: 10;
 }
 
-.seleccionMultiple{
+.tituleProof33{
+    position: absolute;
+    top: 13%;
+    left: 5%;
+    text-align: left;
+    width: 100%;
+}
+
+.tituleProof33 h3{
+    font-size: 2.7rem;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.tituleProof33 p{
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.tituleProof33 p b{
+    font-size: 1.4rem;
+    margin-top: 0.5rem;
+}
+
+.containerProof33{ 
+    position: absolute;
+    display: flex;
+    top: 15%;
+    margin: auto;
+    width: 95%;
+    height: 85%;
+    justify-content: space-between;
+
+}
+
+.containerProof33Text{
+    text-align: left;
+    margin-top: 17%;
+}
+
+#provisional33{
+    width: 33rem;
+}
+
+.containerProof33Img{
+    margin: auto;
+}
+
+/* ------33------- */
+
+
+.gameHunt33{
+    width: 35%;
+    margin-top: 10%;
+}
+.gameHuntText33{
+    top: 23%;
+    width: 65%;
+    position: relative;
+    height: 70%;
+    border: 1px solid white;
+}
+
+
+
+.gameHuntTextMove33{
+    margin-bottom: 1rem;
+    padding: 0 3rem;
+    position: relative;
+    min-height: 7rem;
+    display: flex;
+    align-items: center;
+}
+
+
+
+#gameHuntTextMoveGrayUno{
+    position: relative;
+    padding-left: 2rem;
+    min-height: 7rem;
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+
+.gameHuntMove33{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.4rem;
+    position: relative;
+}
+
+.gameHuntMove33Parr{
+    text-align: left;
+    display: flex;
+    justify-content: right;
+    margin-top: 1.5rem;
+
+}
+
+.gameHuntMove33Parr p{
+    background-color: rgba(187, 126, 35, 0.438);
+    font-size: 1rem;
+    padding: 0.1rem 0.2rem 0.2rem 1rem;
+    width: 88%;
+    border-radius: 0.3rem;
+}
+
+.gameHuntMove33 img{
+    width: 100%;
+    cursor: crosshair;
+}
+
+.contenedorPieza33{
+    position: absolute;
+    border-style:dashed;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    left: 0;
+    z-index: 50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    background-color: white;
+    border-color: brown;
+    color: black;
+    font-size: 1.5rem;
+}
+.contenedorPieza33 h3{
+    color: black;
+    margin: 0;
+}
+
+#uno33{
+    top: 10%;
+    left: 40%;
+    
+}
+
+#dos33{
+    top: 35%;
+    left: 15%;
+}
+#tres33{
+    top: 30%;
+    left: 60%;
+}
+#cuatro33{
+    top: 60%;
+    left: 70%;
+}
+
+#pieza1{
+    height: 5.8rem;
+}
+
+#pieza4{
+    height: 5.8rem;
+    width: 6rem;
+}
+.fondo{
+    z-index: 0;
+    opacity: 0.5;
+}
+
+.contenedorPieza .piezas33{
+    width: 5rem;
+    z-index: 50;
+
+}
+
+.contenedorPiezas33{
+    height: 3.2rem;
+    width: 3.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    margin-left: 0.5rem;
+    border-radius: 50%;
+    border: dashed;
+    border-color: rgb(116, 102, 84);
+    
+}
+
+
+
+/* --------------emergentes-------------*/
+
+.puntos6 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,147 +224,42 @@
     text-align: center;
     color: black;
     width: 100vw;
-    z-index: 10;
     position: absolute;
-    top: 0;
-}
-
-.seleccion1033 {
-    background: linear-gradient(27deg, #ffffff 20%, rgba(225,225,225,1) 100%, rgb(194, 194, 194) 100%);
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
+    z-index: 70 ;
+    /* left: 0%; */
     left: 100%;
-    z-index: 500;
 }
 
-.noAcerto33 {
-    background: linear-gradient(27deg, #ffffff 20%, rgba(225,225,225,1) 100%, rgb(194, 194, 194) 100%);
-    position: absolute;
-    width: 100vw;
+#correcto6{
+    width: 20rem;
+}
+
+.emergenteContainer h3{
+    font-size: 2.5rem;
+}
+
+
+.noPuntos6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
-    display: flex;
+    text-align: center;
+    color: black;
+    width: 100vw;
+    position: absolute;
+    z-index: 70 ;
+    /* left: 0%; */
     left: 100%;
-    z-index: 500;
+
 }
 
-.noAcerto33 h3{
-    font-size: 3.5rem;
-    font-weight: 900;
-}
-
-.noAcerto33 p{
-    font-size: 3rem;
-}
-
-#noAcertoImg{
-    width: 22rem;
-}
-
-.seleccion1033Recuadro{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-}
-
-.seleccion1033Recuadro{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-}
-
-.seleccion1033 p{
-    font-size: 2rem;
-    font-weight: 900;
-}
-
-.seleccion1033 h3{
-    font-size: 3rem;
-   color: rgb(255, 123, 8);
-}
-
-.seleccion1033 span{
-    font-weight: 900;
+#incorrecto6{
+    width: 20rem;
 }
 
 
-
-#screen {
-    margin: auto;
-}
-
-.buttons{
-    margin: auto;
-}
-
-#seleccionImg{
-    width: 12rem;
-}
-
-select option {
-    background-color: rgb(0,128,74);
-    color: white;
-}
-
-.textoTipoSelect{
-    text-align: left;
-}
-
-.textoTipoSelect p{ 
-    font-size: 1.35rem;
-    text-align: left;
-}
-
-#resolver33{
-    background-color: rgb(0,128,74);
-    color: white;
-    border: none;
-    padding: 0.2rem 1rem;
-    font-size: 2rem;
-    border-radius: 1rem;
-    margin-top: 1rem;
-    visibility: hidden;
-}
-
-.emergentes33{
-    animation-name: emergentes33;
-    animation-duration: 1s;
-    /* animation-timing-function: cubic-bezier(.8,.17,0,.97); */
-    animation-fill-mode: forwards;
-}
-.emergentes332{
-    animation-name: emergentes332;
-    animation-duration: 1.6s;
-    /* animation-timing-function: cubic-bezier(.8,.17,0,.97); */
-    animation-fill-mode: forwards;
-}
-
-@keyframes emergentes33 {
-    0%{ left:0%;
-        opacity: 1;
-    }
-    100%{
-        left:100%;
-        opacity: 0;
-    }
-}
-
-@keyframes emergentes332 {
-    0%{ left:100%;
-        opacity: 0;
-    }
-    100%{
-        left: 0%;
-        opacity: 1;
-    }
-}
 
 
 

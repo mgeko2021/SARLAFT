@@ -16,213 +16,42 @@
     height: 100vh;
     text-align: center;
     width: 100%;
-    background-color: rgb(255, 123, 8);
+    text-align: left;
 }
 
-.procesoSelect {
-    margin-top: 10rem;
+.tituleProof39{
+    position: absolute;
+    top: 16%;
+    left: 5%;
+}
+
+.tituleProof39 h3{
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.tituleProof39 b{
+    font-size: 2.1rem;
+    line-height: 1.6rem;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.containerProof39TexUno{
+    position: absolute;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    text-align: center;
-    color: black;
-    width: 100%;
-    z-index: 10;
+    top: 43%;
+    justify-content: space-between;
+    left: 5%;
 }
 
-.procesoTitule h2 {
-    font-size: 2.5rem;
-    font-weight: 900;
-}
-
-.proceso {
+.containerProof39TexDos{
+    position: absolute;
     display: flex;
-    text-align: center;
-    margin: 0 auto;
-    width: 100%;
-    justify-content: center;
-}
-
-.proceso p{
-    font-size: 1.2rem;
-    padding: 3rem 2rem 0 2rem;
-    margin-top: 1rem;
-    
-}
-
-.proceso1relative{
-    position: relative;
-    z-index: 100;
-    width: 20rem;
-}
-.proceso2relative{
-    position: relative;
-    z-index: 100;
-    width: 20rem;
-    margin-left: 1.8rem;
+    top: 43%;
+    justify-content: space-between;
+    left: 5%;
 
 }
-.proceso3relative{
-    position: relative;
-    z-index: 100;
-    width: 20rem;
-    height: 35rem;
-}
-
-.proceso1 {
-    top: 7rem;
-    border-radius: 2rem;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 2px 2px 2px rgb(168, 168, 168);
-    margin-bottom: 0.5rem;
-    padding-bottom: 4rem;
-    position: absolute;
-}
-
-.proceso2 {
-    top: 4rem;
-    margin-right: 3%;
-    background-color: rgb(255, 255, 255);
-    border-radius: 2rem;
-    box-shadow: 2px 2px 2px rgb(168, 168, 168);
-    margin-right: 0.5rem;
-    margin-bottom: 0.5rem;
-    position: absolute;
-}
-
-.proceso3 {
-    top: 7rem;
-    margin-left: 3%;
-    background-color: rgb(255, 255, 255);
-    border-radius: 2rem;
-    box-shadow: 2px 2px 2px rgb(168, 168, 168);
-    margin-right: 0.5rem;
-    margin-bottom: 0.5rem;
-    padding-bottom: 4rem;
-    position: absolute;
-}
-
-.proceso img {
-    right:6rem;
-    width: 10rem;
-    position: absolute;
-    z-index: 100;
-}
-.proceso2relative img {
-    margin-top: 1rem;
-}
-
-
-.puntos1039 {
-    background: linear-gradient(27deg, #ffffff 20%, rgba(225,225,225,1) 100%, rgb(194, 194, 194) 100%);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    text-align: center;
-    color: black;
-    width: 100%;
-    position: absolute;
-    left: 100%;
-
-}
-
-.noAcerto39 {
-    background: linear-gradient(27deg, #ffffff 20%, rgba(225,225,225,1) 100%, rgb(194, 194, 194) 100%);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    text-align: center;
-    color: black;
-    width: 100%;
-    position: absolute;
-    left: 100%;
-
-}
-
-.noAcerto39 img {
-    width: 18rem;
-}
-
-.noAcerto39 h2{
-    font-size: 3rem;
-}
-
-.noAcerto39 span{
-    font-size: 3rem;
-    font-weight: 900;
-}
-
-
-
-.emergentes39{
-    animation-name: emergentes39;
-    animation-duration: 1s;
-    /* animation-timing-function: cubic-bezier(.8,.17,0,.97); */
-    animation-fill-mode: forwards;
-}
-.emergentes392{
-    animation-name: emergentes392;
-    animation-duration: 1.6s;
-    /* animation-timing-function: cubic-bezier(.8,.17,0,.97); */
-    animation-fill-mode: forwards;
-}
-
-@keyframes emergentes39 {
-    0%{ left:0%;
-        opacity: 1;
-    }
-    100%{
-        left:100%;
-        opacity: 0;
-    }
-}
-
-@keyframes emergentes392 {
-    0%{ left:100%;
-        opacity: 0;
-    }
-    100%{
-        left: 0%;
-        opacity: 1;
-    }
-}
-
-
-
-
-.puntos1039 h3 {
-    color:rgb(255,123,8);
-    font-size: 3.8rem;
-}
-
-.puntos1039 span {
-    font-size: 3.8rem;
-    font-family: 'Fredoka One';
-}
-
-
-.puntos1039 p{
-    color: rgb(51,51,51);
-    font-size: 1.8rem;
-}
-
-
-
-#pito{
-    position: absolute;
-    width: 20rem;
-    top: 30%;
-    right: 3rem;
-    /* animation: tenis 1.5s alternate infinite ease-out; */
-    transform: rotate(15deg);
-}
-
-
 
 

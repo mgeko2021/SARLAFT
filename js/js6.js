@@ -108,9 +108,6 @@ console.log()
         (document.getElementById('pieza4').parentNode.id=='cuatro')
         
         ){  
-
-          
-            
             setTimeout(() => {
 
                 for (let i = 0; i < border.length; i++) {
@@ -122,6 +119,7 @@ console.log()
                 gray3.style.background = "linear-gradient(90deg, rgba(103,224,16,1) 0%, rgba(9,121,18,1) 43%, rgba(0,66,18,1) 100%)"
                 gray4.style.background = "linear-gradient(90deg, rgba(103,224,16,1) 0%, rgba(9,121,18,1) 43%, rgba(0,66,18,1) 100%)"
             }, 2000);
+            
             localStorage.setItem("puntuacion6", 10);
             puntos6.classList.remove("emergentesreturn");
             puntos6.classList.add("emergentes"); 
@@ -151,8 +149,6 @@ console.log()
         } else {
 
             setTimeout(() => {
-
-              
 
                 if (document.getElementById('pieza1').parentNode.id=='uno') {
                     gray1.style.background = "linear-gradient(90deg, rgba(103,224,16,1) 0%, rgba(9,121,18,1) 43%, rgba(0,66,18,1) 100%)"
@@ -193,7 +189,7 @@ console.log()
                 // paginaproof26.style.display = "block" 
                 // terminadoJuego = true
             }, 4000);
-            }
+        }
     }
   }
   

@@ -2,8 +2,8 @@
     position: absolute;
     width: 100vw;
     height: 100vh;
-    /* top: 0%; */
     left: 100%;
+    /* left: 0%; */
     top: 0%;
     z-index:1;
 }
@@ -18,87 +18,38 @@
     text-align: center;
     width: 100%;
     z-index: 10;
-    background-color: rgb(255,123,8);
 }
 
-.quienDefensorTitule h2{
-    color: rgb(0,128,74);
-    font-size: 3rem;
-    margin-bottom: 3rem;
-}
-
-.quienDefensorTitule span{
-    font-weight: 900;
-}
-
-.quienDefensor{
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-
-.quienDefensorText{
-    height: 20rem;
-    display: flex;
-    justify-content: right;
-}
-
-.quienImg{
+.tituleProof41{
     position: absolute;
-    width: 20%;
-    top: -3rem;
-}
-.quienImg img{
-    
-    top: -3rem;
+    top: 20%;
+    left: 3.5rem;
+    width: 100%;
+    margin: auto;
 }
 
-.quienDefensorWhite{
-    background-color:white;
-    width: 90%;
-    border-radius: 2rem;
+.tituleProof41 p{
+    font-size: 4.5rem;
+    margin-left: -20rem !important;
 }
 
-.quienDefensorText p{
-    font-size: 1.5rem;
-    text-align: left;
-    margin-top: 4rem;
-    line-height: 2.5rem;
+.tituleProof41 h3{
+    font-size: 3.5rem;
+    margin-top: -1.3rem;
 }
 
-.quienDefensorText span{
-    font-weight: 900;
-}
-
-.quienSub{
-    width: 25%;
-    text-align: left;
-    
-}
-
-.quienData{
-    width:45%;
-    margin-right: 5%;
-    
-}
-
-.imagenCafe{
+.containerProof41{
     position: absolute;
-    left: 0;
-    bottom: 0;
+    top: 47%;
 }
 
-.imagenCafe img{
-    width: 18rem;
+.containerProof41 p{
+    font-size:1.9rem;
+    line-height: 2.1rem;
 }
 
-@media (max-width: 1125px) {
-    .quienDefensor {
-      width: 100%;
-    }
-  }
-
+.containerProof41 h3{
+    font-size:2.5rem;
+    margin-bottom: 2.5rem !important;
+}
 

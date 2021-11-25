@@ -16,45 +16,21 @@
     color: black;
     width: 100%;
     z-index: 10;
-    background-color: rgb(255, 123, 8);
 }
 
-.ultimaEstacion {
+.tituleProof40a{
+    position: absolute;
+    top: 40%;
+    width: 90%;
     text-align: left;
-    font-size: 2rem;
-    color:#333333;
-    margin-bottom: 4rem;
-    width: 60%;
-    margin-left: 5rem
-    ;
-}
-.ultimaEstacion h2{
-    text-align: left;
-    font-size: 3.8rem;
-    color:#00804a;
-    font-family: 'Fredoka One';
 }
 
-.ultimaEstacion p{
-    font-size: 2.5rem;
-}
-.ultimaEstacionImg{
-    width: 40%;
-
-}
-.ultimaEstacionImg img{
-    width: 35rem;
+.tituleProof40a h2{
+    font-size: 3.2rem;
 }
 
-@media screen and (max-width: 1400px) {
-    .ultimaEstacion h2{
-        text-align: left;
-        font-size: 3.2rem;
-        color:#00804a;
-        font-family: 'Fredoka One';
-    }
-    
-    .ultimaEstacion p{
-        font-size: 2.2rem;
-    }
-    }
+.tituleProof40a h3{
+    font-size: 3.2rem;
+    margin-top: -1.5rem;
+}
+

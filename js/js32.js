@@ -1,0 +1,153 @@
+
+let termino32 = false
+
+let answer32 = () =>{
+
+    console.log("entre")
+    // -------- mergentes--------
+    let puntos32 = document.getElementById("puntos32ID")
+    let nopuntos32 = document.getElementById("noPuntos32ID")
+
+        
+    let answers = document.querySelectorAll('.answer32')
+    let answersTrue1 = document.querySelector('.answerTrue132')
+    let answersTrue2 = document.querySelector('.answerTrue232')
+    let answersTrue3 = document.querySelector('.answerTrue332')
+    let answersFalse1 = document.querySelector('.answerFalse132')
+    let answersFalse2 = document.querySelector('.answerFalse232')
+    let answersFalse3 = document.querySelector('.answerFalse332')
+    // let answersFalse = document.querySelectorAll('.answerFalse')
+
+
+    if(document.querySelector('input[name="proof32_1"]:checked')
+    && document.querySelector('input[name="proof32_2"]:checked')
+    && document.querySelector('input[name="proof32_3"]:checked')
+    && !termino32
+    ){
+
+        console.log("ya click all")
+        if(document.querySelector('input[name="proof32_1"]:checked').value == "FALSO"
+        && document.querySelector('input[name="proof32_2"]:checked').value == "VERDADERO"
+        && document.querySelector('input[name="proof32_3"]:checked').value  == "VERDADERO"
+        ){
+            console.log("todas estan buenas")
+            termino32 = true
+
+            for (let i = 0; i < answers.length; i++) {
+                answers[i].disabled=true;
+                
+            }
+
+            setTimeout(() => {
+                answersTrue1.style.background = "#8fed8f"
+                answersTrue2.style.background = "#8fed8f"
+                answersTrue3.style.background = "#8fed8f"
+
+            }, 1500);
+
+            localStorage.setItem("puntuacion26", 10);
+            puntos32.classList.remove("emergentesreturn");
+            puntos32.classList.add("emergentes"); 
+            setTimeout(function(){ 
+                puntos32.classList.remove("emergentes");
+                puntos32.classList.add("emergentesreturn");
+                document.getElementById(`paginaproof32`).style.display ="block"
+          
+            }, 4000);
+
+        } else {
+
+            setTimeout(() => {
+                if(document.querySelector('input[name="proof32_1"]:checked').value == "FALSO"){
+                    document.querySelector('.answerTrue132').style.background = "#8fed8f"
+                    let color1  = document.querySelectorAll('input[name="proof32_1"]')
+                    console.log(color1)
+                    if(color1){
+                        for (let i = 0; i < color1.length; i++) {
+                            color1[i].disabled = true;
+                            
+                        }
+    
+                    }
+                } else {
+                    let color1  = document.querySelectorAll('input[name="proof32_1"]')
+                    console.log(color1)
+                    if(color1){
+                        for (let i = 0; i < color1.length; i++) {
+                            color1[i].checked = 0;
+                        }
+    
+                    }
+                }
+
+                if(document.querySelector('input[name="proof32_2"]:checked').value == "VERDADERO"){
+                    document.querySelector('.answerTrue232').style.background = "#8fed8f"
+                    let color2  = document.querySelectorAll('input[name="proof32_2"]')
+                    if(color2){
+                        for (let i = 0; i < color2.length; i++) {
+                            color2[i].disabled = true;
+    
+                    }
+                        
+                    }
+                } else {
+                    let color2  = document.querySelectorAll('input[name="proof32_2"]')
+                    console.log(color2)
+                    if(color2){
+                        for (let i = 0; i < color2.length; i++) {
+                            color2[i].checked = 0;
+                        }
+                    }
+                }
+
+                if(document.querySelector('input[name="proof32_3"]:checked').value == "VERDADERO"){
+                    document.querySelector('.answerTrue332').style.background = "#8fed8f"
+                    let color3  = document.querySelectorAll('input[name="proof32_3"]')
+                    if(color3){
+                        for (let i = 0; i < color3.length; i++) {
+                            color3[i].disabled = true;
+                            
+                        }
+    
+                    }
+
+                } else{
+                    let color3  = document.querySelectorAll('input[name="proof32_3"]')
+                    if(color3){
+                        for (let i = 0; i < color3.length; i++) {
+                            color3[i].checked = 0;
+                            
+                        }
+    
+                    }
+
+                }
+                    
+            }, 1500);
+
+            nopuntos32.classList.remove("emergentesreturn");
+            nopuntos32.classList.add("emergentes"); 
+            setTimeout(function(){ 
+                nopuntos32.classList.remove("emergentes");
+                nopuntos32.classList.add("emergentesreturn");
+                // paginaproof26.style.display = "block" 
+                // terminadoJuego = true
+            }, 4000);
+            }
+
+    }
+    
+
+}
+
+
+// answerPrincipal.forEach((answer) => {
+//     answer.addEventListener('click', () => {
+//         answer32
+//     })
+// })
+
+// answerPrincipal.addEventListener("onfocus", answer32)
+proof32.addEventListener("click", answer32)
+
+

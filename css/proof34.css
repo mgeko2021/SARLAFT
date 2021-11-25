@@ -3,12 +3,11 @@
     width: 100vw;
     height: 100vh;
     left: 100%;
+    /* left: 0%; */
     top: 0%;
-    z-index:1;
 }
 
 .presentacion34 {
-    background-color: rgb(255, 123, 8);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,27 +16,89 @@
     text-align: center;
     color: black;
     width: 100%;
-    z-index: 10;
 }
 
-.EtapasSAC h2{
-    color: rgb(0,128,74);
-    font-size: 4rem;
+.tituleProof34{
+    position: absolute;
+    top: 16%;
+    text-align: left;
+    width: 100%;
+    text-align: center;
+}
+
+.tituleProof34 h3{
+    font-size: 2rem;
+    margin: 0;
     margin-bottom: 1rem;
 }
 
-.EtapasSAC p{
-    color: rgb(51,51, 51);
-    font-size: 1.8rem;
+.tituleProof34 p{
+    font-size: 1.9rem;
+    line-height: 1.6rem;
+    margin: 0;
+    margin-bottom: 1rem;
 }
 
-.EtapasSAC span{
-    font-weight: 900;
+.containerProof34{ 
+    position: absolute;
+    display: flex;
+    top: 15%;
+    margin: auto;
+    width: 100%;
+    height: 85%;
+    justify-content: space-between;
+
 }
 
 
-
-
-img {
-    width: 8rem;
+.containerProof34Text{
+    text-align: left;
+    margin-top: 17%;
 }
+
+.containerProof34Text h3{
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.containerProof34TextP{
+    text-align: center;
+    font-size: 1.9rem;
+}
+
+.containerProof34Text{
+    margin: auto;
+
+}
+
+.containerProof34Div{
+    display: flex;
+    margin-top: 2rem;
+    text-align: left;
+}
+
+.text34Uno{
+    margin-right: 1rem;
+    text-align: left;
+}
+
+
+.text34Dos{
+    margin-left: 1rem;
+
+}
+
+.containerProof34DivB{
+    margin-top: 2rem;
+    text-align: center;
+
+}
+
+.containerProof34show{
+    text-align: center;
+}
+
+.containerProof34show p{
+    margin-bottom: 1rem !important;
+}
+

@@ -3,7 +3,7 @@
     width: 100vw;
     height: 100vh;
     top: 100%;
-    z-index:1;
+    /* top: 0%; */
 }
 
 .presentacion40 {
@@ -18,45 +18,33 @@
     z-index: 10;
 }
 
-.pasosQuejas{
-    display: flex;
-    width: 70%;
-    justify-content: center;
-    height: 100%;
-    align-items: flex-end;
+.tituleProof40{
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    margin: auto;
 
 }
 
-.pasosQuejasText{
-    text-align: left;
-    width: 60%;
-    font-size: 1.5rem;
-    margin-bottom: 5vh;
-    overflow-y: scroll;
-    height: 70vh;
-
+.tituleProof40 h3{
+    font-size: 4rem;
 }
 
-.pasosQuejasText h2{
-  margin-left: 2rem;
-  color: #00804a;
-  font-size: 3rem;
+.containerProof40{
+    position: absolute;
+    top: 40%;
 }
 
-.pasosQuejasText li{
-    margin-bottom: 1rem;
+.containerProof40{
+    position: absolute;
+    top: 40%;
 }
 
-.pasosQuejasImg{
-    width: 40%;
-}
-.pasosQuejasImg img{
-    width: 28rem;
+.containerProof40 h3{
+    margin-bottom: 2rem;
 }
 
-@media (max-width: 1125px) {
-    .pasosQuejas {
-      width: 100%;
-    }
-  }
+.containerProofText40 p{
+    line-height: 2rem;
+}
 
