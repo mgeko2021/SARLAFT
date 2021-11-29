@@ -32,11 +32,7 @@
     top:calc(50%);
 }
 
-.back {
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-}
+
 
 #cazadoresProof1{
     width: 30rem;

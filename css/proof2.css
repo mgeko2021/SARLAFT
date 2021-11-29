@@ -2,9 +2,7 @@
     position: absolute;
     width: 100vw;
     height: 100vh;
-    left: 0%;
     top: 100%;
-    /* left: 0%; */
     /* top: 0%; */
     z-index: 7;
 }
@@ -48,10 +46,12 @@
 
 #obj1{
     width: 15rem;
+    margin-bottom: 1rem;
 }
 
 #obj2{
     width: 14rem;
+    margin-bottom: 1rem;
 }
 
 .caceria{
@@ -60,5 +60,16 @@
     align-items: center;
     text-align: center;
     margin: 0 3rem;
+}
+
+.caceria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 3rem;
+}
+.caceria p{
+    line-height: 1.6rem;
 }
 

@@ -1,25 +1,23 @@
-/* ---------proof1--------- */
-#atrasProof1{
+/* ------normalizado escondidos------- */
+
+.top100{
+    top:100%;
+}
+.topmenos100{
     top:-100%;
 }
 
-#medioProof1{
-    top:100%;
-}
-
-#adelanteProof1{
+.opacity{
     opacity: 0;
 }
+
+
+/* ---------proof1--------- */
+
 /* ---------proof2--------- */
 
-
-#adelanteProof2{
-    top:100%;
-}
-
-
 /* ---------proof3a------------- */
-
+/* 
 #legal{
     position: absolute;
     left: -100%;
@@ -50,4 +48,4 @@
     position: absolute;
     left: 100%;
 }
-
+ */

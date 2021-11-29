@@ -83,6 +83,7 @@
     top: 20%;
     text-align: left;
     left:-100%;
+    left:-100%;
     width: 100%;
 }
 
@@ -148,11 +149,13 @@
 
 .containerProof24BTextP p{
     font-size: 2rem;
+    line-height: 2.2rem;
 }
 
 .containerProof24BTextP h3{
     margin-top: -0.3rem;
     font-size: 2rem;
+    line-height: 2.2rem;
 
 }
 

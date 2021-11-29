@@ -25,6 +25,7 @@
 
 .tituleProof18 h4{
     font-size: 2.5rem;
+    margin: 0;
 }
 
 .tituleProof18 p{
@@ -33,6 +34,7 @@
 
 .tituleProof18 h3{
     font-size: 2.9rem;
+    margin-top: -0.5rem;
 }
 
 .containerProof18{
@@ -56,6 +58,10 @@
 .contanerRelative{
     position: relative;
     width: 100%;
+}
+
+.contanerRelative p{
+  line-height: 1.6rem;
 }
 
 .declarar1 {

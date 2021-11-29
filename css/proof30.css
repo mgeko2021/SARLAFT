@@ -56,10 +56,12 @@
     margin-top: 17%;
 }
 
-#provisional30{
-    width: 30rem;
+#proof30Img{
+    width: 43rem;
 }
+
 
 .containerProof30Img{
     margin: auto;
+    margin-right: -3rem;
 }

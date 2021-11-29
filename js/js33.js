@@ -56,14 +56,14 @@ function start332(e) {
 
 function drop331(e){
     var elementoArrastrado = e.dataTransfer.getData("Text");
-    if(elementoArrastrado == "pieza133"){
+    if(elementoArrastrado == "pieza331"){
         e.target.appendChild(document.getElementById(elementoArrastrado));
     }
 }
 
 function drop332(e){
     var elementoArrastrado = e.dataTransfer.getData("Text");
-    if(elementoArrastrado == "pieza233"){
+    if(elementoArrastrado == "pieza332"){
         e.target.appendChild(document.getElementById(elementoArrastrado));
     }
 }
@@ -75,154 +75,170 @@ function drop333(e){
 }
 function drop334(e){
     var elementoArrastrado = e.dataTransfer.getData("Text");
-    if(elementoArrastrado == "pieza433"){
+    if(elementoArrastrado == "pieza3334"){
         e.target.appendChild(document.getElementById(elementoArrastrado));
     }
 }
 function drop335(e){
     var elementoArrastrado = e.dataTransfer.getData("Text");
-    if(elementoArrastrado == "pieza533"){
+    if(elementoArrastrado == "pieza335"){
+        e.target.appendChild(document.getElementById(elementoArrastrado));
+    }
+}
+function drop336(e){
+    var elementoArrastrado = e.dataTransfer.getData("Text");
+    if(elementoArrastrado == "pieza336"){
+        e.target.appendChild(document.getElementById(elementoArrastrado));
+    }
+}
+function drop337(e){
+    var elementoArrastrado = e.dataTransfer.getData("Text");
+    if(elementoArrastrado == "pieza337"){
+        e.target.appendChild(document.getElementById(elementoArrastrado));
+    }
+}
+function drop338(e){
+    var elementoArrastrado = e.dataTransfer.getData("Text");
+    if(elementoArrastrado == "pieza338"){
         e.target.appendChild(document.getElementById(elementoArrastrado));
     }
 }
 
+let juego1 = false
+let juego2 = false
+let juego3 = false
+let juego4 = false
 
   
   function comprobarPuzzle33(){
       let puntos6 = document.getElementById("puntos33ID")
       let nopuntos6 = document.getElementById("noPuntos33ID")
+    // ---------div final de la pieza----------
+      let uno33 = document.getElementById('uno33')
+      let dos33 = document.getElementById('dos33')
+      let tres33 = document.getElementById('tres33')
+      let cuatro33 = document.getElementById('cuatro33')
+
+    //   -----div inicial de la img------------
+      let contenedorPieza331 = document.getElementById('contenedorPieza331')
+      let contenedorPieza332 = document.getElementById('contenedorPieza332')
+      let contenedorPieza333 = document.getElementById('contenedorPieza333')
+      let contenedorPieza334 = document.getElementById('contenedorPieza334')
+      let contenedorPieza335 = document.getElementById('contenedorPieza335')
+      let contenedorPieza336 = document.getElementById('contenedorPieza336')
+      let contenedorPieza337 = document.getElementById('contenedorPieza337')
+      let contenedorPieza338 = document.getElementById('contenedorPieza338')
+
+    //   ----las img moviendose------
+      let pieza331 = document.getElementById('pieza331')
+      let pieza332 = document.getElementById('pieza332')
+      let pieza333 = document.getElementById('pieza333')
+      let pieza334 = document.getElementById('pieza334')
+      let pieza335 = document.getElementById('pieza335')
+      let pieza336 = document.getElementById('pieza336')
+      let pieza337 = document.getElementById('pieza337')
+      let pieza338 = document.getElementById('pieza338')
+
+    //   ----parrafos----------
+      let questionuno = document.getElementById("questionuno")
+      let questiondos = document.getElementById("questiondos")
+      let questiontres = document.getElementById("questiontres")
+      let questioncuatro = document.getElementById("questioncuatro")
+
+    //   -----------pregunta 1----------------
+      if (document.getElementById('pieza332').parentNode.id=='uno33' && juego1 == false ) {
+        juego1 = true
+        contenedorPieza332.style.background = "#5fff2f"
+        pieza332.style.display = "none"
+        uno33.style.background = "no-repeat center/140% url(/img/PAG-16/Agray.png)";
+
+        setTimeout(() => {
+            dos33.style.display = "block"
+            questionuno.style.display = "none"
+            questiondos.style.display = "block"
+        }, 1000);
+
+      } 
+// --------------pregunta dos-----------
+      else if (document.getElementById('pieza333').parentNode.id=='dos33' && !juego2) {
+            console.log(questiontres)
+        juego2 = true
+        contenedorPieza333.style.background = "#5fff2f"
+        pieza333.style.display = "none"
+        dos33.style.background = "no-repeat center/140% url(/img/PAG-16/Bgray.png)";
+        setTimeout(() => {
+            tres33.style.display = "block"
+            questiondos.style.display = " none"
+            questiontres.style.display = " block"
+
+        }, 1000);
+      } 
+
+// --------------pregunta tres-----------
+      else if (document.getElementById('pieza335').parentNode.id=='tres33' && !juego3) {
+        juego3 = true
+        contenedorPieza335.style.background = "#5fff2f"
+        pieza335.style.display = "none"
+        tres33.style.background = "no-repeat center/140% url(/img/PAG-16/Cgray.png)";
+        setTimeout(() => {
+            cuatro33.style.display = "block"
+            questiontres.style.display = " none"
+            questioncuatro.style.display = " block"
+
+        }, 1000);
+      } 
+
+// --------------pregunta cuatro-----------
 
 
-    let hijos = document.querySelectorAll(".contenedorPieza33 img")
-    if(hijos.length == 4){
+      else if (document.getElementById('pieza338').parentNode.id=='cuatro33' && !juego4) {
+        juego4 = true
+        contenedorPieza338.style.background = "#5fff2f"
+        pieza333.style.display = "none"
+        tres33.style.background = "no-repeat center/140% url(/img/PAG-16/Dgray.png)";
         
-        if((document.getElementById('pieza133').parentNode.id=='uno33') &&
-        (document.getElementById('pieza233').parentNode.id=='dos33') &&
-        (document.getElementById('pieza333').parentNode.id=='tres33') &&
-        (document.getElementById('pieza433').parentNode.id=='cuatro33')
-        
-        ){  
+        puntos6.classList.remove("emergentesreturn");
+        puntos6.classList.add("emergentes"); 
+  
+        setTimeout(() => {
+            puntos6.classList.remove("emergentes");
+            puntos6.classList.add("emergentesreturn");
+            cuatro33.style.display = "block"
+            questiondos.style.display = " none"
+            questiontres.style.display = " block"
 
-            let uno33 = document.getElementById("uno33")
-            let contenedorPieza133 = document.getElementById('contenedorPieza133')
-            contenedorPieza133.style.background = "#5fff2f"
-            uno33.style.background = "#5fff2f"
-            document.getElementById("pieza133").style.display = "none"
-
-            let dos33 = document.getElementById("dos33")
-            let contenedorPieza233 = document.getElementById('contenedorPieza233')
-            contenedorPieza233.style.background = "#5fff2f"
-            dos33.style.background = "#5fff2f"
-            document.getElementById("pieza233").style.display = "none"
-
-            let tres33 = document.getElementById("tres33")
-            let contenedorPieza333 = document.getElementById('contenedorPieza333')
-            contenedorPieza333.style.background = "#5fff2f"
-            tres33.style.background = "#5fff2f"
-            document.getElementById("pieza333").style.display = "none"
-
-            let cuatro33 = document.getElementById("cuatro33")
-            let contenedorPieza433 = document.getElementById('contenedorPieza433')
-            contenedorPieza433.style.background = "#5fff2f"
-            cuatro33.style.background = "#5fff2f"
-            document.getElementById("pieza433").style.display = "none"
-
-            localStorage.setItem("puntuacion33", 10);
-            puntos6.classList.remove("emergentesreturn");
-            puntos6.classList.add("emergentes"); 
-            setTimeout(function(){ 
-                puntos6.classList.remove("emergentes");
-                puntos6.classList.add("emergentesreturn");
-
-          
-                // terminadoJuego = true
-            }, 4000);
-
-            // setTimeout(() => {
-            //     document.getElementById(`proof6`).classList.remove('beforeUP');
-            //     document.getElementById(`proof8`).classList.remove('beforeUP');
-            //     document.getElementById(`proof8`).classList.remove('before2UP');
-            //     document.getElementById(`proof6`).classList.remove('next2UP');
-            //     // document.getElementById(proof6).style.left = "0%"
-            //     document.getElementById(`proof6`).classList.add('nextUP');
-            //     document.getElementById(`proof8`).classList.add('next2UP');
-
-            //     document.getElementById(`paginaproof8`).style.display ="block"
-
-    
-            // }, 6000);
-
-        
-        } else {
-
-            setTimeout(() => {
-
-                if (document.getElementById('pieza133').parentNode.id=='uno33') {
-                    let uno33 = document.getElementById("uno33")
-                    let contenedorPieza133 = document.getElementById('contenedorPieza133')
-                    contenedorPieza133.style.background = "#5fff2f"
-                    uno33.style.background = "#5fff2f"
-                    document.getElementById("pieza133").style.display = "none"
-                } else {
-                    document.getElementById("contenedorPieza133").appendChild(document.getElementById("pieza133"));
-                    uno33.style.background = "#ea0043"
-                }
-    
-                if (document.getElementById('pieza233').parentNode.id=='dos33') {
-                    let dos33 = document.getElementById("dos33")
-                    let contenedorPieza233 = document.getElementById('contenedorPieza233')
-                    contenedorPieza233.style.background = "#5fff2f"
-                    dos33.style.background = "#5fff2f"
-                    document.getElementById("pieza233").style.display = "none"
-                } else {
-                    document.getElementById("contenedorPieza233").appendChild(document.getElementById("pieza233"));
-                    dos33.style.background = "#ea0043"
-                }
-    
-                if (document.getElementById('pieza333').parentNode.id=='tres33') {
-                    let tres33 = document.getElementById("tres33")
-                    let contenedorPieza333 = document.getElementById('contenedorPieza333')
-                    contenedorPieza333.style.background = "#5fff2f"
-                    tres33.style.background = "#5fff2f"
-                    document.getElementById("pieza333").style.display = "none"
-
-                } else {
-                    document.getElementById("contenedorPieza333").appendChild(document.getElementById("pieza333"));
-                    tres33.style.background = "#ea0043"
-                }
-    
-                if (document.getElementById('pieza433').parentNode.id=='cuatro33') {
-                    let cuatro33 = document.getElementById("cuatro33")
-                    let contenedorPieza433 = document.getElementById('contenedorPieza433')
-                    contenedorPieza433.style.background = "#5fff2f"
-                    cuatro33.style.background = "#5fff2f"
-                    document.getElementById("pieza433").style.display = "none"
-                } else {
-                    document.getElementById("contenedorPieza433").appendChild(document.getElementById("pieza433"));
-                    cuatro33.style.background = "#ea0043"
-                }
-    
-                // if (document.getElementById('pieza533').parentNode.id=='cuatro33') {
-                    let pieza533 = document.getElementById("pieza533")
-                //     pieza433.style.background = "linear-gradient(90deg, rgba(103,224,16,1) 0%, rgba(9,121,18,1) 43%, rgba(0,66,18,1) 100%)"
-                // } else {
-                    document.getElementById("contenedorPieza533").appendChild(document.getElementById("pieza533"));
-
-                    // pieza433.style.background = "linear-gradient(90deg, rgba(143,49,49,1) 0%, rgba(75,2,33,1) 100%)"
-                // }
-    
-                
-            }, 2000);
-
-            nopuntos6.classList.remove("emergentesreturn");
-            nopuntos6.classList.add("emergentes"); 
-            setTimeout(function(){ 
-                nopuntos6.classList.remove("emergentes");
-                nopuntos6.classList.add("emergentesreturn");
-                // paginaproof26.style.display = "block" 
-                // terminadoJuego = true
-            }, 4000);
+        }, 1000);
+      } 
+      
+      else {
+        nopuntos6.classList.remove("emergentesreturn");
+        nopuntos6.classList.add("emergentes"); 
+        setTimeout(function(){ 
+            if(juego1 == false){
+                contenedorPieza331.style.background = "#ea0043"
+                pieza331.style.display = "none"
             }
-    }
-  }
+            if(juego2 == false && juego1 == true){
+                contenedorPieza334.style.background = "#ea0043"
+                pieza334.style.display = "none"
+                
+            }
+            if(juego3 == false && juego2 == true && juego1 == true){
+                contenedorPieza336.style.background = "#ea0043"
+                pieza336.style.display = "none"
+                
+            }
+            if(juego4 == true && juego3 == true && juego2 == true && juego1 == true){
+                contenedorPieza337.style.background = "#ea0043"
+                pieza337.style.display = "none"
+            }
+            
+            nopuntos6.classList.remove("emergentes");
+            nopuntos6.classList.add("emergentesreturn");
+            document.getElementById("contenedorPieza433").appendChild(document.getElementById("pieza133"));
+
+        }, 4000);
+      }
+
+}
   

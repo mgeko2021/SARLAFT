@@ -2,8 +2,8 @@
     position: absolute;
     width: 100vw;
     height: 100vh;
-    /* left: 0%; */
     left: 100%;
+    /* left: 0%; */
     top: 0%;
 }
 
@@ -37,7 +37,7 @@
 
 .containerProof21{
     position: absolute;
-    top: 40%;
+    top: 36%;
 }
 .containerProof21Titule{
     display: flex;

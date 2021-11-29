@@ -1,6 +1,6 @@
 /* ---------------movimientos------------ */
 
-.animaDown{
+.top100animate{
     animation: animaDown 1s ease-in-out ;
     animation-fill-mode: forwards
 }
@@ -31,7 +31,7 @@
 	}
 }
 
-.animaUps{
+.topmenos100animate{
     animation: animaUps 1s ease-in-out ;
     animation-fill-mode: forwards
 }
@@ -47,7 +47,7 @@
 
 /* ---------opactity----------- */
 
-.opacity{
+.opacityanimate{
     animation: opacity 4s ease-in-out ;
     animation-fill-mode: forwards
 }

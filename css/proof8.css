@@ -46,6 +46,10 @@
     align-items: center;
 }
 
+.containerProof8 h3{
+    margin: 0;
+}
+
 .containerProof8Text{
     display: flex;
     flex-direction: column;
@@ -60,4 +64,8 @@
 .containerProof8Img img{
     margin: auto;
     width: 18rem;
+}
+
+#proof8Obj2{
+    width: 22rem;
 }

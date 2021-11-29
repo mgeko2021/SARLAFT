@@ -14,11 +14,11 @@ let build = (name, nextName, nextName2) =>{
             let adelanteProof1 = document.getElementById("adelanteProof1")
 
 
-            atrasProof1.classList.add("animaDown")
-            adelanteProof1.classList.add("opacity")
+            atrasProof1.classList.add("top100animate")
+            adelanteProof1.classList.add("opacityanimate")
 
             setTimeout(() => {
-                medioProof1.classList.add("animaUps")
+                medioProof1.classList.add("topmenos100animate")
                 
             }, 1000);
             // setTimeout(() => {
@@ -26,7 +26,7 @@ let build = (name, nextName, nextName2) =>{
 
             let adelanteProof2 = document.getElementById("adelanteProof2")
             setTimeout(() => {
-                adelanteProof2.classList.add("animaUps")
+                adelanteProof2.classList.add("topmenos100animate")
             }, 5000);
             
             break;

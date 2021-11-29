@@ -43,7 +43,7 @@
 }
 
 .containerProof13{
-    width: 90%;
+    width: 100%;
     margin: auto;
     position: absolute;
     top: 40%;
@@ -73,14 +73,30 @@
     margin: auto;
     margin-top: 1rem;
     display: flex;
+    height: 18rem;
+    align-items: center;
+
+}
+
+.containerProof13Div h4{
+    margin-left: 3rem;
+    margin-bottom: 0;
 }
 
 .risk8{
     width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .risk8 img{
     margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
 }
 
 #clientes13{
@@ -100,6 +116,11 @@
 #jurisdiccion13{
     margin-top: 0.9rem;
     width: 10.2rem;
+}
+
+#usuario13{
+    margin-top: -3rem;
+    width: 10rem;
 }
 
 
