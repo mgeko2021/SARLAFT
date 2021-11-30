@@ -51,10 +51,29 @@ let answer21 = () =>{
             setTimeout(function(){ 
                 puntos21.classList.remove("emergentes");
                 puntos21.classList.add("emergentesreturn");
-                document.getElementById(`paginaproof21`).style.display ="block"
+                // document.getElementById(`paginaproof21`).style.display ="block"
+
+                
           
                 // terminadoJuego = true
             }, 4000);
+
+            // ------´
+  
+
+            setTimeout(() => {
+                document.getElementById(`proof21`).classList.remove('beforeUP');
+                document.getElementById(`proof24`).classList.remove('beforeUP');
+                document.getElementById(`proof24`).classList.remove('before2UP');
+                document.getElementById(`proof21`).classList.remove('next2UP');
+                document.getElementById(`proof21`).style.left = "0%"
+                document.getElementById(`proof21`).classList.add('nextUP');
+                document.getElementById(`proof24`).classList.add('next2UP');
+        
+                document.getElementById(`paginaproof24`).style.display ="block"
+
+    
+            }, 6000);
 
         } else {
 

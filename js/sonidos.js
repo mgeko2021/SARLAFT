@@ -91,6 +91,7 @@ let proof9bool = false
 
 let proof11bool = false
 let proof18bool = false
+let proof30bool = false
 
 let proof36bool = false
 
@@ -297,8 +298,12 @@ let sonidoNext = (name, nextName,nextName2) => {
             break;
 
         case "proof30":
+            if(!proof30bool){
+                document.getElementById(`pagina${nextName}`).style.display ="none"
+                proof30bool = true
+            } else {
                 document.getElementById(`pagina${nextName}`).style.display ="block"
-                document.getElementById(`pagina${name}`).style.display ="none"
+            }
             break;
 
         case "proof31": //listo
@@ -331,8 +336,13 @@ let sonidoNext = (name, nextName,nextName2) => {
             break;
 
         case "proof37": // listo
-                document.getElementById(`pagina${nextName}`).style.display ="block"
-            break;
+        if(!proof37bool){
+            document.getElementById(`pagina${nextName}`).style.display ="none"
+            proof37bool = true
+        } else {
+            document.getElementById(`pagina${nextName}`).style.display ="block"
+        }
+        break;           
 
  
         case "proof38": //listo

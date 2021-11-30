@@ -211,7 +211,24 @@ let juego4 = false
             puntos6.classList.add("emergentesreturn");
             questioncuatro.style.display = " none"
         }, 4000);
-      } 
+
+        
+  
+        setTimeout(() => {
+          document.getElementById(`proof33`).classList.remove('beforeUP');
+          document.getElementById(`proof34`).classList.remove('beforeUP');
+          document.getElementById(`proof34`).classList.remove('before2UP');
+          document.getElementById(`proof33`).classList.remove('next2UP');
+          document.getElementById(`proof33`).style.left = "0%"
+          document.getElementById(`proof33`).classList.add('nextUP');
+          document.getElementById(`proof34`).classList.add('next2UP');
+  
+          document.getElementById(`paginaproof34`).style.display ="block"
+
+
+      }, 6000);
+
+      }
       
       else {
         nopuntos6.classList.remove("emergentesreturn");
@@ -234,6 +251,7 @@ let juego4 = false
             if(juego4 == false && juego3 == true && juego2 == true && juego1 == true){
                 contenedorPieza337.style.background = "#ea0043"
                 pieza337.style.display = "none"
+                
             }
             
             nopuntos6.classList.remove("emergentes");

@@ -24,7 +24,7 @@ let letterShot = (id) => {
             document.getElementById(`proof39`).classList.remove('beforeUP');
             document.getElementById(`proof39`).classList.remove('before2UP');
             document.getElementById(`proof38`).classList.remove('next2UP');
-            // document.getElementById(proof38).style.left = "0%"
+            document.getElementById(`proof38`).style.left = "0%"
             document.getElementById(`proof38`).classList.add('nextUP');
             document.getElementById(`proof39`).classList.add('next2UP');
 
