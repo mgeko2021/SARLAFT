@@ -344,6 +344,15 @@ let sonidoNext = (name, nextName,nextName2) => {
         }
         break;           
 
+        case "proof39": // listo
+        if(!proof39bool){
+            document.getElementById(`pagina${nextName}`).style.display ="none"
+            proof3bool = true
+        } else {
+            document.getElementById(`pagina${nextName}`).style.display ="block"
+        }
+        break;           
+
  
         case "proof38": //listo
                 document.getElementById(`pagina${nextName}`).style.display ="block"
