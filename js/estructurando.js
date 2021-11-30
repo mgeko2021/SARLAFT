@@ -69,6 +69,31 @@ btnNextBuild.forEach((button, index) => {
 })
 
 
+// ---------proof 0----------
+let proof0 = document.getElementById("proof0")
+
+let change0 = () =>{
+    let medioProof0 = document.getElementById("medioProof0")
+    let adelanteProof0 = document.getElementById("adelanteProof0")
+
+    setTimeout(() => {
+        medioProof0.classList.add("animation-proof0")    
+    }, 1500);
+    adelanteProof0.classList.add("opacityanimate")
+
+    containerProof34hidden.classList.add("opacityanimateinverse")
+    setTimeout(() => {
+        containerProof34hidden.style.display = "none"
+        containerProof34show.style.display = "block"
+        containerProof34show.classList.add("opacityanimate")
+
+    }, 2000);
+
+}
+
+proof0.addEventListener("click", change0)
+
+
 
 
 let proof34 = document.getElementById("proof34")
