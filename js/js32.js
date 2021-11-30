@@ -3,7 +3,6 @@ let termino32 = false
 
 let answer32 = () =>{
 
-    console.log("entre")
     // -------- mergentes--------
     let puntos32 = document.getElementById("puntos32ID")
     let nopuntos32 = document.getElementById("noPuntos32ID")
@@ -25,10 +24,9 @@ let answer32 = () =>{
     && !termino32
     ){
 
-        console.log("ya click all")
-        if(document.querySelector('input[name="proof32_1"]:checked').value == "FALSO"
+        if(document.querySelector('input[name="proof32_1"]:checked').value == "VERDADERO"
         && document.querySelector('input[name="proof32_2"]:checked').value == "VERDADERO"
-        && document.querySelector('input[name="proof32_3"]:checked').value  == "VERDADERO"
+        && document.querySelector('input[name="proof32_3"]:checked').value  == "FALSO"
         ){
             console.log("todas estan buenas")
             termino32 = true
@@ -51,14 +49,30 @@ let answer32 = () =>{
             setTimeout(function(){ 
                 puntos32.classList.remove("emergentes");
                 puntos32.classList.add("emergentesreturn");
-                document.getElementById(`paginaproof32`).style.display ="block"
           
             }, 4000);
+
+            
+            setTimeout(() => {
+                document.getElementById(`proof32`).classList.remove('beforeUP');
+                document.getElementById(`proof41`).classList.remove('beforeUP');
+                document.getElementById(`proof41`).classList.remove('before2UP');
+                document.getElementById(`proof32`).classList.remove('next2UP');
+                document.getElementById(`proof32`).style.left = "0%"
+                document.getElementById(`proof32`).classList.add('nextUP');
+                document.getElementById(`proof41`).classList.add('next2UP');
+        
+                document.getElementById(`paginaproof41`).style.display ="block"
+
+    
+            }, 6000);
+            
+
 
         } else {
 
             setTimeout(() => {
-                if(document.querySelector('input[name="proof32_1"]:checked').value == "FALSO"){
+                if(document.querySelector('input[name="proof32_1"]:checked').value == "VERDADERO"){
                     document.querySelector('.answerTrue132').style.background = "#8fed8f"
                     let color1  = document.querySelectorAll('input[name="proof32_1"]')
                     console.log(color1)
@@ -100,7 +114,7 @@ let answer32 = () =>{
                     }
                 }
 
-                if(document.querySelector('input[name="proof32_3"]:checked').value == "VERDADERO"){
+                if(document.querySelector('input[name="proof32_3"]:checked').value == "FALSO"){
                     document.querySelector('.answerTrue332').style.background = "#8fed8f"
                     let color3  = document.querySelectorAll('input[name="proof32_3"]')
                     if(color3){
