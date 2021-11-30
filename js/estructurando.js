@@ -8,13 +8,33 @@ let build = (name, nextName, nextName2) =>{
 
 
     switch (name) {
+
+        case "start":
+            let medioProof0 = document.getElementById("medioProof0")
+            let adelanteProof0 = document.getElementById("adelanteProof0")
+        
+            setTimeout(() => {
+                medioProof0.style.display = "block"
+                medioProof0.classList.add("animation-proof0")    
+            }, 2000);
+            adelanteProof0.classList.add("opacityanimate")
+        
+            containerProof34hidden.classList.add("opacityanimateinverse")
+            setTimeout(() => {
+                containerProof34hidden.style.display = "none"
+                containerProof34show.style.display = "block"
+                containerProof34show.classList.add("opacityanimate")
+        
+            }, 2000);
+
+            break
         case "proof0":
             let atrasProof1 = document.getElementById("atrasProof1")
             let medioProof1 = document.getElementById("medioProof1")
             let adelanteProof1 = document.getElementById("adelanteProof1")
 
 
-            atrasProof1.classList.add("top100animate")
+            atrasProof1.classList.add("top100animateOpacity")
             adelanteProof1.classList.add("opacityanimate")
 
             setTimeout(() => {
@@ -30,6 +50,13 @@ let build = (name, nextName, nextName2) =>{
             }, 5000);
             
             break;
+
+        case "proof1":
+            let obj1 = document.getElementById("obj1")
+            let obj2 = document.getElementById("obj2")
+          
+
+    
         case "proof3":
             let contagio3a = document.getElementById("contagio")
             let operativo3a = document.getElementById("operativo")
@@ -54,6 +81,14 @@ let build = (name, nextName, nextName2) =>{
 
             
             break;
+
+        case "proof3a":
+            let adelanteProof4 = document.getElementById("adelanteProof4")
+            adelanteProof4.classList.add("topmenos100animate")
+            
+
+            
+            break;
     
         default:
             break;
@@ -67,31 +102,6 @@ btnNextBuild.forEach((button, index) => {
         build(event.target.name, btnNext[index+1].name , btnNext[index+2].name)
     })
 })
-
-
-// ---------proof 0----------
-let proof0 = document.getElementById("proof0")
-
-let change0 = () =>{
-    let medioProof0 = document.getElementById("medioProof0")
-    let adelanteProof0 = document.getElementById("adelanteProof0")
-
-    setTimeout(() => {
-        medioProof0.classList.add("animation-proof0")    
-    }, 1500);
-    adelanteProof0.classList.add("opacityanimate")
-
-    containerProof34hidden.classList.add("opacityanimateinverse")
-    setTimeout(() => {
-        containerProof34hidden.style.display = "none"
-        containerProof34show.style.display = "block"
-        containerProof34show.classList.add("opacityanimate")
-
-    }, 2000);
-
-}
-
-proof0.addEventListener("click", change0)
 
 
 
