@@ -111,6 +111,9 @@ let juego4 = false
 
   
   function comprobarPuzzle33(){
+    // -----text Change---------
+    let textChange33 = document.getElementById("textChange33")
+
       let puntos6 = document.getElementById("puntos33ID")
       let nopuntos6 = document.getElementById("noPuntos33ID")
     // ---------div final de la pieza----------
@@ -153,6 +156,7 @@ let juego4 = false
         uno33.style.background = "no-repeat center/140% url(/img/PAG-16/Agray.png)";
 
         setTimeout(() => {
+            textChange33.innerHTML = "Las Personas Expuestas Políticamente son:"
             dos33.style.display = "block"
             questionuno.style.display = "none"
             questiondos.style.display = "block"
@@ -167,6 +171,7 @@ let juego4 = false
         pieza333.style.display = "none"
         dos33.style.background = "no-repeat center/140% url(/img/PAG-16/Bgray.png)";
         setTimeout(() => {
+            textChange33.innerHTML = "Una persona puede beneficiarse de un individuo PEP:"
             tres33.style.display = "block"
             questiondos.style.display = " none"
             questiontres.style.display = " block"
@@ -181,6 +186,7 @@ let juego4 = false
         pieza335.style.display = "none"
         tres33.style.background = "no-repeat center/140% url(/img/PAG-16/Cgray.png)";
         setTimeout(() => {
+            textChange33.innerHTML = "Los familiares y asociados cercanos de las PEP gozan de:"
             cuatro33.style.display = "block"
             questiontres.style.display = " none"
             questioncuatro.style.display = " block"
@@ -194,8 +200,8 @@ let juego4 = false
       else if (document.getElementById('pieza338').parentNode.id=='cuatro33' && !juego4) {
         juego4 = true
         contenedorPieza338.style.background = "#5fff2f"
-        pieza333.style.display = "none"
-        tres33.style.background = "no-repeat center/140% url(/img/PAG-16/Dgray.png)";
+        pieza338.style.display = "none"
+        cuatro33.style.background = "no-repeat center/140% url(/img/PAG-16/Dgray.png)";
         
         puntos6.classList.remove("emergentesreturn");
         puntos6.classList.add("emergentes"); 
@@ -203,11 +209,8 @@ let juego4 = false
         setTimeout(() => {
             puntos6.classList.remove("emergentes");
             puntos6.classList.add("emergentesreturn");
-            cuatro33.style.display = "block"
-            questiondos.style.display = " none"
-            questiontres.style.display = " block"
-
-        }, 1000);
+            questioncuatro.style.display = " none"
+        }, 4000);
       } 
       
       else {
@@ -228,7 +231,7 @@ let juego4 = false
                 pieza336.style.display = "none"
                 
             }
-            if(juego4 == true && juego3 == true && juego2 == true && juego1 == true){
+            if(juego4 == false && juego3 == true && juego2 == true && juego1 == true){
                 contenedorPieza337.style.background = "#ea0043"
                 pieza337.style.display = "none"
             }

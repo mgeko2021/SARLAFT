@@ -69,3 +69,55 @@ btnNextBuild.forEach((button, index) => {
 })
 
 
+
+
+let proof34 = document.getElementById("proof34")
+
+let change34 = () =>{
+    const containerProof34hidden = document.querySelector(".containerProof34hidden")
+    const containerProof34show = document.querySelector(".containerProof34show")
+
+    let medioProof34 = document.getElementById("medioProof34") 
+    let fondo34 = document.getElementById("fondo34") 
+
+    medioProof34.classList.add("translatefastleft")
+    fondo34.classList.add("translatefastrigth")
+
+    containerProof34hidden.classList.add("opacityanimateinverse")
+    setTimeout(() => {
+        containerProof34hidden.style.display = "none"
+        containerProof34show.style.display = "block"
+        containerProof34show.classList.add("opacityanimate")
+
+    }, 2000);
+
+}
+
+proof34.addEventListener("click", change34)
+
+
+let proof39 = document.getElementById("proof39")
+
+let change39 = () =>{
+    const containerProof39TexUno = document.querySelector(".containerProof39TexUno")
+    const containerProof39TexDos = document.querySelector(".containerProof39TexDos")
+
+    let medio39 = document.getElementById("medio39") 
+    let adelante39 = document.getElementById("adelante39") 
+    let fondo39 = document.getElementById("fondo39") 
+
+    medio39.classList.add("translatefastleft39")
+    fondo39.classList.add("translatefastrigth39")
+    adelante39.classList.add("translatefasfront39")
+
+    containerProof39TexUno.classList.add("opacityanimateinverse")
+    setTimeout(() => {
+        containerProof39TexUno.style.display = "none"
+        containerProof39TexDos.style.display = "block"
+        containerProof39TexDos.classList.add("opacityanimate")
+
+    }, 2000);
+
+}
+
+proof39.addEventListener("click", change39)

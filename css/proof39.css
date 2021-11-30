@@ -45,6 +45,11 @@
     left: 5%;
 }
 
+.containerProof39TexUno p{
+    font-size: 1.7rem;
+    line-height: 1.9rem;
+}
+
 .containerProof39TexDos{
     position: absolute;
     display: flex;
@@ -54,4 +59,12 @@
 
 }
 
+#fondo39{
+    width: 140%;
+    left: -20%;
+}
+
+.containerProof39TexDos{
+    display: none;
+}
 

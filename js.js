@@ -122,12 +122,10 @@ let transitionNext = (name, nextName, nextName2) => {
         case "proof15": //16
         case "proof18": //21
         case "proof26": //29
-        case "proof30":
-        case "proof33":
-        case "proof36":
-        case "proof32":
-        case "proof43":
-        case "proof50":
+        case "proof30": //33
+        case "proof37": //38
+        case "proof39"://39
+        case "proof40"://40
             document.getElementById(`${name}`).classList.remove('beforeUP');
             document.getElementById(`${nextName}`).classList.remove('before');
             document.getElementById(`${nextName}`).classList.remove('before2');
@@ -138,17 +136,15 @@ let transitionNext = (name, nextName, nextName2) => {
             break;
 
         //normalizado horizontal
-        case "proof6":
-        case "proof13":
-        case "proof16":
-        case "proof21":
-        case "proof29":
-        case "proof31":
-        case "proof34":
-        case "proof37":
-        case "proof41":
-        case "proof44":
-        case "proof51":
+        case "proof6"://4
+        case "proof13"://8
+        case "proof16"://15
+        case "proof21"://18
+        case "proof29": //26
+        case "proof33": //33
+        case "proof38": //37
+        case "proof32"://39
+        case "proof40a"://40a
             document.getElementById(`${name}`).style.left = "0%";
             document.getElementById(`${nextName}`).classList.remove('before2UP');
             document.getElementById(`${name}`).classList.remove('beforeUP');

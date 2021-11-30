@@ -2,7 +2,8 @@
     position: absolute;
     width: 100vw;
     height: 100vh;
-    top: 100%;
+    top: 0%;
+    left: 100%;
     /* top: 0%; */
     z-index:1;
 }

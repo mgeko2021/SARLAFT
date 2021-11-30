@@ -3,7 +3,7 @@
     width: 100vw;
     height: 100vh;
     top: 0;
-    top: 100%;
+    /* top: 100%; */
     z-index: 9;
 }
 
@@ -18,7 +18,7 @@
 }
 
 #cazadores{
-    width: 35rem;
+    width: 32rem;
     position: absolute;
     left: 5rem;
 }
